@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import createSagaMiddleware from 'redux-saga';
 import rootReducer from './reducers';
 import sagas from './sagas';
@@ -11,7 +11,7 @@ export default function configureAppStore(initialState = {}) {
 
   const store = configureStore({
     reducer: rootReducer,
-    middleware: [...getDefaultMiddleware(), ...middlewares],
+    middleware: [...middlewares],
     preloadedState: initialState,
     devTools: process.env.NODE_ENV !== 'production'
   });

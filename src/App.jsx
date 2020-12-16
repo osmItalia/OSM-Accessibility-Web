@@ -17,6 +17,8 @@ import iconRetina from 'leaflet/dist/images/marker-icon-2x.png';
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
 import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
 import SearchDrawer from './components/Search';
+import Layer from './components/Layer';
+import MapEvents from './components/MapEvents';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -47,7 +49,9 @@ function App() {
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
+          <Layer name="shops" />
           <SearchDrawer />
+          <MapEvents />
         </MapContainer>
       </Layout.Content>
     </Layout>
