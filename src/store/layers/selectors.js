@@ -1,8 +1,8 @@
 import values from 'lodash/values';
 import find from 'lodash/find';
+import pick from 'lodash/pick';
 import { createSelector } from '@reduxjs/toolkit';
 import L from 'leaflet';
-import { getBounds } from '../map/selectors';
 
 const getDomain = appState => appState.layers;
 
@@ -30,13 +30,22 @@ const getFeaturesWithGeometry = layersState => {
   });
 };
 
-const getVisibleFeatures = (features, visibleBound) => {
-  return features.filter(f => !f.bounds || visibleBound.contains(f.bounds));
+const getOnlyVisibleFeatures = layersState => {
+  const features = values(
+    pick(layersState.featuresById, ...layersState.visibleFeatures)
+  );
+  return features.map(f => ({
+    geometry: window.featureGeometries[f.id],
+    ...f
+  }));
 };
+
+const getVisible = createSelector(getDomain, getOnlyVisibleFeatures);
 
 const getLayersWithFeatures = (layers, features) => {
   return layers.map(layer => {
     const ownedFeatures = features.filter(feat => feat.layer === layer.name);
+    console.log(ownedFeatures);
     return {
       ...layer,
       features: ownedFeatures.filter(f => f.geometry.type !== 'Point'),
@@ -50,17 +59,11 @@ export const featuresWithGeometrySelector = createSelector(
   getFeaturesWithGeometry
 );
 
-export const visibleFeaturesSelector = createSelector(
-  featuresWithGeometrySelector,
-  getBounds,
-  getVisibleFeatures
-);
-
 export const layersSelector = createSelector(getDomain, getLayersList);
 
 export const getLayersWithFeaturesSelector = createSelector(
   layersSelector,
-  visibleFeaturesSelector,
+  getVisible,
   getLayersWithFeatures
 );
 

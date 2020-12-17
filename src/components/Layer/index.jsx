@@ -3,21 +3,19 @@ import { useDispatch, useSelector } from 'react-redux';
 import { layersActions } from '../../store/layers/slice';
 import { getLayersWithFeaturesSelector } from '../../store/layers/selectors';
 import { GeoJSON, LayerGroup } from 'react-leaflet';
-import { getZoom } from '../../store/map/selectors';
 import MarkerCluster from '../Cluster';
 import find from 'lodash/find';
 
-export default function Layer({ name, visibleAfterScale = 18 }) {
+export default function Layer({ name, visibleAfterScale = 16 }) {
   const dispatch = useDispatch();
   const layers = useSelector(getLayersWithFeaturesSelector);
-  const zoom = useSelector(getZoom);
 
   const layer = useMemo(() => {
     return find(layers, l => l.name === name);
   }, [layers]);
 
   const features = useMemo(() => {
-    if (!layer || visibleAfterScale > zoom) {
+    if (!layer) {
       return null;
     }
     return layer.features.map(feature => (
@@ -26,7 +24,7 @@ export default function Layer({ name, visibleAfterScale = 18 }) {
   }, [layer]);
 
   useEffect(() => {
-    dispatch(layersActions.fetch(name));
+    dispatch(layersActions.fetch({ name, visibleAfterScale }));
   }, []);
 
   if (!layer) {
