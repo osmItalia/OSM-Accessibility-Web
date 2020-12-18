@@ -1,11 +1,14 @@
 import { Button, Input, Tooltip } from 'antd';
 import React from 'react';
 import { CarOutlined } from '@ant-design/icons';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { appActions } from '../../store/app/slice';
+import { directionsActions } from '../../store/directions/slice';
+import { selectDirectionsState } from '../../store/directions/selectors';
 
 export default function Directions() {
   const dispatch = useDispatch();
+  const state = useSelector(selectDirectionsState);
 
   return (
     <>
@@ -48,14 +51,21 @@ export default function Directions() {
         style={{
           marginBottom: '.5rem'
         }}
-        onSearch={() => console.log('search')}
+        value={state.startInput}
+        onChange={e =>
+          dispatch(directionsActions.setStartInput(e.target.value))
+        }
+        loading={state.loadingStart}
+        onSearch={val => dispatch(directionsActions.onSearchStart(val))}
       />
       <Input.Search
         name="end"
         placeholder="Arrivo"
         allowClear
-        style={{}}
-        onSearch={() => console.log('search')}
+        loading={state.loadingEnd}
+        value={state.endInput}
+        onChange={e => dispatch(directionsActions.setEndInput(e.target.value))}
+        onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
       />
       <div
         style={{
@@ -74,7 +84,13 @@ export default function Directions() {
         >
           Annulla
         </Button>
-        <Button type="primary">Avvia</Button>
+        <Button
+          type="primary"
+          disabled={!state.start || !state.end}
+          onClick={() => dispatch(directionsActions.navigate())}
+        >
+          Avvia
+        </Button>
       </div>
     </>
   );

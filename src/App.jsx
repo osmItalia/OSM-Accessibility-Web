@@ -22,6 +22,7 @@ import LayerRender from './components/LayerRender';
 import SearchLayer from './components/Search/SearchLayer';
 import AppDrawer from './components/Drawer';
 import Controllers from './components/Controllers';
+import DirectionsLayer from './components/Directions/DirectionsLayer';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -58,6 +59,7 @@ function App() {
             <Layer name="crossing" />
             <LayerRender />
             <SearchLayer />
+            <DirectionsLayer />
             <MapEvents />
             <Controllers />
           </MapContainer>
