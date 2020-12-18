@@ -1,4 +1,4 @@
-import { takeLatest, put, call, select } from 'redux-saga/effects';
+import { takeLatest, put, call, select, takeEvery } from 'redux-saga/effects';
 import { layersActions } from './slice';
 import { fetchLayer } from '../../api';
 import { notification } from 'antd';
@@ -36,6 +36,6 @@ function* filterFeatures(action) {
 }
 
 export function* watchLayers() {
-  yield takeLatest(layersActions.fetch.type, fetch);
+  yield takeEvery(layersActions.fetch.type, fetch);
   yield takeLatest(mapActions.setBounds.type, filterFeatures);
 }

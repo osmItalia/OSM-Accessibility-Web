@@ -19,6 +19,7 @@ import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
 import SearchDrawer from './components/Search';
 import Layer from './components/Layer';
 import MapEvents from './components/MapEvents';
+import LayerRender from './components/LayerRender';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -51,6 +52,7 @@ function App() {
           />
           <Layer name="shops" />
           <Layer name="crossing" />
+          <LayerRender />
           <SearchDrawer />
           <MapEvents />
         </MapContainer>
