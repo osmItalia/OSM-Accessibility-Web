@@ -6,3 +6,8 @@ export const customMarker = new L.Icon({
   iconAnchor: [10, 41],
   popupAnchor: [2, -40]
 });
+
+export const MODES = {
+  SEARCH: 'search',
+  DIRECTIONS: 'directions'
+};

@@ -9,7 +9,9 @@ async function fetchNominatim(query) {
     format: 'geojson',
     addressdetails: 1,
     extratags: 1,
-    countrycodes: 'it'
+    countrycodes: 'it',
+    viewbox: '9.06481,45.382812,9.302908,45.5425',
+    bounded: 1
   };
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
   const response = await fetch(url);
@@ -19,10 +21,12 @@ async function fetchNominatim(query) {
 }
 
 function setBoundingBox(results) {
-  const collection = featureCollection(results);
-  const env = envelope(collection);
-  const boundingBox = bbox(env);
-  window.LEAFLET_MAP.fitBounds(bboxAsBounds(boundingBox));
+  if (results.length > 0) {
+    const collection = featureCollection(results);
+    const env = envelope(collection);
+    const boundingBox = bbox(env);
+    window.LEAFLET_MAP.fitBounds(bboxAsBounds(boundingBox));
+  }
 }
 
 function* handleSearchChange(action) {
