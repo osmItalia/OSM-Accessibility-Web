@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { bboxAsBounds } from '../../utils/geo';
 import { CompassOutlined } from '@ant-design/icons';
 import { appActions } from '../../store/app/slice';
+import { directionsActions } from '../../store/directions/slice';
 
 export default function MapSearch() {
   const dispatch = useDispatch();
@@ -64,7 +65,26 @@ export default function MapSearch() {
                 >
                   Vedi
                 </Button>,
-                <Button type="primary">Vai</Button>
+                <Button
+                  type="primary"
+                  onClick={() => {
+                    dispatch(
+                      directionsActions.setEndInput(
+                        item.properties.display_name
+                      )
+                    );
+                    dispatch(
+                      directionsActions.setEnd([
+                        item.geometry.coordinates[1],
+                        item.geometry.coordinates[0]
+                      ])
+                    );
+                    dispatch(searchActions.cleanSearch());
+                    dispatch(appActions.openDirections());
+                  }}
+                >
+                  Vai
+                </Button>
               ]}
             >
               <List.Item.Meta title={item.properties.display_name} />

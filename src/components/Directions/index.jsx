@@ -48,6 +48,9 @@ export default function Directions() {
         name="start"
         placeholder="Partenza"
         allowClear
+        addonAfter={null}
+        enterButton={false}
+        className="hide-search"
         style={{
           marginBottom: '.5rem'
         }}
@@ -56,16 +59,21 @@ export default function Directions() {
           dispatch(directionsActions.setStartInput(e.target.value))
         }
         loading={state.loadingStart}
-        onSearch={val => dispatch(directionsActions.onSearchStart(val))}
+        onSearch={() => dispatch(directionsActions.onSearchStart())}
+        onBlur={() => dispatch(directionsActions.onSearchStart())}
       />
       <Input.Search
         name="end"
         placeholder="Arrivo"
+        addonAfter={null}
+        enterButton={false}
+        className="hide-search"
         allowClear
         loading={state.loadingEnd}
         value={state.endInput}
         onChange={e => dispatch(directionsActions.setEndInput(e.target.value))}
-        onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
+        onSearch={() => dispatch(directionsActions.onSearchEnd())}
+        onBlur={() => dispatch(directionsActions.onSearchEnd())}
       />
       <div
         style={{
@@ -74,22 +82,16 @@ export default function Directions() {
           marginTop: '0.5rem'
         }}
       >
-        <Button>Inverti</Button>
+        <Button onClick={() => dispatch(directionsActions.invert())}>
+          Inverti
+        </Button>
         <Button
           onClick={() => dispatch(appActions.openSearch())}
           style={{
-            marginRight: '1rem',
             marginLeft: 'auto'
           }}
         >
           Annulla
-        </Button>
-        <Button
-          type="primary"
-          disabled={!state.start || !state.end}
-          onClick={() => dispatch(directionsActions.navigate())}
-        >
-          Avvia
         </Button>
       </div>
     </>

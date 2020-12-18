@@ -2,11 +2,23 @@ import { takeLatest, put, call, select } from 'redux-saga/effects';
 import { fetchNominatim, fetchOpenRouteService } from '../../api';
 import { directionsActions } from './slice';
 import { notification } from 'antd';
-import { selectDirectionsState } from './selectors';
+import {
+  selectDirectionInputEnd,
+  selectDirectionInputStart,
+  selectDirectionsState
+} from './selectors';
 
 function* handleSearchChange(action) {
-  if (action.payload && action.payload.length) {
-    const results = yield call(fetchNominatim, action.payload);
+  let value;
+  const startVal = yield select(selectDirectionInputStart);
+  const endVal = yield select(selectDirectionInputEnd);
+  if (action.type === directionsActions.onSearchStart.type) {
+    value = startVal;
+  } else {
+    value = endVal;
+  }
+  if (value && value.length) {
+    const results = yield call(fetchNominatim, value);
     if (results.length === 0) {
       notification.error({ message: 'Non trovato' });
     } else {
@@ -16,14 +28,14 @@ function* handleSearchChange(action) {
       ];
       if (action.type === directionsActions.onSearchStart.type) {
         yield put(directionsActions.setStart(point));
-        // yield put(
-        //   directionsActions.setStartInput(results[0].properties.display_name)
-        // );
+        if (endVal) {
+          yield put(directionsActions.navigate());
+        }
       } else {
         yield put(directionsActions.setEnd(point));
-        // yield put(
-        //   directionsActions.setEndInput(results[0].properties.display_name)
-        // );
+        if (startVal) {
+          yield put(directionsActions.navigate());
+        }
       }
     }
   } else {
@@ -42,6 +54,7 @@ export function* fetchDirections() {
     const result = yield call(fetchOpenRouteService, state);
     /* TODO: intercept response and change viewport */
     yield put(directionsActions.endNavigation(result));
+    yield put(directionsActions.forceUpdateNavigation());
   } catch (e) {
     console.log(e);
     notification.error({ message: 'Errore' });

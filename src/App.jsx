@@ -43,7 +43,7 @@ function App() {
       <Layout style={{ minHeight: '100vh' }}>
         <Layout.Content style={{ height: '100vh' }}>
           <MapContainer
-            center={[45.4624676, 9.1716306]}
+            center={[45.4653, 9.1955]}
             zoom={14}
             scrollWheelZoom={false}
             style={{ height: '100vh' }}

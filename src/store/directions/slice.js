@@ -44,8 +44,17 @@ const directionsSlice = createSlice({
     },
     endNavigation(state, action) {
       state.navigation = action.payload.features;
-      state.navigationKey += 1;
       state.navigationLoading = false;
+    },
+    forceUpdateNavigation(state) {
+      state.navigationKey += 1;
+    },
+    invert(state) {
+      const { start, end, endInput, startInput } = state;
+      state.start = [end[0], end[1]];
+      state.startInput = endInput;
+      state.end = [start[0], start[1]];
+      state.endInput = startInput;
     }
   }
 });

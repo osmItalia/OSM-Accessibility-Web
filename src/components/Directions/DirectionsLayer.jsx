@@ -13,7 +13,10 @@ export default function DirectionsLayer() {
       {directionsState.start && <Marker position={directionsState.start} />}
       {directionsState.end && <Marker position={directionsState.end} />}
       {directionsState.navigation && (
-        <GeoJSON key="2" data={directionsState.navigation} />
+        <GeoJSON
+          key={directionsState.navigationKey}
+          data={directionsState.navigation}
+        />
       )}
     </>
   );
