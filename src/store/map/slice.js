@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  zoom: 14
+  zoom: 16
 };
 
 const mapSlice = createSlice({

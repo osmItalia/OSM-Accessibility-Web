@@ -1,5 +1,12 @@
 import request from '../utils/request';
 
+export class APIError extends Error {
+  constructor(payload) {
+    super('API error');
+    this.payload = payload;
+  }
+}
+
 export async function fetchLayer(layerName) {
   return request(`/static/data/${layerName}.geojson`);
 }
@@ -22,11 +29,10 @@ export async function fetchNominatim(query) {
 }
 
 export async function fetchOpenRouteService(directionsState) {
+  const { start, end, travelMean } = directionsState;
   const url = new URL(
-    `https://api.openrouteservice.org/v2/directions/driving-car`
+    `https://api.openrouteservice.org/v2/directions/${travelMean}`
   );
-  const { start, end } = directionsState;
-
   const params = {
     api_key: '5b3ce3597851110001cf62482fd4e95de6c24215b315c05de4c2bc2e',
     start: `${start[1]},${start[0]}`,
@@ -39,6 +45,9 @@ export async function fetchOpenRouteService(directionsState) {
     }
   });
   const body = await response.json();
+  if (response.status >= 400) {
+    throw new APIError(body);
+  }
   console.log(body);
   return body;
 }

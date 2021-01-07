@@ -1,10 +1,16 @@
 import { Button, Input, Tooltip } from 'antd';
 import React from 'react';
-import { CarOutlined } from '@ant-design/icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { appActions } from '../../store/app/slice';
 import { directionsActions } from '../../store/directions/slice';
 import { selectDirectionsState } from '../../store/directions/selectors';
+import {
+  faCar,
+  faWalking,
+  faWheelchair
+} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { TRAVEL_MEAN } from '../../constants';
 
 export default function Directions() {
   const dispatch = useDispatch();
@@ -20,27 +26,42 @@ export default function Directions() {
       >
         <Tooltip title="Auto">
           <Button
-            type="primary"
-            icon={<CarOutlined />}
+            type={state.travelMean === TRAVEL_MEAN.CAR ? 'primary' : 'default'}
+            icon={<FontAwesomeIcon icon={faCar} />}
             size="large"
             shape="circle"
             style={{ marginRight: '.5rem' }}
+            onClick={() =>
+              dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.CAR))
+            }
           />
         </Tooltip>
         <Tooltip title="A piedi">
           <Button
-            icon={<CarOutlined />}
+            type={state.travelMean === TRAVEL_MEAN.FOOT ? 'primary' : 'default'}
+            icon={<FontAwesomeIcon icon={faWalking} />}
             size="large"
             shape="circle"
             style={{ marginRight: '.5rem' }}
+            onClick={() =>
+              dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.FOOT))
+            }
           />
         </Tooltip>
         <Tooltip title="Sedia a rotelle">
           <Button
-            icon={<CarOutlined />}
+            type={
+              state.travelMean === TRAVEL_MEAN.WHEELCHAIR
+                ? 'primary'
+                : 'default'
+            }
+            icon={<FontAwesomeIcon icon={faWheelchair} />}
             size="large"
             shape="circle"
             style={{ marginRight: '.5rem' }}
+            onClick={() =>
+              dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.WHEELCHAIR))
+            }
           />
         </Tooltip>
       </div>

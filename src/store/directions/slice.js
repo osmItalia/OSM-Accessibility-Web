@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { TRAVEL_MEAN } from '../../constants';
 
 const initialState = {
   start: null,
@@ -9,7 +10,8 @@ const initialState = {
   loadingEnd: false,
   navigation: [],
   navigationKey: 1,
-  navigationLoading: false
+  navigationLoading: false,
+  travelMean: TRAVEL_MEAN.CAR
 };
 
 const directionsSlice = createSlice({
@@ -55,6 +57,9 @@ const directionsSlice = createSlice({
       state.startInput = endInput;
       state.end = [start[0], start[1]];
       state.endInput = startInput;
+    },
+    setTravelMean(state, action) {
+      state.travelMean = action.payload;
     }
   }
 });

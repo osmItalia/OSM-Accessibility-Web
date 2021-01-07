@@ -11,3 +11,9 @@ export const MODES = {
   SEARCH: 'search',
   DIRECTIONS: 'directions'
 };
+
+export const TRAVEL_MEAN = {
+  CAR: 'driving-car',
+  FOOT: 'foot-walking',
+  WHEELCHAIR: 'wheelchair'
+};
