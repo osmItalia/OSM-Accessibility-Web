@@ -114,6 +114,17 @@ export default function Directions() {
         >
           Annulla
         </Button>
+        <Button
+          type="primary"
+          onClick={() => dispatch(directionsActions.navigate())}
+          style={{ marginLeft: '.5rem' }}
+          disabled={!state.start || !state.end}
+          loading={
+            state.loadingStart || state.loadingEnd || state.navigationLoading
+          }
+        >
+          Vai
+        </Button>
       </div>
     </>
   );

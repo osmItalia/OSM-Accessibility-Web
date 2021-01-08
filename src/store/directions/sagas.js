@@ -7,11 +7,13 @@ import {
   selectDirectionInputStart,
   selectDirectionsState
 } from './selectors';
+import { bboxAsBounds } from '../../utils/geo';
 
 function* handleSearchChange(action) {
   let value;
   const startVal = yield select(selectDirectionInputStart);
   const endVal = yield select(selectDirectionInputEnd);
+  const state = yield select(selectDirectionsState);
   if (action.type === directionsActions.onSearchStart.type) {
     value = startVal;
   } else {
@@ -27,13 +29,17 @@ function* handleSearchChange(action) {
         results[0].geometry.coordinates[0]
       ];
       const addr = results[0].properties.address;
-      const address = [addr.amenity, [addr.road, addr.house_number].join(' ')]
+      const address = [
+        addr.tourism,
+        addr.amenity,
+        [addr.road, addr.house_number].join(' ')
+      ]
         .filter(_ => _)
         .join(', ');
       if (action.type === directionsActions.onSearchStart.type) {
         yield put(directionsActions.setStart(point));
         yield put(directionsActions.set({ key: 'startInput', value: address }));
-        if (endVal) {
+        if (endVal && state.navigation.length > 0) {
           yield put(directionsActions.navigate());
         }
       } else {
@@ -60,6 +66,10 @@ export function* handleChangeMean() {
   }
 }
 
+function setBoundingBox(bbox) {
+  window.LEAFLET_MAP.fitBounds(bboxAsBounds(bbox));
+}
+
 export function* fetchDirections() {
   const state = yield select(selectDirectionsState);
   console.log(state);
@@ -68,6 +78,7 @@ export function* fetchDirections() {
     /* TODO: intercept response and change viewport */
     yield put(directionsActions.endNavigation(result));
     yield put(directionsActions.forceUpdateNavigation());
+    yield call(setBoundingBox, result.bbox);
   } catch (e) {
     console.log(e);
     if (e instanceof APIError) {

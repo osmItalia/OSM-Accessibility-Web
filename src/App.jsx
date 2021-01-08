@@ -40,13 +40,13 @@ function App() {
   return (
     <Layout>
       <AppDrawer />
-      <Layout style={{ minHeight: '100vh' }}>
+      <Layout style={{ minHeight: '100vh', maxWidth: '100%' }}>
         <Layout.Content style={{ height: '100vh' }}>
           <MapContainer
             center={[45.5074, 9.1924]}
             zoom={16}
             scrollWheelZoom={false}
-            style={{ height: '100vh' }}
+            style={{ height: '100vh', maxWidth: '100%' }}
             zoomControl={false}
             whenCreated={setupMapReference}
           >
