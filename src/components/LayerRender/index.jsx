@@ -16,10 +16,9 @@ export default function LayerRender() {
       <MarkerCluster
         markers={points.map(point => ({
           position: point.geometry.coordinates,
-          text:
-            point.properties.amenity || point.properties.name
-              ? `${point.properties.amenity} ${point.properties.name}`
-              : point.id
+          layer: point.layer,
+          wheelchair: point.properties.wheelchair,
+          text: point.properties.name ? point.properties.name : point.id
         }))}
       />
       <LayerGroup>{geojsonFeatures}</LayerGroup>

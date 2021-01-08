@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  zoom: 16
+  zoom: 16,
+  bounds: null
 };
 
 const mapSlice = createSlice({
@@ -11,8 +12,8 @@ const mapSlice = createSlice({
     setZoom(state, action) {
       state.zoom = action.payload;
     },
-    setBounds(_state, _action) {
-      // this action will be caught by saga
+    setBounds(state, action) {
+      state.bounds = action.payload;
     }
   }
 });

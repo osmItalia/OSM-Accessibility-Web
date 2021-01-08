@@ -1,0 +1,2711 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-01-08T15:18:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/77219917",
+        "amenity": "restaurant",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Chef Express"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2144455,
+              45.5132789
+            ],
+            [
+              9.2143584,
+              45.51316
+            ],
+            [
+              9.2143249,
+              45.5131721
+            ],
+            [
+              9.2142578,
+              45.5130806
+            ],
+            [
+              9.2143908,
+              45.5130327
+            ],
+            [
+              9.214545,
+              45.5132431
+            ],
+            [
+              9.2144455,
+              45.5132789
+            ]
+          ]
+        ]
+      },
+      "id": "way/77219917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281819163",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "5",
+        "addr:street": "Piazza Carbonari",
+        "amenity": "restaurant",
+        "name": "Trattoria Casa Fontana - 23 risotti",
+        "website": "http://www.23risotti.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1985901,
+          45.4938118
+        ]
+      },
+      "id": "node/281819163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281828190",
+        "amenity": "restaurant",
+        "cuisine": "hamurger",
+        "name": "A Casa Mia Café",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2077107,
+          45.5144784
+        ]
+      },
+      "id": "node/281828190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/282549040",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "70",
+        "addr:postcode": "20124",
+        "addr:street": "Via Torquato Taramelli",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "email": "info@ristoranteariccione.com",
+        "name": "a Riccione",
+        "phone": "+39 02 683807",
+        "website": "https://www.ristoranteariccione.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1959957,
+          45.4944891
+        ]
+      },
+      "id": "node/282549040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/552807863",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "AL 73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1724922,
+          45.5153719
+        ]
+      },
+      "id": "node/552807863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1118672491",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "54",
+        "addr:postcode": "20127",
+        "addr:street": "Via Giulio e Corrado Venini",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Il Tiglio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2162792,
+          45.4919543
+        ]
+      },
+      "id": "node/1118672491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1593183881",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "78",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Fulvio Testi",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Da Pino",
+        "opening_hours": "Mo-Sa 09:30-14:30,18:30-22:00",
+        "source": "direct knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2026871,
+          45.5092128
+        ]
+      },
+      "id": "node/1593183881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1593187668",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "18",
+        "addr:postcode": "20162",
+        "addr:street": "Via Cino da Pistoia",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Pratocentenaro",
+        "source": "direct knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2004984,
+          45.5086639
+        ]
+      },
+      "id": "node/1593187668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1593793939",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "58",
+        "addr:postcode": "20125",
+        "addr:street": "Viale Fulvio Testi",
+        "amenity": "restaurant",
+        "cuisine": "pizza;japanese;italian",
+        "email": "RISTORANTEALDESIDERIO@GMAIL.COM",
+        "facebook": "ristorantealdesiderio",
+        "name": "Al Desiderio",
+        "opening_hours": "Su-Fr 12:00-14:30, 19:00-23:00; Sa 19:00-23:00; PH off",
+        "phone": "+39 02 6471173",
+        "ref:vatin": "IT05072560963",
+        "source": "direct knowledge",
+        "website": "http://www.ristorantealdesiderio.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2014068,
+          45.5067569
+        ]
+      },
+      "id": "node/1593793939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1651694685",
+        "addr:housenumber": "13",
+        "addr:street": "Via Monzambano",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Ai 3 Scugnizzi",
+        "website": "www.ristorantepizzeriaaitrescugnizzi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1850903,
+          45.5048616
+        ]
+      },
+      "id": "node/1651694685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1696116655",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "44",
+        "addr:street": "Via Ernesto Breda",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Pescato e Mangiato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2148813,
+          45.5110468
+        ]
+      },
+      "id": "node/1696116655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1737981848",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "33",
+        "addr:street": "Viale Fulvio Testi",
+        "amenity": "restaurant",
+        "name": "Al 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1991462,
+          45.5046046
+        ]
+      },
+      "id": "node/1737981848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1995563419",
+        "addr:housenumber": "1",
+        "addr:postcode": "20125",
+        "addr:street": "Via Comune Antico",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Il Borghetto - Antica trattoria",
+        "website": "http://www.ristoranteborghetto.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2096672,
+          45.5014222
+        ]
+      },
+      "id": "node/1995563419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2065004998",
+        "amenity": "restaurant",
+        "name": "osvi & mari",
+        "ristorante": "Ristorante Lancetti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1764811,
+          45.495098
+        ]
+      },
+      "id": "node/2065004998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2097778115",
+        "amenity": "restaurant",
+        "name": "Su Barrile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1730171,
+          45.5146378
+        ]
+      },
+      "id": "node/2097778115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2214966862",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "82",
+        "addr:street": "Viale Monza",
+        "amenity": "restaurant",
+        "cuisine": "pizza:italian",
+        "description": "ristorante, pizzeria forno a legna, pizza d'asporto",
+        "name": "Rovereto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2199225,
+          45.4960239
+        ]
+      },
+      "id": "node/2214966862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215015116",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Jun's Mea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.219732,
+          45.4955071
+        ]
+      },
+      "id": "node/2215015116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2225549092",
+        "addr:housenumber": "141",
+        "addr:street": "Via Melchiorre Gioia",
+        "amenity": "restaurant",
+        "cuisine": "italian;chinese",
+        "name": "Fei Yun Ge",
+        "outdoor_seating": "no",
+        "phone": "+39 02 66985374",
+        "ref:vatin": "IT10182620152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2072361,
+          45.4953223
+        ]
+      },
+      "id": "node/2225549092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2409311927",
+        "addr:city": "Milano",
+        "addr:housenumber": "5",
+        "addr:street": "Via Emilio De Marchi",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "SushiYo",
+        "phone": "+39 02 66711096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2082672,
+          45.4982589
+        ]
+      },
+      "id": "node/2409311927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419130541",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Pizzeria Alla Fontana",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1886628,
+          45.4925972
+        ]
+      },
+      "id": "node/2419130541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419130554",
+        "amenity": "restaurant",
+        "name": "Osteria al Nove",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.188719,
+          45.4918116
+        ]
+      },
+      "id": "node/2419130554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419130557",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria alla Fontana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1883609,
+          45.4930183
+        ]
+      },
+      "id": "node/2419130557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419130558",
+        "addr:city": "Milano",
+        "addr:housenumber": "10",
+        "addr:postcode": "20159",
+        "addr:street": "Via Genova Thaon Di Revel",
+        "amenity": "restaurant",
+        "name": "Ristorante al Tronco",
+        "phone": "+39 02 606072",
+        "website": "altronco.it",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1888927,
+          45.4921349
+        ]
+      },
+      "id": "node/2419130558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419130560",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "13",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Zara",
+        "amenity": "restaurant",
+        "brand": "Old Wild West",
+        "brand:wikidata": "Q25402475",
+        "brand:wikipedia": "it:Old Wild West",
+        "cuisine": "american",
+        "email": "zara@oldwildwest.it",
+        "name": "Old Wild West",
+        "opening_hours": "Mo-Su 12:00-15:00,19:00-23:00",
+        "phone": "+39 02 69004434",
+        "website": "http://www.oldwildwest.it/code/20026/Milano-Zara",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1917798,
+          45.491624
+        ]
+      },
+      "id": "node/2419130560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2491545064",
+        "addr:city": "Milano",
+        "addr:housenumber": "9",
+        "addr:postcode": "20159",
+        "addr:street": "Via Alserio",
+        "amenity": "restaurant",
+        "contact:email": "info@sticaus.it",
+        "contact:phone": "+39 02 84929294",
+        "name": "Sticaus",
+        "opening_hours": "Su-Fr 12:00-14:30,19:30-02:00; Sa 19:30-02:00",
+        "payment:bitcoin": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1861202,
+          45.4911505
+        ]
+      },
+      "id": "node/2491545064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2491555592",
+        "addr:city": "Milano",
+        "addr:housenumber": "9",
+        "addr:postcode": "20159",
+        "addr:street": "Via Vincenzo Civerchio",
+        "amenity": "restaurant",
+        "email": "info@trattoriailmarinaio.it",
+        "name": "Trattoria Il Marinaio",
+        "phone": "+39 02 6884985",
+        "website": "http://www.trattoriailmarinaio.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1877416,
+          45.4913253
+        ]
+      },
+      "id": "node/2491555592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519017875",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "8",
+        "addr:street": "Via Edoardo Porro",
+        "amenity": "restaurant",
+        "name": "L'Altra Isola",
+        "phone": "+39 02 60830205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1800165,
+          45.4962176
+        ]
+      },
+      "id": "node/2519017875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2535455873",
+        "addr:housenumber": "51",
+        "addr:street": "Viale Stelvio",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Fang Jong",
+        "phone": "+39 02 69007886; +39 333 6913922",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1847273,
+          45.4945418
+        ]
+      },
+      "id": "node/2535455873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2558935281",
+        "addr:housenumber": "91",
+        "addr:street": "Viale Marche",
+        "amenity": "restaurant",
+        "contact:mobile": "+39 339 7677154",
+        "contact:phone": "+39 02 6684082",
+        "name": "Ristorante Pizzeria Al 91",
+        "operator": "M.M. srl",
+        "ref:vatin": "IT13329690153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1887331,
+          45.4969008
+        ]
+      },
+      "id": "node/2558935281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2669977996",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "54",
+        "addr:postcode": "20127",
+        "addr:street": "Via Giulio e Corrado Venini",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Osteria della Pasta e Fagioli",
+        "opening_hours": "Tu-Sa 12:00-15:00,19:00-24:00; Su 12:00-16:00",
+        "phone": "+39 02 2614 8014",
+        "website": "https://www.osteriadellapastaefagioli.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2163221,
+          45.4920972
+        ]
+      },
+      "id": "node/2669977996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2825297844",
+        "amenity": "restaurant",
+        "name": "little lamb",
+        "opening_hours": "Mo-Su 12:00-15:00,18:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1814576,
+          45.4964096
+        ]
+      },
+      "id": "node/2825297844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2836084640",
+        "amenity": "restaurant",
+        "fixme": "Position estimated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1770992,
+          45.5042577
+        ]
+      },
+      "id": "node/2836084640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2950390186",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "86",
+        "addr:street": "Via Ernesto Breda",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "email": "lafornasetta@live.it",
+        "name": "Trattoria Milano la Fornasetta",
+        "phone": "+39 02 2579774",
+        "website": "http://www.trattoriamilano.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2175542,
+          45.5140654
+        ]
+      },
+      "id": "node/2950390186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3225290992",
+        "addr:city": "Milano",
+        "addr:housenumber": "23",
+        "addr:postcode": "20127",
+        "addr:street": "Via delle Leghe",
+        "amenity": "restaurant",
+        "contact:phone": "+39 02 26145709",
+        "contact:website": "http://www.altempiodoro.it",
+        "name": "Al tempio d'oro",
+        "operator": "Primavera sas",
+        "ref:vatin": "IT06589430153"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.217102,
+          45.4926346
+        ]
+      },
+      "id": "node/3225290992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3313820158",
+        "addr:city": "Milano",
+        "addr:housenumber": "7",
+        "addr:postcode": "20125",
+        "addr:street": "Via Achille Bizzoni",
+        "amenity": "restaurant",
+        "capacity": "30",
+        "cuisine": "italian",
+        "name": "Da Pippo si magna",
+        "opening_hours": "Mo-Sa 07:30-15:30",
+        "phone": "+39 02 683724",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1983729,
+          45.4949809
+        ]
+      },
+      "id": "node/3313820158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3343916120",
+        "addr:city": "Milano",
+        "addr:housenumber": "47",
+        "addr:postcode": "20125",
+        "addr:street": "Via Arbe",
+        "amenity": "restaurant",
+        "capacity": "20",
+        "cuisine": "italian",
+        "name": "Il Sottomarino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1977634,
+          45.4981874
+        ]
+      },
+      "id": "node/3343916120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3429941130",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "13",
+        "addr:street": "Via Luigi Pulci",
+        "amenity": "restaurant",
+        "name": "University Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2073156,
+          45.5144489
+        ]
+      },
+      "id": "node/3429941130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3431424611",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "4",
+        "addr:street": "Piazza della Trivulziana",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "phone": "+39 328 5873999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2121885,
+          45.5148012
+        ]
+      },
+      "id": "node/3431424611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3612908814",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "44",
+        "addr:postcode": "20126",
+        "addr:street": "Via Fratelli Bressan",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza D'ok",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "www.pizzadokmilano.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2186259,
+          45.510428
+        ]
+      },
+      "id": "node/3612908814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780580941",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "62",
+        "addr:postcode": "20125",
+        "addr:street": "Via Comune Antico",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Osteria del Comune Antico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2075749,
+          45.5072078
+        ]
+      },
+      "id": "node/3780580941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780581779",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "43",
+        "addr:postcode": "20125",
+        "addr:street": "Via Salvatore Pianell",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "delivery": "yes",
+        "email": "nisidapianell@gmail.com",
+        "name": "Nisida",
+        "opening_hours": "12:00-16:00, 19:00-23:00; PH off",
+        "phone": "+39 02 6428387",
+        "ref:vatin": "IT08057890967",
+        "takeaway": "yes",
+        "website": "http://www.nisidaverace.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2036845,
+          45.5076169
+        ]
+      },
+      "id": "node/3780581779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3800675563",
+        "amenity": "restaurant",
+        "delivery": "no",
+        "name": "Refettorio Ambrosiano",
+        "smoking": "no",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2119567,
+          45.5023062
+        ]
+      },
+      "id": "node/3800675563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935587733",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "85",
+        "addr:postcode": "20125",
+        "addr:street": "Via Arbe",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Moon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1999254,
+          45.5020205
+        ]
+      },
+      "id": "node/3935587733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935591399",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "17",
+        "addr:postcode": "20125",
+        "addr:street": "Via Scipio Slataper",
+        "amenity": "restaurant",
+        "cuisine": "seafood;fish",
+        "name": "La Sirenella",
+        "opening_hours": "Mo-Tu 12:30-23:00; Th-Su 12:30-23:00",
+        "phone": "+39 02 66800761",
+        "smoking": "outside",
+        "takeaway": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1988069,
+          45.5002206
+        ]
+      },
+      "id": "node/3935591399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3965006457",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "La Basilicata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2102524,
+          45.5017232
+        ]
+      },
+      "id": "node/3965006457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976146191",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "20159",
+        "addr:street": "Via Alserio",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "L'Angolo della Pizza",
+        "opening_hours": "Mo-Su 12:00-15:00,19:00-23:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1842097,
+          45.4915265
+        ]
+      },
+      "id": "node/3976146191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976300528",
+        "addr:city": "Milano",
+        "addr:housenumber": "27",
+        "addr:postcode": "20124",
+        "addr:street": "Via Ercole Oldofredi",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "RockBurger",
+        "opening_hours": "Tu-Su 12:00-14:30,19:30-23:00; Sa 19:30-23:00",
+        "phone": "+39 02 36551165",
+        "smoking": "no",
+        "website": "http://rockburger.it/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1968768,
+          45.4910592
+        ]
+      },
+      "id": "node/3976300528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4026789103",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Enikma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2118461,
+          45.5149131
+        ]
+      },
+      "id": "node/4026789103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4026789104",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Farinami",
+        "website": "http://www.farinami.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117465,
+          45.515189
+        ]
+      },
+      "id": "node/4026789104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041795555",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "13",
+        "addr:postcode": "20125",
+        "addr:street": "Via Cristoforo Gluck",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Ristorante Terra e Mare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2076393,
+          45.4917909
+        ]
+      },
+      "id": "node/4041795555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041811934",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "11",
+        "addr:postcode": "20125",
+        "addr:street": "Via Cristoforo Gluck",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Al Cuoco di Bordo",
+        "opening_hours": "We-Su 12:30-14:30,19:30-22:30",
+        "phone": "+39 02 6691873",
+        "website": "http://www.cuocodibordo.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2074288,
+          45.4914609
+        ]
+      },
+      "id": "node/4041811934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041811935",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "10",
+        "addr:postcode": "20125",
+        "addr:street": "Via Cristoforo Gluck",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "email": "milanoristoro@hotmail.it",
+        "name": "Antica Osteria di Via Gluck",
+        "phone": "+39 02 66982898",
+        "website": "http://www.anticaosteriaviagluck.flazio.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2076487,
+          45.4915239
+        ]
+      },
+      "id": "node/4041811935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041811951",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "70",
+        "addr:postcode": "20125",
+        "addr:street": "Via Giovanni Battista Sammartini",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Mercato del Pesce",
+        "shop": "seafood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2116056,
+          45.4948321
+        ]
+      },
+      "id": "node/4041811951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812884",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "69",
+        "addr:postcode": "20125",
+        "addr:street": "Via Giovanni Battista Sammartini",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "email": "portodimario@hotmail.it",
+        "name": "Ristorante Pizzeria La Caletta",
+        "phone": "+39 02 6693159",
+        "website": "http://www.lacalettadimilano.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2115076,
+          45.4951593
+        ]
+      },
+      "id": "node/4041812884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092138537",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "29",
+        "addr:postcode": "20126",
+        "addr:street": "Via Ernesto Breda",
+        "amenity": "restaurant",
+        "name": "Ristorante Botto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2137956,
+          45.5099231
+        ]
+      },
+      "id": "node/4092138537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4129700109",
+        "addr:street": "Viale Edoardo Jenner",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/ristorante168",
+        "contact:instagram": "168_chinese_township",
+        "name": "Ristorante 168",
+        "opening_hours": "Mo-Su 12:00-15:00,18:30-23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1808367,
+          45.4969538
+        ]
+      },
+      "id": "node/4129700109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142385795",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "11",
+        "addr:postcode": "20159",
+        "addr:street": "Via Lepontina",
+        "amenity": "restaurant",
+        "name": "Forchetta d'Oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1842186,
+          45.493407
+        ]
+      },
+      "id": "node/4142385795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142386594",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "7",
+        "addr:postcode": "20125",
+        "addr:street": "Via San Basilio",
+        "amenity": "restaurant",
+        "name": "Trattoria San Basilio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2082805,
+          45.5086071
+        ]
+      },
+      "id": "node/4142386594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142387315",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "8",
+        "addr:postcode": "20159",
+        "addr:street": "Via Lepontina",
+        "amenity": "restaurant",
+        "diet:gluten_free": "yes",
+        "name": "Ristorante Lepontina",
+        "opening_hours": "Mo-Su 12:00-15:00,19:00-24:00",
+        "phone": "+39 02 39820772",
+        "website": "http://ristorante-pizzeria-lepontina.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1836955,
+          45.4932866
+        ]
+      },
+      "id": "node/4142387315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142388217",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "20158",
+        "addr:street": "Via dell'Aprica",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "info@trattoriapiccolofumino.it",
+        "name": "Trattoria Piccolo Fumino",
+        "opening_hours": "Mo-Fr 11:30-15:00,19:30-24:00; Sa 19:30-00:30",
+        "phone": "+39 02 680631",
+        "website": "http://www.trattoriapiccolofumino.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1817808,
+          45.4933749
+        ]
+      },
+      "id": "node/4142388217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4230559078",
+        "addr:housenumber": "52",
+        "addr:street": "Via Pellegrino Rossi",
+        "amenity": "restaurant",
+        "name": "Al Paradiso della Pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1756235,
+          45.5113764
+        ]
+      },
+      "id": "node/4230559078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4270847043",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "65",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Marche",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "email": "calafuria@me.com",
+        "name": "Calafuria",
+        "phone": "+39 02 6886753",
+        "website": "https://www.pizzeriacalafuria.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1922021,
+          45.495932
+        ]
+      },
+      "id": "node/4270847043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4277859750",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:street": "Via Dario Papa",
+        "amenity": "restaurant",
+        "name": "Trattoria L'Angolo Nascosto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2035445,
+          45.4986424
+        ]
+      },
+      "id": "node/4277859750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333479131",
+        "addr:city": "Milano",
+        "addr:housenumber": "1",
+        "addr:postcode": "20126",
+        "addr:street": "Via Giuseppe La Farina",
+        "amenity": "restaurant",
+        "name": "Ristorante La Bicocca",
+        "phone": "+39 02 6425226",
+        "ref:vatin": "IT08414390156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2085178,
+          45.5156919
+        ]
+      },
+      "id": "node/4333479131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4343404690",
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "name": "Mamma Orsa 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.213299,
+          45.4916802
+        ]
+      },
+      "id": "node/4343404690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4344217207",
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "name": "Pizzeria Timavo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2039029,
+          45.5074279
+        ]
+      },
+      "id": "node/4344217207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4405576691",
+        "addr:city": "Milano",
+        "addr:housenumber": "5",
+        "addr:postcode": "20126",
+        "addr:street": "Piazza della Trivulziana",
+        "amenity": "restaurant",
+        "name": "dino Cafe",
+        "name:it": "dino's",
+        "phone": "+39 02 643 3035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2113814,
+          45.5152024
+        ]
+      },
+      "id": "node/4405576691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424654968",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "187",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Sushi 187",
+        "opening_hours": "Tu-Su 11:20-23:30",
+        "website": "http://www.sushi187milano.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.20898,
+          45.5164881
+        ]
+      },
+      "id": "node/4424654968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424657435",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza a Pezzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2059631,
+          45.5149714
+        ]
+      },
+      "id": "node/4424657435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426482289",
+        "addr:postcode": "20125",
+        "addr:street": "Piazza Greco",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "L' Atmosfera",
+        "opening_hours": "Tu-Su 12:00-15:00, 19:00-22:00",
+        "phone": "+39 02 66711485",
+        "website": "http://www.ristorantepizzerialatmosfera.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2111347,
+          45.5024027
+        ]
+      },
+      "id": "node/4426482289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4508379086",
+        "amenity": "restaurant",
+        "name": "Bibo's Food And Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2047369,
+          45.4912621
+        ]
+      },
+      "id": "node/4508379086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550031269",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Finger's Garden",
+        "opening_hours": "Mo-Sa 19:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+39 02606544",
+        "website": "fingersrestaurants.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1989144,
+          45.4929064
+        ]
+      },
+      "id": "node/4550031269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4553487790",
+        "addr:city": "Milano",
+        "addr:housenumber": "20",
+        "addr:postcode": "20159",
+        "addr:street": "Via Genova Thaon Di Revel",
+        "amenity": "restaurant",
+        "description": "Burger e dolci in stile americano. Brunch nel weekend, bagels, cupcake, brownie, cheesecake, pie e tante altre prelibatezze tipiche americane.",
+        "email": "info@vintagebakery.it",
+        "name": "Vintage Bakery",
+        "payment:bitcoin": "yes",
+        "phone": "+39 0299203619",
+        "shop": "pastry",
+        "website": "http://www.vintagebakery.it",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1881414,
+          45.4933383
+        ]
+      },
+      "id": "node/4553487790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4553487882",
+        "amenity": "restaurant",
+        "name": "Angolomilano",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1878809,
+          45.4920415
+        ]
+      },
+      "id": "node/4553487882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568358432",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "74",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Fulvio Testi",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2020-12-17",
+        "cuisine": "japanese",
+        "email": "info@kaseisushi.it",
+        "name": "Kasei",
+        "opening_hours": "Tu-Su 12:00-15:00,19:00-24:00",
+        "phone": "+39 02 36578374",
+        "website": "http://www.kaseisushi.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2023598,
+          45.5086591
+        ]
+      },
+      "id": "node/4568358432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584486996",
+        "amenity": "restaurant",
+        "name": "Cucina Sri Lanka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1874949,
+          45.4942721
+        ]
+      },
+      "id": "node/4584486996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584486999",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Mare in Pasta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1870429,
+          45.4949227
+        ]
+      },
+      "id": "node/4584486999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4604705791",
+        "addr:city": "Milano",
+        "addr:housenumber": "34",
+        "addr:postcode": "20158",
+        "addr:street": "Via Legnone",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "S.P.I.B."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1816192,
+          45.500108
+        ]
+      },
+      "id": "node/4604705791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621714390",
+        "addr:housenumber": "7",
+        "addr:street": "Via Edolo",
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "delivery": "no",
+        "name": "Ristorante Pizzeria San Mina",
+        "phone": "+39026691452",
+        "ref:vatin": "IT06253850967"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.206262,
+          45.4922987
+        ]
+      },
+      "id": "node/4621714390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4662950350",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "48",
+        "addr:postcode": "20126",
+        "addr:street": "Via Ernesto Breda",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Ristorante Hon",
+        "opening_hours": "Tu-Su 17:40-22:30",
+        "website": "http://www.ristorantehonmilano.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2155585,
+          45.5115573
+        ]
+      },
+      "id": "node/4662950350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4818143288",
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Harry's Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.213733,
+          45.5152419
+        ]
+      },
+      "id": "node/4818143288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916242005",
+        "addr:city": "Milano",
+        "addr:housenumber": "32",
+        "addr:postcode": "20159",
+        "addr:street": "Via Gioacchino Murat",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian",
+        "name": "Millelire 1913"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.191318,
+          45.499008
+        ]
+      },
+      "id": "node/4916242005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916312261",
+        "addr:city": "Milano",
+        "addr:housenumber": "116",
+        "addr:street": "Viale Zara",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian;steak_house;fish",
+        "delivery": "yes",
+        "name": "Pizzeria Ristorante La Scaletta",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1966605,
+          45.4985992
+        ]
+      },
+      "id": "node/4916312261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916537653",
+        "addr:city": "Milano",
+        "addr:housenumber": "56",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Marche",
+        "amenity": "restaurant",
+        "cuisine": "pizza;kebab;turkish",
+        "name": "Blu 2 Istanbul",
+        "opening_hours": "Mo-Sa 11:00-03:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1927184,
+          45.4962396
+        ]
+      },
+      "id": "node/4916537653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916541765",
+        "addr:city": "Milano",
+        "addr:housenumber": "7",
+        "addr:postcode": "20159",
+        "addr:street": "Via Veglia",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian;kebab",
+        "delivery": "yes",
+        "name": "Pizzeria Marisa",
+        "opening_hours": "Mo-Su 17:20-23:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1932776,
+          45.4970425
+        ]
+      },
+      "id": "node/4916541765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985227703",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "53",
+        "addr:postcode": "20159",
+        "addr:street": "Via Veglia",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "email": "lentita@fastwebnet.it",
+        "name": "Ristorante L'Entità",
+        "phone": "+39 02 49518222",
+        "website": "http://www.ristorantelentita.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1945629,
+          45.4993349
+        ]
+      },
+      "id": "node/4985227703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985229189",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "87",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Zara",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "carlo.lottici@alice.it",
+        "name": "Ristorante La Villetta",
+        "opening_hours": "Mo 18:00+; Tu 00:00+",
+        "phone": "+39 02 69007337",
+        "website": "http://www.ristorantelavillettamilano.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.194756,
+          45.4968091
+        ]
+      },
+      "id": "node/4985229189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5015912538",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "20124",
+        "addr:street": "Via Adele Martignoni",
+        "amenity": "restaurant",
+        "cuisine": "moroccan",
+        "name": "Beladi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1960676,
+          45.492401
+        ]
+      },
+      "id": "node/5015912538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5015912583",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "11",
+        "addr:postcode": "20124",
+        "addr:street": "Viale Nazario Sauro",
+        "amenity": "restaurant",
+        "cuisine": "japanese;chinese",
+        "name": "Kaori",
+        "phone": "+39 02 6080864",
+        "website": "http://www.ristorantekaori.it/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1948029,
+          45.4918915
+        ]
+      },
+      "id": "node/5015912583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5015912613",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "59",
+        "addr:postcode": "20124",
+        "addr:street": "Via Torquato Taramelli",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "email": "info@parbleumilano.it",
+        "name": "Parbleu",
+        "opening_hours": "Mo-Sa 19:30-23:30",
+        "phone": "+39 02 36746549",
+        "website": "http://parbleumilano.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1949759,
+          45.4932518
+        ]
+      },
+      "id": "node/5015912613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074923145",
+        "addr:city": "Milano",
+        "addr:housenumber": "61",
+        "addr:street": "Viale Zara",
+        "amenity": "restaurant",
+        "name": "Ristorante Ivana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1933465,
+          45.4943019
+        ]
+      },
+      "id": "node/5074923145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5126832653",
+        "amenity": "restaurant",
+        "name": "Lungomare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1750477,
+          45.5098963
+        ]
+      },
+      "id": "node/5126832653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287290871",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2191735,
+          45.4950878
+        ]
+      },
+      "id": "node/5287290871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5349062557",
+        "addr:housenumber": "55",
+        "addr:street": "Via Gianfranco Zuretti",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "email": "info@dulcisinfundo.it",
+        "name": "Dulcis in fundo",
+        "phone": "+39 66712503",
+        "ref:vatin": "IT12640240151",
+        "website": "http://www.dulcisinfundo.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2094047,
+          45.4957593
+        ]
+      },
+      "id": "node/5349062557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5368603191",
+        "addr:city": "Milano",
+        "addr:housenumber": "20",
+        "addr:street": "Via Enrico Annibale Butti",
+        "amenity": "restaurant",
+        "name": "Rob de matt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1748664,
+          45.4986994
+        ]
+      },
+      "id": "node/5368603191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178027",
+        "amenity": "restaurant",
+        "cuisine": "pizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2161319,
+          45.4933016
+        ]
+      },
+      "id": "node/5405178027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178040",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "4",
+        "addr:street": "Via Nicola d'Apulia",
+        "amenity": "restaurant",
+        "cuisine": "peruvian",
+        "name": "Aki Me Kedo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2161211,
+          45.4936589
+        ]
+      },
+      "id": "node/5405178040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178041",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "14",
+        "addr:street": "Via Nicola d'Apulia",
+        "amenity": "restaurant",
+        "cuisine": "chinese;peruvian",
+        "name": "Chifa Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2154801,
+          45.494364
+        ]
+      },
+      "id": "node/5405178041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178042",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "20125",
+        "addr:street": "Via Nicola d'Apulia",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Blue Nami",
+        "opening_hours": "Mo-Sa 12:00-23:40; Su 18:00-23:40",
+        "phone": "+39 02 2891481",
+        "website": "https://www.blue-nami.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164819,
+          45.4934135
+        ]
+      },
+      "id": "node/5405178042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178108",
+        "amenity": "restaurant",
+        "name": "Rondò"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2169499,
+          45.4948096
+        ]
+      },
+      "id": "node/5405178108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178790",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "86",
+        "addr:street": "Via Giulio e Corrado Venini",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Zimei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2174354,
+          45.4954432
+        ]
+      },
+      "id": "node/5405178790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405179422",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "18",
+        "addr:street": "Via Popoli Uniti",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Rendez Vous"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2176339,
+          45.4960222
+        ]
+      },
+      "id": "node/5405179422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405179423",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "26",
+        "addr:street": "Via Popoli Uniti",
+        "amenity": "restaurant",
+        "email": "info@osteriadellastazione.it",
+        "name": "Osteria della Stazione",
+        "opening_hours": "Tu-Sa 12:15-14:45,19:45-23:45",
+        "phone": "+39 02 28381700",
+        "website": "http://www.osteriadellastazione.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164108,
+          45.4959282
+        ]
+      },
+      "id": "node/5405179423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5450826105",
+        "amenity": "restaurant",
+        "cuisine": "peruvian",
+        "name": "El Jibaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2195919,
+          45.4931531
+        ]
+      },
+      "id": "node/5450826105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5626318250",
+        "addr:housenumber": "25",
+        "addr:street": "Via privata Tarvisio",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian",
+        "name": "La Perla del Sud",
+        "phone": "+39 02 66981451",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2050352,
+          45.4980468
+        ]
+      },
+      "id": "node/5626318250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5678674256",
+        "addr:city": "Milano",
+        "addr:housenumber": "118",
+        "addr:postcode": "20125",
+        "addr:street": "Viale Zara",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian",
+        "name": "Maruzzella",
+        "opening_hours": "Mo-Tu 12:00-14:30,19:00-23:30; Th-Su 12:00-14:30,19:00-23:30",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1968526,
+          45.4989402
+        ]
+      },
+      "id": "node/5678674256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694556895",
+        "amenity": "restaurant",
+        "cuisine": "peruvian",
+        "name": "El Chorrillano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.213565,
+          45.4933073
+        ]
+      },
+      "id": "node/5694556895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694556903",
+        "amenity": "restaurant",
+        "cuisine": "peruvian",
+        "name": "El Rincón de Lupita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2145386,
+          45.4931907
+        ]
+      },
+      "id": "node/5694556903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558327",
+        "amenity": "restaurant",
+        "cuisine": "peruvian",
+        "name": "Sabor Peruano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2176071,
+          45.4930121
+        ]
+      },
+      "id": "node/5694558327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558369",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "55",
+        "addr:postcode": "20127",
+        "addr:street": "Via Giulio e Corrado Venini",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Ju Xin Lou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2157644,
+          45.4913048
+        ]
+      },
+      "id": "node/5694558369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558529",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "La Cai Shen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2187631,
+          45.4922506
+        ]
+      },
+      "id": "node/5694558529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558535",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "51",
+        "addr:street": "Viale Monza",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Lo Scoglio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2181945,
+          45.4918388
+        ]
+      },
+      "id": "node/5694558535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5915807957",
+        "amenity": "restaurant",
+        "name": "Lo Spaccio",
+        "opening_hours": "Mo-Fr 12:00-15:30, Tu-Sa 18:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1711059,
+          45.5007515
+        ]
+      },
+      "id": "node/5915807957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5933763220",
+        "addr:city": "Milano",
+        "addr:housenumber": "16",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Piero e Alberto Pirelli",
+        "amenity": "restaurant",
+        "name": "SottoSopra",
+        "phone": "+39 02 647 3909"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120136,
+          45.5157263
+        ]
+      },
+      "id": "node/5933763220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5949576081",
+        "amenity": "restaurant",
+        "name": "Cinnamoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1744058,
+          45.51617
+        ]
+      },
+      "id": "node/5949576081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5971301066",
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "Da noi si mangia",
+        "opening_hours": "Tu-Su 12:00-14:30,20:15-23:00",
+        "phone": "+39 02 3932 0186"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.175685,
+          45.5049228
+        ]
+      },
+      "id": "node/5971301066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6088705433",
+        "amenity": "restaurant",
+        "name": "Fuorimano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.207577,
+          45.5084264
+        ]
+      },
+      "id": "node/6088705433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6129146004",
+        "amenity": "restaurant",
+        "name": "Le Follie",
+        "phone": "+39 02 3931 1621"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1743641,
+          45.5039942
+        ]
+      },
+      "id": "node/6129146004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991642",
+        "addr:city": "Milano",
+        "addr:housenumber": "26",
+        "addr:postcode": "20127",
+        "addr:street": "Via dei Transiti",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Ceylon Choice",
+        "takeaway": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2191599,
+          45.4912404
+        ]
+      },
+      "id": "node/6514991642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991643",
+        "addr:city": "Milano",
+        "addr:housenumber": "26",
+        "addr:postcode": "20127",
+        "addr:street": "Via dei Transiti",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Al Gargano",
+        "phone": "+39 02 289 6271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2190602,
+          45.4912458
+        ]
+      },
+      "id": "node/6514991643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6653462093",
+        "amenity": "restaurant",
+        "name": "Overjoy",
+        "phone": "+39 02 688 3513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1759465,
+          45.4946072
+        ]
+      },
+      "id": "node/6653462093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6746544924",
+        "addr:city": "Milano",
+        "addr:housenumber": "24",
+        "addr:postcode": "20158",
+        "addr:street": "Via Angiolo Maffucci",
+        "amenity": "restaurant",
+        "name": "Latteria Maffucci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1718788,
+          45.4988229
+        ]
+      },
+      "id": "node/6746544924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6862516941",
+        "amenity": "restaurant",
+        "name": "Mamma Farina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1819523,
+          45.5025081
+        ]
+      },
+      "id": "node/6862516941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176347063",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "ti amo pizza",
+        "opening_hours": "Mo-Su 11:00-15:00,19:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1833817,
+          45.4975179
+        ]
+      },
+      "id": "node/7176347063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176347069",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "du Lab",
+        "opening_hours": "Mo-Sa 11:00-15:00,18:00-23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1825166,
+          45.4974644
+        ]
+      },
+      "id": "node/7176347069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176356890",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Dantò"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.180207,
+          45.502297
+        ]
+      },
+      "id": "node/7176356890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176356891",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "la grotta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1797864,
+          45.5028987
+        ]
+      },
+      "id": "node/7176356891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7610389085",
+        "addr:housenumber": "70",
+        "addr:street": "Viale Marche",
+        "amenity": "restaurant",
+        "cuisine": "sushi",
+        "name": "Hegui Taste of Asia",
+        "phone": "02683297",
+        "website": "http://www.hegui.one"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1907827,
+          45.4967722
+        ]
+      },
+      "id": "node/7610389085"
+    }
+  ]
+}

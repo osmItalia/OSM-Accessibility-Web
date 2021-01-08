@@ -7,6 +7,13 @@ export const customMarker = new L.Icon({
   popupAnchor: [2, -40]
 });
 
+export const ACCESSIBILITY_CLASSNAME = {
+  yes: 'accessibility_yes',
+  no: 'accessibility_no',
+  limited: 'accessibility_limited',
+  unknown: 'accessibility_unknown'
+};
+
 export const MODES = {
   SEARCH: 'search',
   DIRECTIONS: 'directions'

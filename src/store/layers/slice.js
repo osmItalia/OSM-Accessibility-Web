@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 import pick from 'lodash/pick';
+import pull from 'lodash/pull';
 
 const layersSlice = createSlice({
   name: 'layers',
   initialState: {
     featuresById: {},
     loading: false,
-    layersById: {},
     visibleLayers: [],
     visibleFeatures: []
   },
@@ -21,12 +21,6 @@ const layersSlice = createSlice({
       state.loading = false;
       window.featureGeometries = window.featureGeometries || {};
 
-      state.layersById[action.payload.name] = {
-        name: action.payload.name,
-        visible: true,
-        visibleAfterScale: action.payload.visibleAfterScale
-      };
-
       action.payload.data.features.forEach(feature => {
         state.featuresById[feature.id] = {
           ...pick(feature, 'id', 'properties', 'type'),
@@ -36,6 +30,14 @@ const layersSlice = createSlice({
         window.featureGeometries[feature.id] = feature.geometry;
       });
       state.visibleLayers.push(action.payload.name);
+    },
+    toggleLayer(state, action) {
+      const has = state.visibleLayers.indexOf(action.payload) > -1;
+      if (has) {
+        pull(state.visibleLayers, action.payload);
+      } else {
+        state.visibleLayers.push(action.payload);
+      }
     }
   }
 });

@@ -1,0 +1,2936 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-01-08T15:19:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51109388",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Bar del Capolinea",
+        "source:name": "survey"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.1898432,
+              45.5085581
+            ],
+            [
+              9.1899173,
+              45.5087087
+            ],
+            [
+              9.1898993,
+              45.5087245
+            ],
+            [
+              9.1898745,
+              45.5087303
+            ],
+            [
+              9.1898493,
+              45.5087236
+            ],
+            [
+              9.189776,
+              45.5085746
+            ],
+            [
+              9.1897849,
+              45.5085487
+            ],
+            [
+              9.1898196,
+              45.5085438
+            ],
+            [
+              9.1898432,
+              45.5085581
+            ]
+          ]
+        ]
+      },
+      "id": "way/51109388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/390396154",
+        "amenity": "cafe",
+        "building": "kiosk",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Drive'in",
+        "opening_hours": "Mo-Sa 07:45-02:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.1975222,
+              45.501924
+            ],
+            [
+              9.1975955,
+              45.5019039
+            ],
+            [
+              9.1976097,
+              45.5019293
+            ],
+            [
+              9.1975364,
+              45.5019494
+            ],
+            [
+              9.1975222,
+              45.501924
+            ]
+          ]
+        ]
+      },
+      "id": "way/390396154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/496611170",
+        "addr:city": "Milano",
+        "addr:housenumber": "3",
+        "addr:postcode": "20158",
+        "addr:street": "Via Cevedale",
+        "amenity": "pub",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:facebook": "https://www.facebook.com/birrificiolaribalta/",
+        "email": "info@birrificiolaribalta.com",
+        "name": "Birrificio La Ribalta",
+        "outdoor_seating": "yes",
+        "phone": "+39 348 524 9651",
+        "website": "https://www.birrificiolaribalta.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.1734463,
+              45.5069946
+            ],
+            [
+              9.173277,
+              45.507053
+            ],
+            [
+              9.1731949,
+              45.5070695
+            ],
+            [
+              9.1731827,
+              45.507025
+            ],
+            [
+              9.1729458,
+              45.5069614
+            ],
+            [
+              9.1729967,
+              45.5068722
+            ],
+            [
+              9.173017,
+              45.5068777
+            ],
+            [
+              9.1734463,
+              45.5069946
+            ]
+          ]
+        ]
+      },
+      "id": "way/496611170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281819167",
+        "amenity": "pub",
+        "name": "Il gatto e la volpe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.198145,
+          45.4949167
+        ]
+      },
+      "id": "node/281819167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281819170",
+        "amenity": "pub",
+        "created_by": "JOSM",
+        "name": "Tequila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.197087,
+          45.4950751
+        ]
+      },
+      "id": "node/281819170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281828130",
+        "addr:city": "Milano",
+        "addr:housenumber": "12",
+        "addr:street": "Via Nicolò Fortiguerra",
+        "amenity": "pub",
+        "name": "Tempi moderni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.208342,
+          45.5141993
+        ]
+      },
+      "id": "node/281828130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/539236919",
+        "amenity": "pub",
+        "name": "Osteria delle Erbe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2111879,
+          45.5146215
+        ]
+      },
+      "id": "node/539236919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1002628831",
+        "addr:city": "Milano",
+        "addr:housenumber": "71",
+        "addr:street": "Via Carlo Farini",
+        "amenity": "cafe",
+        "contact:phone": "+39 02 6687620",
+        "name": "Small Café",
+        "operator": "Small Café di Mao Guangliang",
+        "ref:vatin": "IT05909671215",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1848747,
+          45.4938763
+        ]
+      },
+      "id": "node/1002628831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1138859879",
+        "amenity": "bar",
+        "name": "Punto 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2043969,
+          45.5075656
+        ]
+      },
+      "id": "node/1138859879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1300766855",
+        "amenity": "cafe",
+        "name": "Caffè Milano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2194549,
+          45.4945545
+        ]
+      },
+      "id": "node/1300766855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1523170718",
+        "amenity": "bar",
+        "name": "Caffè Cinquecento",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2130089,
+          45.5151171
+        ]
+      },
+      "id": "node/1523170718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1523171358",
+        "addr:city": "Milano",
+        "addr:housenumber": "14",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Piero e Alberto Pirelli",
+        "amenity": "bar",
+        "name": "Pan cafè",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2115605,
+          45.5155043
+        ]
+      },
+      "id": "node/1523171358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1696116660",
+        "addr:city": "Milano",
+        "addr:housenumber": "50",
+        "addr:postcode": "20126",
+        "addr:street": "Via Bernardo Rucellai",
+        "amenity": "cafe",
+        "cuisine": "italian;sandwich",
+        "name": "Bar 4 Strade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2152238,
+          45.5112697
+        ]
+      },
+      "id": "node/1696116660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2057719056",
+        "addr:city": "Milano",
+        "addr:housenumber": "9",
+        "addr:postcode": "20126",
+        "addr:street": "Piazzale Egeo",
+        "amenity": "bar",
+        "name": "Barcimboldi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2143799,
+          45.5145776
+        ]
+      },
+      "id": "node/2057719056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2057719057",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2146991,
+          45.5143408
+        ]
+      },
+      "id": "node/2057719057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2084503053",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "45",
+        "addr:postcode": "20125",
+        "addr:street": "Via Salvatore Pianell",
+        "amenity": "bar",
+        "name": "Dream's Bar",
+        "opening_hours": "Mo-Su 06:00-22:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2033775,
+          45.507717
+        ]
+      },
+      "id": "node/2084503053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2097778128",
+        "amenity": "cafe",
+        "fixme": "Position estimated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1735052,
+          45.5138687
+        ]
+      },
+      "id": "node/2097778128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215015115",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:street": "Viale Monza",
+        "amenity": "cafe",
+        "description": "tavola calda paninoteca",
+        "name": "Bar Bijoux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2197492,
+          45.4955503
+        ]
+      },
+      "id": "node/2215015115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215015132",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "76",
+        "addr:street": "Viale Monza",
+        "amenity": "cafe",
+        "description": "bar tabacchi ricevitoria lotto",
+        "name": "Milionario",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2196908,
+          45.4953615
+        ]
+      },
+      "id": "node/2215015132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2225549088",
+        "amenity": "cafe",
+        "description": "Specialità rotoloni e pizzaiole",
+        "name": "Happy Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2075908,
+          45.4960869
+        ]
+      },
+      "id": "node/2225549088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2237701014",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "50",
+        "addr:postcode": "20125",
+        "addr:street": "Via Roberto Cozzi",
+        "amenity": "pub",
+        "name": "Maga Furla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2118674,
+          45.5095876
+        ]
+      },
+      "id": "node/2237701014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278110855",
+        "addr:housenumber": "1",
+        "addr:street": "Via Libero Temolo",
+        "amenity": "bar",
+        "name": "Sio Cafè",
+        "opening_hours": "Mo-Su 19:00-05:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.209574,
+          45.5115782
+        ]
+      },
+      "id": "node/2278110855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2278117220",
+        "addr:street": "Viale Fulvio Testi",
+        "amenity": "cafe",
+        "name": "Bar Girasole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2028142,
+          45.5109651
+        ]
+      },
+      "id": "node/2278117220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2356572305",
+        "amenity": "bar",
+        "name": "Bar De Marchi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2082287,
+          45.4979248
+        ]
+      },
+      "id": "node/2356572305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2413770138",
+        "amenity": "cafe",
+        "name": "Emy bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1844257,
+          45.4982259
+        ]
+      },
+      "id": "node/2413770138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2433809546",
+        "amenity": "cafe",
+        "name": "Bar Liberty",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1956374,
+          45.4916617
+        ]
+      },
+      "id": "node/2433809546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2433809547",
+        "addr:city": "Milano",
+        "addr:housenumber": "26",
+        "addr:postcode": "20124",
+        "addr:street": "Via Ippolito Rosellini",
+        "amenity": "cafe",
+        "name": "Bar Memory",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1955866,
+          45.4910779
+        ]
+      },
+      "id": "node/2433809547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2491545085",
+        "addr:city": "Milano",
+        "addr:housenumber": "40",
+        "addr:postcode": "20159",
+        "addr:street": "Via Cola Montano",
+        "amenity": "cafe",
+        "name": "Soleluna Cafè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1863829,
+          45.491411
+        ]
+      },
+      "id": "node/2491545085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519017862",
+        "amenity": "bar",
+        "name": "J14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1826606,
+          45.4974734
+        ]
+      },
+      "id": "node/2519017862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2535463894",
+        "amenity": "bar",
+        "name": "Bar SCOOBY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1857262,
+          45.4942815
+        ]
+      },
+      "id": "node/2535463894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2535469722",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1861975,
+          45.4945005
+        ]
+      },
+      "id": "node/2535469722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2656263534",
+        "amenity": "bar",
+        "name": "Auld Bubliner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1723413,
+          45.4953785
+        ]
+      },
+      "id": "node/2656263534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2670002615",
+        "amenity": "cafe",
+        "name": "Bar David"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2160681,
+          45.4920914
+        ]
+      },
+      "id": "node/2670002615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2719663641",
+        "amenity": "cafe",
+        "name": "Bar La Giada",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1923021,
+          45.4925602
+        ]
+      },
+      "id": "node/2719663641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2719663643",
+        "amenity": "bar",
+        "name": "Bar Rainbow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1920124,
+          45.4919237
+        ]
+      },
+      "id": "node/2719663643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2747799579",
+        "amenity": "cafe",
+        "description": "tavola fredda, paninoteca",
+        "name": "Bar Fiona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1835158,
+          45.4971112
+        ]
+      },
+      "id": "node/2747799579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2809693873",
+        "amenity": "cafe",
+        "name": "Lukas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1723538,
+          45.5090259
+        ]
+      },
+      "id": "node/2809693873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833981275",
+        "amenity": "cafe",
+        "name": "Bar Arcobaleno",
+        "opening_hours": "Mo-Su 06:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1760295,
+          45.5102792
+        ]
+      },
+      "id": "node/2833981275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2947268067",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1884114,
+          45.4940087
+        ]
+      },
+      "id": "node/2947268067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2954036032",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "4a",
+        "addr:street": "Piazza della Trivulziana",
+        "amenity": "pub",
+        "name": "Je suis Jambon",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2122145,
+          45.5148526
+        ]
+      },
+      "id": "node/2954036032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3236003325",
+        "addr:housenumber": "33",
+        "addr:street": "Via Valtellina",
+        "amenity": "bar",
+        "name": "Mexicali",
+        "opening_hours": "Su-Fr 12:00-15:00, Su-Th 18:00-24:00, Fr 18:00-02:00, Sa 18:00-02:00",
+        "phone": "+39 02 60830042",
+        "website": "http://www.mexicali.it/i-locali/milano-valtellina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1831776,
+          45.4956465
+        ]
+      },
+      "id": "node/3236003325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3259520916",
+        "addr:city": "Milano",
+        "addr:housenumber": "11",
+        "addr:postcode": "20125",
+        "addr:street": "Via Giuseppe Bruschetti",
+        "amenity": "pub",
+        "name": "Rock'n'Roll Milano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2075644,
+          45.4925338
+        ]
+      },
+      "id": "node/3259520916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3342844426",
+        "amenity": "cafe",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1867559,
+          45.4984079
+        ]
+      },
+      "id": "node/3342844426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3372352756",
+        "amenity": "cafe",
+        "name": "Ai tre scalini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1964782,
+          45.5101403
+        ]
+      },
+      "id": "node/3372352756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3396619635",
+        "addr:city": "Milano",
+        "addr:housenumber": "133",
+        "addr:postcode": "20125",
+        "addr:street": "Via Melchiorre Gioia",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Brother's bar",
+        "phone": "+39026706025",
+        "ref:vatin": "IT07779560155",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2061316,
+          45.4941529
+        ]
+      },
+      "id": "node/3396619635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3433238703",
+        "addr:city": "Milano",
+        "addr:housenumber": "14",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Piero e Alberto Pirelli",
+        "amenity": "bar",
+        "name": "P14 Bicocca",
+        "outdoor_seating": "yes",
+        "phone": "+39 02 2111 9189",
+        "source": "survey",
+        "website": "https://pquattordici.weebly.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2116047,
+          45.5155703
+        ]
+      },
+      "id": "node/3433238703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3442415268",
+        "amenity": "cafe",
+        "name": "BicocCafe'",
+        "opening_hours": "Mo-Fr 07:30-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2124781,
+          45.5142628
+        ]
+      },
+      "id": "node/3442415268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3442415283",
+        "amenity": "cafe",
+        "name": "Panta Rei"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2123138,
+          45.5143131
+        ]
+      },
+      "id": "node/3442415283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3442415720",
+        "amenity": "cafe",
+        "email": "info@lapidaseparsot.it",
+        "internet_access": "no",
+        "name": "La pidaseparsot",
+        "phone": "+39 342 3880889",
+        "takeaway": "yes",
+        "website": "www.lapidaseparsot.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2123703,
+          45.5142963
+        ]
+      },
+      "id": "node/3442415720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3578954006",
+        "addr:housenumber": "194",
+        "addr:postcode": "20125",
+        "addr:street": "Via Melchiorre Gioia",
+        "amenity": "pub",
+        "name": "La buttega beer room",
+        "opening_hours": "Mo-Fr 17:00-02:00; Sa-Su 15:00-02:00",
+        "website": "http://www.labuttiga.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2086831,
+          45.4975736
+        ]
+      },
+      "id": "node/3578954006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780580942",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "20125",
+        "addr:street": "Via Pigello Portinari",
+        "amenity": "cafe",
+        "name": "Retrò Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2097743,
+          45.5023648
+        ]
+      },
+      "id": "node/3780580942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582093",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "10",
+        "addr:postcode": "20125",
+        "addr:street": "Piazza Greco",
+        "amenity": "cafe",
+        "name": "Bar La Compagnia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2125059,
+          45.5018878
+        ]
+      },
+      "id": "node/3780582093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582094",
+        "amenity": "cafe",
+        "name": "Caffè Mediterraneo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2076124,
+          45.507063
+        ]
+      },
+      "id": "node/3780582094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582099",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "20125",
+        "addr:street": "Via Pigello Portinari",
+        "amenity": "cafe",
+        "name": "Greco Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2102872,
+          45.5022878
+        ]
+      },
+      "id": "node/3780582099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582104",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "25",
+        "addr:postcode": "20125",
+        "addr:street": "Via Comune Antico",
+        "amenity": "bar",
+        "name": "La Gintoneria di Davide",
+        "phone": "+39 392 0397315",
+        "website": "http://www.gintoneria.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2088243,
+          45.5045417
+        ]
+      },
+      "id": "node/3780582104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582105",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "7",
+        "addr:postcode": "20125",
+        "addr:street": "Piazza Greco",
+        "amenity": "cafe",
+        "name": "La Piazzetta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2115748,
+          45.5023376
+        ]
+      },
+      "id": "node/3780582105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935587725",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "20159",
+        "addr:street": "Piazzale Istria",
+        "amenity": "cafe",
+        "name": "Caffetteria Istria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1972526,
+          45.5012315
+        ]
+      },
+      "id": "node/3935587725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935587726",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "85",
+        "addr:postcode": "20125",
+        "addr:street": "Via Arbe",
+        "amenity": "cafe",
+        "name": "Carpe Diem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1998641,
+          45.5018886
+        ]
+      },
+      "id": "node/3935587726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935596715",
+        "addr:city": "Milano",
+        "addr:housenumber": "4",
+        "addr:street": "Piazzale Istria",
+        "amenity": "bar",
+        "description": "Bar tabacchi",
+        "name": "Bar Vega",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1986867,
+          45.5012221
+        ]
+      },
+      "id": "node/3935596715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976146200",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "3",
+        "addr:postcode": "20159",
+        "addr:street": "Via Alserio",
+        "amenity": "cafe",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1849462,
+          45.4913632
+        ]
+      },
+      "id": "node/3976146200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976146277",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "48",
+        "addr:postcode": "20159",
+        "addr:street": "Via Carlo Farini",
+        "amenity": "cafe",
+        "name": "Bar Castello",
+        "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:30-20:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1841357,
+          45.4913093
+        ]
+      },
+      "id": "node/3976146277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3976146298",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "3",
+        "addr:postcode": "20159",
+        "addr:street": "Via Alserio",
+        "amenity": "pub",
+        "name": "Zhizun Pub",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1847285,
+          45.4914095
+        ]
+      },
+      "id": "node/3976146298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041811657",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "57",
+        "addr:postcode": "20125",
+        "addr:street": "Via Gianfranco Zuretti",
+        "amenity": "cafe",
+        "name": "Bar Fiamingo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2100769,
+          45.4959235
+        ]
+      },
+      "id": "node/4041811657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041811939",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "20125",
+        "addr:street": "Via Cristoforo Gluck",
+        "amenity": "cafe",
+        "name": "Bar Gluck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2073114,
+          45.4909946
+        ]
+      },
+      "id": "node/4041811939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092139370",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "38",
+        "addr:postcode": "20126",
+        "addr:street": "Via Bernardo Rucellai",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2182458,
+          45.5116255
+        ]
+      },
+      "id": "node/4092139370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092139373",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "44",
+        "addr:postcode": "20126",
+        "addr:street": "Via Ernesto Breda",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2146603,
+          45.5108103
+        ]
+      },
+      "id": "node/4092139373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092139868",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "44",
+        "addr:postcode": "20126",
+        "addr:street": "Via Fratelli Bressan",
+        "amenity": "cafe",
+        "name": "Controsenso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2189361,
+          45.5104463
+        ]
+      },
+      "id": "node/4092139868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142384397",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "54",
+        "addr:postcode": "20162",
+        "addr:street": "Via Salvatore Pianell",
+        "amenity": "cafe",
+        "name": "Bar Molinaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2010748,
+          45.5087138
+        ]
+      },
+      "id": "node/4142384397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142384898",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "10",
+        "addr:postcode": "20158",
+        "addr:street": "Via dell'Aprica",
+        "amenity": "cafe",
+        "name": "Madame Cafè"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1805564,
+          45.4936795
+        ]
+      },
+      "id": "node/4142384898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142385792",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "55",
+        "addr:postcode": "20159",
+        "addr:street": "Via Carlo Farini",
+        "amenity": "cafe",
+        "name": "Bar Azzurra",
+        "opening_hours": "Mo-Su 07:30-24:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1841894,
+          45.4922563
+        ]
+      },
+      "id": "node/4142385792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142385793",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "20159",
+        "addr:street": "Via privata Dina Galli",
+        "amenity": "cafe",
+        "name": "Caffè Galli",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1836932,
+          45.4916024
+        ]
+      },
+      "id": "node/4142385793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142386750",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "52",
+        "addr:postcode": "20159",
+        "addr:street": "Via Carlo Farini",
+        "amenity": "bar",
+        "name": "Waiting Bar",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1844035,
+          45.4920241
+        ]
+      },
+      "id": "node/4142386750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142388219",
+        "amenity": "cafe",
+        "name": "Wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1827293,
+          45.4934935
+        ]
+      },
+      "id": "node/4142388219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142391912",
+        "amenity": "cafe",
+        "name": "Bar fortuna",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2014342,
+          45.5086066
+        ]
+      },
+      "id": "node/4142391912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4211054770",
+        "amenity": "cafe",
+        "name": "Spritz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2100517,
+          45.4999917
+        ]
+      },
+      "id": "node/4211054770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4270803656",
+        "amenity": "cafe",
+        "name": "Ideal Bar",
+        "vending": "cigarettes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1890881,
+          45.4954972
+        ]
+      },
+      "id": "node/4270803656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4270803661",
+        "amenity": "cafe",
+        "name": "Il Posto Giusto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1900388,
+          45.4952423
+        ]
+      },
+      "id": "node/4270803661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4341077992",
+        "addr:housenumber": "73",
+        "addr:street": "Viale Sarca",
+        "amenity": "cafe",
+        "cuisine": "italian",
+        "facebook": "MadeinSicilyMilano",
+        "name": "Made in Sicily",
+        "opening_hours": "Mo-Sa 07:00-20:00, Su 08:00-18:00; PH off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2038429,
+          45.5073092
+        ]
+      },
+      "id": "node/4341077992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357202024",
+        "amenity": "cafe",
+        "name": "Bar Elisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2129322,
+          45.491051
+        ]
+      },
+      "id": "node/4357202024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4374325367",
+        "amenity": "cafe",
+        "layer": "-1",
+        "name": "Good Morn'ng",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2126561,
+          45.5150601
+        ]
+      },
+      "id": "node/4374325367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424655374",
+        "amenity": "cafe",
+        "name": "Calabrese",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.207718,
+          45.5147656
+        ]
+      },
+      "id": "node/4424655374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424655809",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "163",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "amenity": "cafe",
+        "name": "Caffetteria Ateneo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2080771,
+          45.5148863
+        ]
+      },
+      "id": "node/4424655809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4444118998",
+        "addr:housenumber": "69",
+        "addr:street": "Via Gioacchino Murat",
+        "amenity": "bar",
+        "name": "Al 69",
+        "opening_hours": "Mo 00:00+",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1898319,
+          45.5014538
+        ]
+      },
+      "id": "node/4444118998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4543896537",
+        "amenity": "cafe",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2030873,
+          45.4959139
+        ]
+      },
+      "id": "node/4543896537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4553487794",
+        "amenity": "cafe",
+        "name": "Bar Emotion",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1882735,
+          45.4931408
+        ]
+      },
+      "id": "node/4553487794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568355082",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2052567,
+          45.509818
+        ]
+      },
+      "id": "node/4568355082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568361010",
+        "amenity": "cafe",
+        "name": "Bar 73"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2037041,
+          45.5070443
+        ]
+      },
+      "id": "node/4568361010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568361069",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "52",
+        "addr:street": "Via Salvatore Pianell",
+        "amenity": "cafe",
+        "name": "Bar Le Betulle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2025574,
+          45.5082116
+        ]
+      },
+      "id": "node/4568361069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4578102043",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117228,
+          45.4998362
+        ]
+      },
+      "id": "node/4578102043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4581516014",
+        "amenity": "cafe",
+        "name": "Bar Augusto",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1763226,
+          45.495421
+        ]
+      },
+      "id": "node/4581516014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584487006",
+        "amenity": "cafe",
+        "name": "Bar Monica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1869008,
+          45.4951389
+        ]
+      },
+      "id": "node/4584487006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584487008",
+        "amenity": "cafe",
+        "name": "Bar Dada's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1871663,
+          45.4953565
+        ]
+      },
+      "id": "node/4584487008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4584487040",
+        "amenity": "cafe",
+        "name": "Roby Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1878744,
+          45.4940611
+        ]
+      },
+      "id": "node/4584487040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4585296923",
+        "amenity": "cafe",
+        "name": "Caffè Bar Farini",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.184971,
+          45.4941146
+        ]
+      },
+      "id": "node/4585296923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4585296925",
+        "amenity": "cafe",
+        "name": "7's Gio",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1850377,
+          45.4942763
+        ]
+      },
+      "id": "node/4585296925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4585321456",
+        "amenity": "cafe",
+        "name": "Bar Big Bang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1864528,
+          45.4944322
+        ]
+      },
+      "id": "node/4585321456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4606155907",
+        "amenity": "cafe",
+        "name": "Grand Cafè & Tre Marie",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1881034,
+          45.5005273
+        ]
+      },
+      "id": "node/4606155907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607796745",
+        "amenity": "cafe",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1784768,
+          45.500337
+        ]
+      },
+      "id": "node/4607796745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916290658",
+        "addr:city": "Milano",
+        "addr:postcode": "20159",
+        "addr:street": "Via Budua",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Bar Tabacchi Nazionali e Esteri",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1954207,
+          45.498007
+        ]
+      },
+      "id": "node/4916290658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985227678",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.194473,
+          45.4985265
+        ]
+      },
+      "id": "node/4985227678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985228946",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "5",
+        "addr:postcode": "20159",
+        "addr:street": "Largo Vulci",
+        "amenity": "pub",
+        "name": "Birreria Okey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1935316,
+          45.4984325
+        ]
+      },
+      "id": "node/4985228946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985228986",
+        "amenity": "cafe",
+        "name": "Bar Murat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1919679,
+          45.4970685
+        ]
+      },
+      "id": "node/4985228986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985229015",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "40",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Marche",
+        "amenity": "cafe",
+        "name": "Coffee & Smoking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1935343,
+          45.4960269
+        ]
+      },
+      "id": "node/4985229015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985229451",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "2",
+        "addr:postcode": "20159",
+        "addr:street": "Via Gioacchino Murat",
+        "alt_name": "La Miniera",
+        "amenity": "pub",
+        "email": "info@bedahouse.it",
+        "name": "Beda House",
+        "phone": "+39 02 603282",
+        "website": "http://www.bedahouse.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1922736,
+          45.4965543
+        ]
+      },
+      "id": "node/4985229451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5015908842",
+        "amenity": "cafe",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1942611,
+          45.4937999
+        ]
+      },
+      "id": "node/5015908842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5015913126",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1958034,
+          45.4941468
+        ]
+      },
+      "id": "node/5015913126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5064509143",
+        "amenity": "cafe",
+        "cuisine": "healty_food",
+        "name": "Tutto St'orto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120661,
+          45.5145
+        ]
+      },
+      "id": "node/5064509143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074923178",
+        "amenity": "cafe",
+        "name": "Bar Marilù"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1910318,
+          45.4932264
+        ]
+      },
+      "id": "node/5074923178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074925145",
+        "amenity": "cafe",
+        "name": "Bar...lafüs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1900367,
+          45.4923672
+        ]
+      },
+      "id": "node/5074925145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074943074",
+        "amenity": "cafe",
+        "name": "Tiffany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1916513,
+          45.4947738
+        ]
+      },
+      "id": "node/5074943074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5122368869",
+        "amenity": "pub",
+        "name": "Sporting Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2006239,
+          45.5111924
+        ]
+      },
+      "id": "node/5122368869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287291098",
+        "amenity": "cafe",
+        "name": "Lido Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.219608,
+          45.4941966
+        ]
+      },
+      "id": "node/5287291098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287291256",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2200157,
+          45.4949412
+        ]
+      },
+      "id": "node/5287291256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5305316985",
+        "addr:city": "Milano",
+        "addr:housenumber": "132",
+        "addr:street": "Viale Zara",
+        "amenity": "bar",
+        "name": "Bar Oasi",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1978097,
+          45.5005387
+        ]
+      },
+      "id": "node/5305316985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178744",
+        "amenity": "cafe",
+        "name": "L'Incontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2167193,
+          45.4932979
+        ]
+      },
+      "id": "node/5405178744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405178765",
+        "amenity": "cafe",
+        "name": "Ci Vuole un Drink"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2185083,
+          45.4946761
+        ]
+      },
+      "id": "node/5405178765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405179421",
+        "amenity": "cafe",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2174837,
+          45.4960128
+        ]
+      },
+      "id": "node/5405179421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5450826092",
+        "amenity": "cafe",
+        "name": "Bar Fortuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2192164,
+          45.4937454
+        ]
+      },
+      "id": "node/5450826092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608718799",
+        "amenity": "cafe",
+        "name": "The Banned"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1733911,
+          45.5159723
+        ]
+      },
+      "id": "node/5608718799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5625488457",
+        "amenity": "cafe",
+        "cuisine": "burger;sandwich",
+        "name": "Tranvai",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2103193,
+          45.4974836
+        ]
+      },
+      "id": "node/5625488457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5651142471",
+        "amenity": "bar",
+        "name": "Bar Zanoli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1714912,
+          45.5157059
+        ]
+      },
+      "id": "node/5651142471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5678668033",
+        "addr:housenumber": "4",
+        "addr:street": "Via Latisana",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Zanzibar",
+        "opening_hours": "Mo-Su 07:00-02:00",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1975294,
+          45.5026269
+        ]
+      },
+      "id": "node/5678668033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5688749416",
+        "amenity": "cafe",
+        "name": "Bar dell'Occhio",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1724436,
+          45.5158735
+        ]
+      },
+      "id": "node/5688749416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694556905",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2149651,
+          45.4931907
+        ]
+      },
+      "id": "node/5694556905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558341",
+        "amenity": "cafe",
+        "name": "Bar Morbegno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2165422,
+          45.4927263
+        ]
+      },
+      "id": "node/5694558341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558352",
+        "amenity": "cafe",
+        "name": "Bar Tender",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2162579,
+          45.4927959
+        ]
+      },
+      "id": "node/5694558352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558395",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2160058,
+          45.4910867
+        ]
+      },
+      "id": "node/5694558395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558400",
+        "amenity": "cafe",
+        "name": "Bar Giulia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.216671,
+          45.4911018
+        ]
+      },
+      "id": "node/5694558400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558417",
+        "amenity": "cafe",
+        "name": "Bar I Pupari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.218393,
+          45.4924537
+        ]
+      },
+      "id": "node/5694558417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558532",
+        "amenity": "cafe",
+        "name": "Caffè Beirut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2186451,
+          45.4918858
+        ]
+      },
+      "id": "node/5694558532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694558533",
+        "amenity": "cafe",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2182454,
+          45.492008
+        ]
+      },
+      "id": "node/5694558533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5695173923",
+        "addr:city": "Milano",
+        "addr:housenumber": "83",
+        "addr:postcode": "20125",
+        "addr:street": "Via Giulio e Corrado Venini",
+        "amenity": "cafe",
+        "description": "Hug è un community hub di rigenerazione urbana, luogo etico di innovazione, punto di riferimento sul territorio.",
+        "email": "mail@hugmilano.com",
+        "internet_access": "wlan",
+        "name": "Hug Milano",
+        "note": "Hug è uno spazio difficile da classificare, meglio passare o dare un'occhiata al sito",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+39 389 8485296",
+        "shop": "bicycle",
+        "smoking": "outside",
+        "tourism": "hostel",
+        "website": "https://hugmilano.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2163609,
+          45.4943979
+        ]
+      },
+      "id": "node/5695173923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712974747",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1975147,
+          45.505501
+        ]
+      },
+      "id": "node/5712974747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712974781",
+        "amenity": "cafe",
+        "name": "Gianni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1999152,
+          45.5081082
+        ]
+      },
+      "id": "node/5712974781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712974797",
+        "amenity": "cafe",
+        "name": "Ca' Granda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.200567,
+          45.5071289
+        ]
+      },
+      "id": "node/5712974797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712975134",
+        "amenity": "cafe",
+        "name": "Bar d'Angolo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1984642,
+          45.5079992
+        ]
+      },
+      "id": "node/5712975134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712975139",
+        "amenity": "cafe",
+        "name": "Bar Luna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1998589,
+          45.5089184
+        ]
+      },
+      "id": "node/5712975139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712975177",
+        "amenity": "cafe",
+        "name": "Avana",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1976568,
+          45.5057285
+        ]
+      },
+      "id": "node/5712975177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5716108576",
+        "amenity": "bar",
+        "name": "Bar da Giorgia",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1988002,
+          45.5007291
+        ]
+      },
+      "id": "node/5716108576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5961146024",
+        "addr:city": "Milano",
+        "addr:postcode": "20126",
+        "addr:street": "Viale dell'Innovazione",
+        "amenity": "bar",
+        "name": "FLOW",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2128601,
+          45.5148385
+        ]
+      },
+      "id": "node/5961146024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5965799697",
+        "amenity": "bar",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1764276,
+          45.5155508
+        ]
+      },
+      "id": "node/5965799697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187563190",
+        "amenity": "cafe",
+        "name": "Gran Moka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1934511,
+          45.5030826
+        ]
+      },
+      "id": "node/6187563190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6461385214",
+        "addr:city": "Milano",
+        "addr:housenumber": "2",
+        "addr:street": "Piazza Morbegno",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Ghe Pensi Mi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2166217,
+          45.4929848
+        ]
+      },
+      "id": "node/6461385214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6846887520",
+        "addr:city": "Milano",
+        "addr:housenumber": "5",
+        "addr:street": "Via Luigi Varanini",
+        "amenity": "bar",
+        "club": "board_games",
+        "contact:email": "noloso.mi@gmail.com",
+        "contact:facebook": "https://www.facebook.com/NoLoSo.Milano",
+        "contact:instagram": "https://instagram.com/noloso.milano",
+        "contact:phone": "+39 331 4294088",
+        "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187849-d15121011",
+        "lgbtq": "primary",
+        "name": "NoLoSo",
+        "outdoor_seating": "no",
+        "start_date": "2017-09-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2179133,
+          45.4930036
+        ]
+      },
+      "id": "node/6846887520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6959937496",
+        "amenity": "cafe",
+        "name": "4 Stagioni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1775892,
+          45.5059508
+        ]
+      },
+      "id": "node/6959937496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7174315527",
+        "amenity": "bar",
+        "name": "cafè Maria",
+        "opening_hours": "Mo-Sa 07:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1743567,
+          45.5060577
+        ]
+      },
+      "id": "node/7174315527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7175370917",
+        "amenity": "bar",
+        "name": "bar sara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1756246,
+          45.5054896
+        ]
+      },
+      "id": "node/7175370917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176347071",
+        "amenity": "bar",
+        "name": "on the road",
+        "opening_hours": "Mo-Su 06:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1823319,
+          45.497464
+        ]
+      },
+      "id": "node/7176347071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176347073",
+        "amenity": "bar",
+        "name": "al baretto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.18189,
+          45.4985615
+        ]
+      },
+      "id": "node/7176347073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176347077",
+        "amenity": "pub",
+        "brewery": "yes",
+        "name": "rebelot",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1814861,
+          45.498934
+        ]
+      },
+      "id": "node/7176347077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698245",
+        "amenity": "bar",
+        "bar": "vegan",
+        "name": "Sound of '70"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1759289,
+          45.5020152
+        ]
+      },
+      "id": "node/7177698245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698246",
+        "amenity": "cafe",
+        "name": "sweet salty & cofee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1758542,
+          45.5019704
+        ]
+      },
+      "id": "node/7177698246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698256",
+        "amenity": "bar",
+        "name": "An dì"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.175451,
+          45.502073
+        ]
+      },
+      "id": "node/7177698256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698265",
+        "amenity": "cafe",
+        "name": "Da Cri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1764765,
+          45.5028184
+        ]
+      },
+      "id": "node/7177698265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698273",
+        "amenity": "bar",
+        "name": "Sun Garden Bar",
+        "opening_hours": "Mo-Su 06:30-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1764007,
+          45.5038656
+        ]
+      },
+      "id": "node/7177698273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7177698282",
+        "amenity": "bar",
+        "name": "Bar Felice",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1758646,
+          45.5046779
+        ]
+      },
+      "id": "node/7177698282"
+    }
+  ]
+}

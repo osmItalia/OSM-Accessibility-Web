@@ -56,7 +56,8 @@ function App() {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Layer name="shops" />
-            <Layer name="crossing" />
+            <Layer name="restaurants" />
+            <Layer name="bars" />
             <LayerRender />
             <SearchLayer />
             <DirectionsLayer />

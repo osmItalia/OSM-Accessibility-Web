@@ -4,7 +4,7 @@ import 'leaflet.markercluster/dist/leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import { useMap } from 'react-leaflet';
-import { customMarker } from '../../constants';
+import { getIconForFeature } from '../../assets/icons';
 
 const mcg = L.markerClusterGroup();
 
@@ -13,9 +13,9 @@ const MarkerCluster = ({ markers }) => {
 
   useEffect(() => {
     mcg.clearLayers();
-    markers.forEach(({ position, text }) =>
+    markers.forEach(({ position, text, layer, wheelchair }) =>
       L.marker(new L.LatLng(position[1], position[0]), {
-        icon: customMarker
+        icon: getIconForFeature(layer, wheelchair)
       })
         .addTo(mcg)
         .bindPopup(text)

@@ -1,0 +1,29 @@
+.layer-icon.accessibility_yes path {
+    fill: #6ecc39 !important;
+}
+
+.layer-icon.accessibility_no path {
+    fill: #d9363e !important;
+}
+
+.layer-icon.accessibility_limited path {
+    fill: #ffc53d !important;
+}
+
+.layer-icon.accessibility_unknown path {
+    fill: #454545 !important;
+}
+
+.ant-btn:hover .anticon path, .ant-btn:hover .anticon rect {
+    fill: #40a9ff !important;
+}
+
+.ant-btn-primary .anticon path,
+.ant-btn-primary .anticon rect,
+.ant-btn-primary:hover .anticon path,
+.ant-btn-primary:hover .anticon rect {
+    fill: #fff !important;
+}
+
+
+

@@ -3,8 +3,8 @@ import { layersActions } from './slice';
 import { fetchLayer } from '../../api';
 import { notification } from 'antd';
 import { mapActions } from '../map/slice';
-import { featuresWithGeometrySelector } from './selectors';
-import { getZoom } from '../map/selectors';
+import { featuresWithGeometrySelector, getLayers } from './selectors';
+import { getBounds, getZoom } from '../map/selectors';
 
 function* fetch(action) {
   try {
@@ -23,19 +23,24 @@ function* fetch(action) {
   }
 }
 
-function* filterFeatures(action) {
+function* filterFeatures() {
   const features = yield select(featuresWithGeometrySelector);
   const zoom = yield select(getZoom);
+  const bounds = yield select(getBounds);
+  const layers = yield select(getLayers);
 
   const visible = features.filter(
     f =>
       zoom >= f.visibleAfterScale &&
-      (!f.bounds || action.payload.contains(f.bounds))
+      (!f.bounds || bounds.contains(f.bounds)) &&
+      layers.includes(f.layer)
   );
+
   yield put(layersActions.setVisibleFeatures(visible.map(f => f.id)));
 }
 
 export function* watchLayers() {
   yield takeEvery(layersActions.fetch.type, fetch);
   yield takeLatest(mapActions.setBounds.type, filterFeatures);
+  yield takeLatest(layersActions.toggleLayer.type, filterFeatures);
 }

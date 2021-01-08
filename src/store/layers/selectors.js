@@ -52,3 +52,8 @@ export const featuresWithGeometrySelector = createSelector(
 );
 
 export const getFeaturesSelector = createSelector(getVisible, getFeatures);
+
+export const getLayers = createSelector(
+  getDomain,
+  layers => layers.visibleLayers
+);
