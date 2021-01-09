@@ -15,3 +15,5 @@ code {
 .hide-search .ant-input-group-addon {
   display: none;
 }
+
+.markercluster-map { height: 90vh; }
