@@ -5,12 +5,16 @@ import { useEffect } from 'react';
 
 export default function MapEvents() {
   const dispatch = useDispatch();
+
   const map = useMapEvents({
     zoomend: () => {
       dispatch(mapActions.setZoom(map.getZoom()));
     },
     moveend: () => {
       dispatch(mapActions.setBounds(map.getBounds()));
+    },
+    click: e => {
+      dispatch(mapActions.click(e.latlng));
     }
   });
 

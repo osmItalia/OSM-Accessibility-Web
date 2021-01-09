@@ -1,4 +1,4 @@
-import { Button, Input, Tooltip } from 'antd';
+import { Button, Col, Input, notification, Row, Tooltip } from 'antd';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { appActions } from '../../store/app/slice';
@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TRAVEL_MEAN } from '../../constants';
+import { CloseOutlined, SelectOutlined } from '@ant-design/icons';
 
 export default function Directions() {
   const dispatch = useDispatch();
@@ -65,24 +66,47 @@ export default function Directions() {
           />
         </Tooltip>
       </div>
-      <Input.Search
-        name="start"
-        placeholder="Partenza"
-        allowClear
-        addonAfter={null}
-        enterButton={false}
-        className="hide-search"
-        style={{
-          marginBottom: '.5rem'
-        }}
-        value={state.startInput}
-        onChange={e =>
-          dispatch(directionsActions.setStartInput(e.target.value))
-        }
-        loading={state.loadingStart}
-        onSearch={() => dispatch(directionsActions.onSearchStart())}
-        onBlur={() => dispatch(directionsActions.onSearchStart())}
-      />
+      <Input.Group>
+        <Row gutter={8}>
+          <Col span={21}>
+            <Input.Search
+              name="start"
+              placeholder="Partenza"
+              allowClear
+              addonAfter={null}
+              enterButton={false}
+              className="hide-search"
+              style={{
+                marginBottom: '.5rem'
+              }}
+              value={state.startInput}
+              onChange={e =>
+                dispatch(directionsActions.setStartInput(e.target.value))
+              }
+              loading={state.loadingStart}
+              onSearch={() => dispatch(directionsActions.onSearchStart())}
+              onBlur={() => dispatch(directionsActions.onSearchStart())}
+            />
+          </Col>
+          <Col span={2}>
+            <Tooltip title="Seleziona dalla mappa">
+              <Button
+                icon={
+                  state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
+                }
+                onClick={() => {
+                  if (!state.selectFromMap) {
+                    notification.info({
+                      message: 'Premi sulla mappa per selezionare il punto'
+                    });
+                  }
+                  dispatch(directionsActions.toggleSelectFromMap());
+                }}
+              />
+            </Tooltip>
+          </Col>
+        </Row>
+      </Input.Group>
       <Input.Search
         name="end"
         placeholder="Arrivo"

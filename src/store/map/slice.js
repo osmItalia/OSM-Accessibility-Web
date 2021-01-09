@@ -14,6 +14,9 @@ const mapSlice = createSlice({
     },
     setBounds(state, action) {
       state.bounds = action.payload;
+    },
+    click() {
+      //  pass
     }
   }
 });

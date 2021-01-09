@@ -8,6 +8,7 @@ import {
   selectDirectionsState
 } from './selectors';
 import { bboxAsBounds } from '../../utils/geo';
+import { mapActions } from '../map/slice';
 
 function* handleSearchChange(action) {
   let value;
@@ -89,9 +90,28 @@ export function* fetchDirections() {
   }
 }
 
+function* handleMapClick(action) {
+  const state = yield select(selectDirectionsState);
+  if (state.selectFromMap) {
+    yield put(directionsActions.toggleSelectFromMap());
+    yield put(
+      directionsActions.setStart([action.payload.lat, action.payload.lng])
+    );
+    yield put(
+      directionsActions.set({
+        key: 'startInput',
+        value: `${action.payload.lat.toFixed(4)},${action.payload.lng.toFixed(
+          4
+        )}`
+      })
+    );
+  }
+}
+
 export function* directionsSaga() {
   yield takeLatest(directionsActions.onSearchStart.type, handleSearchChange);
   yield takeLatest(directionsActions.onSearchEnd.type, handleSearchChange);
   yield takeLatest(directionsActions.navigate.type, fetchDirections);
   yield takeLatest(directionsActions.setTravelMean.type, handleChangeMean);
+  yield takeLatest(mapActions.click.type, handleMapClick);
 }
