@@ -17,6 +17,7 @@ function* fetch(action) {
         visibleAfterScale: action.payload.visibleAfterScale
       })
     );
+    yield put(mapActions.setBounds(window.LEAFLET_MAP.getBounds()));
   } catch (e) {
     console.log(e);
     notification.error({ message: 'Errore nel recuperare il layer' });
