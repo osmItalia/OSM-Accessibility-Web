@@ -18,7 +18,9 @@ const createMarker = (layer, className) =>
   new L.DivIcon({
     html: ICON_LAYERS[layer],
     className: `layer-icon ${className}`,
-    iconSize: [50, 50]
+    iconSize: [50, 50],
+    iconAnchor: [25, 50],
+    popupAnchor: [0, -50]
   });
 
 function createAccessibilityMarkers(layer) {
