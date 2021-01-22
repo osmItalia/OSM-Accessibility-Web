@@ -45,7 +45,7 @@ function App() {
           <MapContainer
             center={[45.5074, 9.1924]}
             zoom={16}
-            scrollWheelZoom={false}
+            scrollWheelZoom
             style={{ height: '100vh', maxWidth: '100%' }}
             zoomControl={false}
             whenCreated={setupMapReference}
