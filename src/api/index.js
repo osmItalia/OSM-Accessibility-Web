@@ -1,4 +1,5 @@
 import request from '../utils/request';
+import { OSM_NOTE_API } from '../constants';
 
 export class APIError extends Error {
   constructor(payload) {
@@ -45,6 +46,23 @@ export async function fetchOpenRouteService(directionsState) {
     }
   });
   const body = await response.json();
+  if (response.status >= 400) {
+    throw new APIError(body);
+  }
+  console.log(body);
+  return body;
+}
+
+export async function saveNote(lat, lon, text) {
+  const url = new URL(OSM_NOTE_API);
+  const params = {
+    lat,
+    lon,
+    text
+  };
+  Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+  const response = await fetch(url, { method: 'POST' });
+  const body = await response.text();
   if (response.status >= 400) {
     throw new APIError(body);
   }

@@ -5,11 +5,13 @@ import layers from './layers/slice';
 import map from './map/slice';
 import app from './app/slice';
 import directions from './directions/slice';
+import note from './notes/slice';
 
 export default combineReducers({
   search,
   layers,
   map,
   app,
-  directions
+  directions,
+  note
 });

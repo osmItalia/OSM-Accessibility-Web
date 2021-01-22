@@ -10,6 +10,7 @@ import { ReactComponent as Shop } from '../../assets/shop-icon.svg';
 import { getLayers } from '../../store/layers/selectors';
 import { layersActions } from '../../store/layers/slice';
 import { NEWSLETTER_IFRAME_SRC } from '../../constants';
+import AddNote from '../AddNote';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -62,6 +63,7 @@ export default function Controllers() {
           style={{ width: '100%', height: '60vh' }}
         />
       </Drawer>
+      <AddNote />
       <Tooltip title="Mostra ricerca e navigazione" placement="left">
         <Button
           size="large"

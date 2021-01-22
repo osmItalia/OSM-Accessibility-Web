@@ -30,3 +30,6 @@ export const NEWSLETTER_IFRAME_SRC =
 
 export const PAYPAL_DONATION_URL =
   'https://www.paypal.com/donate/?business=ECAW27MH2UEPU&item_name=test&currency_code=EUR';
+
+export const OSM_NOTE_API =
+  'https://master.apis.dev.openstreetmap.org/api/0.6/notes';
