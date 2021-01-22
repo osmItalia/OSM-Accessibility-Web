@@ -23,6 +23,8 @@ import SearchLayer from './components/Search/SearchLayer';
 import AppDrawer from './components/Drawer';
 import Controllers from './components/Controllers';
 import DirectionsLayer from './components/Directions/DirectionsLayer';
+import { useSelector } from 'react-redux';
+import { getIsSelectingFromMap } from './store/app/selectors';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -37,6 +39,8 @@ function App() {
     window.LEAFLET_MAP = map;
   }, []);
 
+  const isSelectingPoint = useSelector(getIsSelectingFromMap);
+
   return (
     <Layout>
       <AppDrawer />
@@ -46,9 +50,13 @@ function App() {
             center={[45.5074, 9.1924]}
             zoom={16}
             scrollWheelZoom
-            style={{ height: '100vh', maxWidth: '100%' }}
             zoomControl={false}
             whenCreated={setupMapReference}
+            style={{
+              height: '100vh',
+              maxWidth: '100%',
+              cursor: isSelectingPoint ? 'crosshair' : 'auto'
+            }}
           >
             <ZoomControl position="bottomright" />
             <TileLayer
