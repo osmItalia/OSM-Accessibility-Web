@@ -24,3 +24,6 @@ export const TRAVEL_MEAN = {
   FOOT: 'foot-walking',
   WHEELCHAIR: 'wheelchair'
 };
+
+export const NEWSLETTER_IFRAME_SRC =
+  'https://www.webarea.services/form_give/index.php?pagina=form&action=viewForm&idform=474&idEnass=c8ffe9a587b126f152ed3d89a146b445';
