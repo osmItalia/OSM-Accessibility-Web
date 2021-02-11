@@ -1,29 +1,59 @@
-import { Layout } from 'antd';
-import React from 'react';
+import { Button, Card, notification } from 'antd';
+import React, { useEffect } from 'react';
 import MapSearch from '../Search';
 import { useSelector } from 'react-redux';
 import { getAppState } from '../../store/app/selectors';
-import { MODES } from '../../constants';
+import { DONATION_TEXT, MODES, PAYPAL_DONATION_URL } from '../../constants';
 import Directions from '../Directions';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 
 export default function AppDrawer() {
   const app = useSelector(getAppState);
 
+  useEffect(() => {
+    notification.info({
+      placement: 'bottomLeft',
+      message: 'Supporta Wikimedia Italia',
+      icon: false,
+      duration: null,
+      style: {
+        width: '350px'
+      },
+      description: (
+        <>
+          <p style={{ marginBottom: 0 }}>{DONATION_TEXT}</p>
+          <Button
+            href={PAYPAL_DONATION_URL}
+            target="_blank"
+            style={{ marginTop: '1rem' }}
+            type="primary"
+            icon={
+              <FontAwesomeIcon
+                icon={faPaypal}
+                style={{ marginRight: '.5rem' }}
+              />
+            }
+          >
+            Fai una donazione
+          </Button>
+        </>
+      )
+    });
+  }, []);
+
   return (
-    <Layout.Sider
-      width={350}
-      collapsible
-      trigger={null}
-      breakpoint="lg"
-      collapsedWidth="0"
-      collapsed={!app.sider}
-      theme="light"
+    <Card
       style={{
-        padding: app.sider ? '1rem' : 0
+        width: '350px',
+        position: 'fixed',
+        top: '.5rem',
+        left: '.5rem',
+        zIndex: 999
       }}
     >
       {app.mode === MODES.SEARCH && <MapSearch />}
       {app.mode === MODES.DIRECTIONS && <Directions />}
-    </Layout.Sider>
+    </Card>
   );
 }

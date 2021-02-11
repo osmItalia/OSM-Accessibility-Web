@@ -6,9 +6,6 @@ import { bboxAsBounds } from '../../utils/geo';
 import { CompassOutlined } from '@ant-design/icons';
 import { appActions } from '../../store/app/slice';
 import { directionsActions } from '../../store/directions/slice';
-import { PAYPAL_DONATION_URL } from '../../constants';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 
 export default function MapSearch() {
   const dispatch = useDispatch();
@@ -35,17 +32,6 @@ export default function MapSearch() {
           />
         </Tooltip>
       </div>
-      <Button
-        href={PAYPAL_DONATION_URL}
-        target="_blank"
-        style={{ marginTop: '1rem' }}
-        type="primary"
-        icon={
-          <FontAwesomeIcon icon={faPaypal} style={{ marginRight: '.5rem' }} />
-        }
-      >
-        Fai una donazione
-      </Button>
       {state.list.length > 0 && (
         <Typography.Title level={4} style={{ marginTop: '1rem' }}>
           Risultati

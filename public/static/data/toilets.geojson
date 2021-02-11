@@ -1,0 +1,136 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-02-11T07:45:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1236387781",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1996404,
+          45.5214975
+        ]
+      },
+      "id": "node/1236387781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1705281767",
+        "amenity": "toilets",
+        "description": "3 WC chimici",
+        "fee": "no",
+        "operator": "AMSA",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.204898,
+          45.5202241
+        ]
+      },
+      "id": "node/1705281767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2414857036",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1781359,
+          45.5215176
+        ]
+      },
+      "id": "node/2414857036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2742686156",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.185748,
+          45.4930568
+        ]
+      },
+      "id": "node/2742686156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3726145531",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1956956,
+          45.5033049
+        ]
+      },
+      "id": "node/3726145531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935597237",
+        "amenity": "toilets",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1974038,
+          45.501884
+        ]
+      },
+      "id": "node/3935597237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378820193",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2158596,
+          45.5221571
+        ]
+      },
+      "id": "node/4378820193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5408572056",
+        "amenity": "toilets",
+        "fee": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1781257,
+          45.4993141
+        ]
+      },
+      "id": "node/5408572056"
+    }
+  ]
+}

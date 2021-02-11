@@ -1,0 +1,8297 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-02-11T07:46:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30049024",
+        "internet_access": "wlan",
+        "name": "Milano Greco Pirelli",
+        "network": "RFI",
+        "operator": "Trenord",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2143385,
+          45.5128565
+        ]
+      },
+      "id": "node/30049024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/226922262",
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "name": "Esso",
+        "opening_hours": "24/7",
+        "operator": "Petrol Green S.A.S. di Silvia Ciobanu & C.",
+        "ref:mise": "36032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1690815,
+          45.5047559
+        ]
+      },
+      "id": "node/226922262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227005846",
+        "amenity": "fuel",
+        "brand": "Eni",
+        "brand:wikidata": "Q565594",
+        "brand:wikipedia": "it:Eni",
+        "name": "Eni",
+        "operator": "Ghazal S.N.C. di Kumminithottathil Jose Bijoy",
+        "ref:mise": "35742"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918297,
+          45.4979568
+        ]
+      },
+      "id": "node/227005846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227516545",
+        "amenity": "fuel",
+        "brand": "Total Erg",
+        "fixme": "name",
+        "name": "@pump",
+        "opening_hours": "24/7",
+        "operator": "Gestioni Europa - Società Per Azioni",
+        "ref:mise": "28631"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1798725,
+          45.4973264
+        ]
+      },
+      "id": "node/227516545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227516643",
+        "amenity": "fuel",
+        "brand": "Costantin",
+        "name": "Costantin",
+        "operator": "Costantin Distribuzione e Servizi Srl",
+        "ref:mise": "33491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1747024,
+          45.5226966
+        ]
+      },
+      "id": "node/227516643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227529016",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "62",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Marche",
+        "amenity": "fuel",
+        "brand": "Q8",
+        "brand:wikidata": "Q1634762",
+        "brand:wikipedia": "en:Kuwait Petroleum Corporation",
+        "fuel:GTL_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Q8",
+        "operator": "Servizi & Gestioni Italia S.R.L.",
+        "ref:mise": "11662"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1914255,
+          45.4966814
+        ]
+      },
+      "id": "node/227529016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227529022",
+        "amenity": "fuel",
+        "name": "Simply",
+        "nobrand": "yes",
+        "operator": "Sma S.P.A.",
+        "ref:mise": "6791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1703534,
+          45.5198423
+        ]
+      },
+      "id": "node/227529022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227549071",
+        "amenity": "fuel",
+        "brand": "Eni",
+        "brand:wikidata": "Q565594",
+        "brand:wikipedia": "en:Eni",
+        "name": "Eni",
+        "opening_hours": "24/7",
+        "operator": "Di Biase Mario",
+        "ref:mise": "24574"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1837715,
+          45.4970635
+        ]
+      },
+      "id": "node/227549071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227621278",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "69",
+        "addr:postcode": "20159",
+        "addr:street": "Viale Edoardo Jenner",
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Esso",
+        "operator": "L.S. Snc di Stefano Palazzo &C.",
+        "ref:mise": "21296"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1730924,
+          45.4964671
+        ]
+      },
+      "id": "node/227621278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227639180",
+        "amenity": "fuel",
+        "brand": "Api",
+        "brand:wikidata": "Q466043",
+        "brand:wikipedia": "en:American Petroleum Institute",
+        "fixme": "name",
+        "name": "Api",
+        "nobrand": "yes",
+        "operator": "T.E.A. Trasporti e Autorimesse di Lucio Cimmaruta & C. S.A.S.",
+        "ref:mise": "34787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1986669,
+          45.4937284
+        ]
+      },
+      "id": "node/227639180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227644133",
+        "amenity": "fuel",
+        "brand": "IP",
+        "brand:wikidata": "Q646807",
+        "brand:wikipedia": "en:Anonima Petroli Italiana",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "IP",
+        "operator": "De Candia Massimiliano Pietro",
+        "ref:mise": "14057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1695992,
+          45.4967175
+        ]
+      },
+      "id": "node/227644133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/227749046",
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Esso",
+        "operator": "Sciumbata Davide & C. S.N.C. di Sciumbata Davide",
+        "ref:mise": "28354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1924489,
+          45.5211056
+        ]
+      },
+      "id": "node/227749046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/228122112",
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "name": "Esso",
+        "operator": "Al.Bra Car Service Snc di Gaetano Mastrogiacomo",
+        "ref:mise": "27431"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.180761,
+          45.504254
+        ]
+      },
+      "id": "node/228122112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/228122115",
+        "amenity": "fuel",
+        "brand": "Api-Ip",
+        "name": "Q8",
+        "operator": "Ambrogio Moro S.P.A.",
+        "ref:mise": "24108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1724238,
+          45.5154451
+        ]
+      },
+      "id": "node/228122115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/250048274",
+        "amenity": "parking",
+        "created_by": "JOSM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2035884,
+          45.4967101
+        ]
+      },
+      "id": "node/250048274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257047944",
+        "amenity": "parking",
+        "created_by": "JOSM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1991259,
+          45.5197377
+        ]
+      },
+      "id": "node/257047944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/281760662",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1947376,
+          45.5060472
+        ]
+      },
+      "id": "node/281760662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/289639404",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1891262,
+          45.5027644
+        ]
+      },
+      "id": "node/289639404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/295548092",
+        "name": "Rovereto",
+        "operator": "ATM",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "1964",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q2258090",
+        "wikipedia": "it:Rovereto (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2195058,
+          45.4955331
+        ]
+      },
+      "id": "node/295548092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/365547378",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Viale Barbera",
+        "ref": "12303",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2062335,
+          45.5216657
+        ]
+      },
+      "id": "node/365547378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/365561354",
+        "bus_routes": "51",
+        "highway": "bus_stop",
+        "mapillary": "KOD3q_LQTo00IrNSavbW2A",
+        "name": "V.le Testi Via S. Glicerio",
+        "pole": "yes",
+        "shelter": "no",
+        "survey:date": "2018-02-15",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.206886,
+          45.518587
+        ]
+      },
+      "id": "node/365561354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441109563",
+        "name": "Dergano",
+        "operator": "ATM",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q1088220",
+        "wikipedia": "it:Dergano (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1795578,
+          45.5055536
+        ]
+      },
+      "id": "node/441109563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441118967",
+        "name": "Marche",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2013",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3845747",
+        "wikipedia": "it:Marche (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1948236,
+          45.4961456
+        ]
+      },
+      "id": "node/441118967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441118969",
+        "name": "Istria",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2013",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3803878",
+        "wikipedia": "it:Istria (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.19792,
+          45.5016262
+        ]
+      },
+      "id": "node/441118969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441118971",
+        "alt_name": "Ca Granda",
+        "name": "Ca' Granda - Pratocentenaro",
+        "old_name": "Cagranda",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2013",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3649077",
+        "wikipedia": "it:Ca' Granda (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2011103,
+          45.5072425
+        ]
+      },
+      "id": "node/441118971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441118974",
+        "name": "Bicocca",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2013",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q3639727",
+        "wikipedia": "it:Bicocca (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2053699,
+          45.5147339
+        ]
+      },
+      "id": "node/441118974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726917439",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Via Alserio",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11613",
+        "shelter": "yes",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838524,
+          45.4910326
+        ]
+      },
+      "id": "node/726917439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726923443",
+        "bench": "no",
+        "bus": "yes",
+        "comment:it": "come panchina e tettoia può essere usata quelle della fermata del tram 2",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Lancetti",
+        "old_name": "Viale Lancetti - Via Aprica",
+        "public_transport": "platform",
+        "route_ref": "92",
+        "shelter": "no",
+        "towards": "Isonzo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1756847,
+          45.4951194
+        ]
+      },
+      "id": "node/726923443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726927282",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Jenner",
+        "old_name": "Viale Jenner - Via Resegone",
+        "public_transport": "platform",
+        "ref": "11346",
+        "shelter": "yes",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.176916,
+          45.4969616
+        ]
+      },
+      "id": "node/726927282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/726927283",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Jenner",
+        "old_name": "Viale Jenner - Via Resegone",
+        "public_transport": "platform",
+        "ref": "11345",
+        "shelter": "yes",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1768721,
+          45.4968531
+        ]
+      },
+      "id": "node/726927283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/959824649",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Sauro - Via Oldofredi",
+        "old_name": "Viale Sauro - Via Restelli",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.197611,
+          45.491357
+        ]
+      },
+      "id": "node/959824649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/959824652",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Stelvio - Via Lario",
+        "public_transport": "platform",
+        "ref": "11641",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1910181,
+          45.4931059
+        ]
+      },
+      "id": "node/959824652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/959824656",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Sauro - Via Oldofredi",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1969134,
+          45.4914515
+        ]
+      },
+      "id": "node/959824656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1028229243",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Da Seregno - Via Astesani",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "ref": "11372",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1702209,
+          45.5201597
+        ]
+      },
+      "id": "node/1028229243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1029570927",
+        "name": "Affori Centro",
+        "operator": "ATM",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1088237",
+        "wikipedia": "it:Affori Centro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1739799,
+          45.5135543
+        ]
+      },
+      "id": "node/1029570927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030280352",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cascina California",
+        "public_transport": "platform",
+        "ref": "15464",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1923725,
+          45.5217696
+        ]
+      },
+      "id": "node/1030280352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030280471",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda (Parco Nord)",
+        "public_transport": "platform",
+        "ref": "11692",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1925542,
+          45.5243032
+        ]
+      },
+      "id": "node/1030280471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1030280474",
+        "highway": "bus_stop",
+        "name": "Cascina California",
+        "ref": "11694"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1921148,
+          45.5229
+        ]
+      },
+      "id": "node/1030280474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276400883",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Ospedale Galeazzi",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "11381",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1741606,
+          45.5226257
+        ]
+      },
+      "id": "node/1276400883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276400927",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Galeazzi",
+        "public_transport": "platform",
+        "ref": "11380",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1752383,
+          45.523141
+        ]
+      },
+      "id": "node/1276400927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276417089",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via da Seregno - Via Pasta",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "ref": "11677",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1787228,
+          45.5245948
+        ]
+      },
+      "id": "node/1276417089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276417092",
+        "bus": "yes",
+        "comment:it": "fermata soppressa per lavori",
+        "highway": "bus_stop",
+        "name": "Via Da Seregno - Via Astesani",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "ref": "11375",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1707997,
+          45.5203597
+        ]
+      },
+      "id": "node/1276417092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276417093",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via da Seregno - Via Pasta",
+        "public_transport": "platform",
+        "ref": "11678",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.178946,
+          45.5244063
+        ]
+      },
+      "id": "node/1276417093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1276502116",
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Rubicone - Via Da Seregno",
+        "note": "this stop was put back in use on 2 May 2012",
+        "passenger_information_display": "no",
+        "ref": "17041",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1732744,
+          45.522624
+        ]
+      },
+      "id": "node/1276502116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1277834103",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Galeazzi",
+        "passenger_information_display": "no",
+        "ref": "16058",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1752307,
+          45.5237888
+        ]
+      },
+      "id": "node/1277834103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1277834492",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Casarsa - Piazza Fortunato",
+        "passenger_information_display": "no",
+        "ref": "11383",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.174623,
+          45.5244555
+        ]
+      },
+      "id": "node/1277834492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1277834635",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Affori FN/M3",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "16792",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1696334,
+          45.5201513
+        ]
+      },
+      "id": "node/1277834635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1277834725",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Affori FN/M3",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "16791",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1695747,
+          45.5201015
+        ]
+      },
+      "id": "node/1277834725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742024",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Viale Stelvio",
+        "public_transport": "platform",
+        "ref": "11620",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1857766,
+          45.4943975
+        ]
+      },
+      "id": "node/1279742024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742037",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.193828,
+          45.4921834
+        ]
+      },
+      "id": "node/1279742037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742039",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Viale Stelvio",
+        "public_transport": "platform",
+        "ref": "11622",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.185647,
+          45.494527
+        ]
+      },
+      "id": "node/1279742039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742053",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zara",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1939701,
+          45.4924107
+        ]
+      },
+      "id": "node/1279742053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742054",
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2020-11-01",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "old_name": "Viale Sauro - Viale Zara",
+        "public_transport": "platform",
+        "ref": "11895",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1934208,
+          45.492468
+        ]
+      },
+      "id": "node/1279742054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742061",
+        "bench": "no",
+        "bus": "yes",
+        "comment:it": "fermata autobus extra urbani z150 Milano - Cantu e z130 Milano - Senago - Limbiate di Airpulman",
+        "highway": "bus_stop",
+        "mapillary": "JMFaxXgqup0mkAkoGXURyQ",
+        "name": "Miano Viale Zara 52 - MM3 (dep. ATM)",
+        "pole": "yes",
+        "public_transport": "platform",
+        "shelter": "no",
+        "survey:date": "2018-04-30",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1932098,
+          45.4939014
+        ]
+      },
+      "id": "node/1279742061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742065",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Viale Stelvio",
+        "public_transport": "platform",
+        "ref": "15531",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1858454,
+          45.4945552
+        ]
+      },
+      "id": "node/1279742065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279742073",
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2020-11-01",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "old_name": "Viale Sauro - Viale Zara",
+        "public_transport": "platform",
+        "ref": "11896",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1933501,
+          45.4924
+        ]
+      },
+      "id": "node/1279742073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1283536253",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "mapillary": "W1uyE5nIydGL9DNPduadZA",
+        "name": "Greco",
+        "pole": "yes",
+        "public_transport": "platform",
+        "ref": "15426",
+        "shelter": "no",
+        "survey:date": "2019-08-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2141109,
+          45.513447
+        ]
+      },
+      "id": "node/1283536253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1283536254",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Emanueli - Viale Sarca",
+        "operator": "ATM",
+        "public_transport": "platform",
+        "ref": "12285",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2088712,
+          45.5144561
+        ]
+      },
+      "id": "node/1283536254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286915409",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Astesani - Via Zanoli",
+        "ref": "11376",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1726291,
+          45.5155391
+        ]
+      },
+      "id": "node/1286915409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286915419",
+        "bus": "yes",
+        "comment": "L'annuncio sul bus annuncia questa fermata semplicemente come \"Via Imbonati (Dergano M3)\"",
+        "highway": "bus_stop",
+        "name": "Dergano M3",
+        "note": "Check if a shelter is present or not",
+        "public_transport": "platform",
+        "ref": "16838",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1797189,
+          45.5054353
+        ]
+      },
+      "id": "node/1286915419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1286915421",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Imbonati - Via Monte San Genesio",
+        "public_transport": "platform",
+        "ref": "11648",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1831834,
+          45.5001422
+        ]
+      },
+      "id": "node/1286915421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1289529721",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Maggiore (Niguarda)",
+        "public_transport": "platform",
+        "ref": "11668",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1897846,
+          45.5095223
+        ]
+      },
+      "id": "node/1289529721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1289529758",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Benefattori dell'Ospedale",
+        "public_transport": "platform",
+        "ref": "11663",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1886211,
+          45.5071365
+        ]
+      },
+      "id": "node/1289529758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293986598",
+        "bench": "yes",
+        "bus": "yes",
+        "comment:it": "anche fermata sostituita M3 ed NM3 in direzione San Donato",
+        "highway": "bus_stop",
+        "name": "Maciachini M3",
+        "public_transport": "platform",
+        "ref": "11649",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1847351,
+          45.4978436
+        ]
+      },
+      "id": "node/1293986598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1293986603",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Maciachini M3",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "ref": "15598",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1850754,
+          45.4977955
+        ]
+      },
+      "id": "node/1293986603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294003450",
+        "highway": "bus_stop",
+        "name": "Via Baldinucci - Via Tartini",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1750701,
+          45.5051089
+        ]
+      },
+      "id": "node/1294003450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294003452",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Maffucci - Via Baldinucci",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1693258,
+          45.5034102
+        ]
+      },
+      "id": "node/1294003452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294003461",
+        "highway": "bus_stop",
+        "name": "Via Baldinucci - Via Davanzati",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.172479,
+          45.5043508
+        ]
+      },
+      "id": "node/1294003461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295276479",
+        "bench": "no",
+        "bus": "yes",
+        "comment:it": "senza indicatore tempo di attesa",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Affori Centro M3",
+        "old_name": "Via P. Rossi",
+        "public_transport": "platform",
+        "ref": "11363",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1739141,
+          45.5137094
+        ]
+      },
+      "id": "node/1295276479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312638",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Astesani - Viale Affori",
+        "ref": "11373",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1712264,
+          45.5176001
+        ]
+      },
+      "id": "node/1295312638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312640",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Via Semplicità",
+        "ref": "11370",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1772937,
+          45.5086265
+        ]
+      },
+      "id": "node/1295312640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312642",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via P. Rossi - Via Semplicità",
+        "ref": "11370",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1774869,
+          45.5085602
+        ]
+      },
+      "id": "node/1295312642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312646",
+        "bench": "no",
+        "comment:it": "senza indicatore tempo di attesa",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Via Grazioli",
+        "ref": "11367",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1760083,
+          45.5104444
+        ]
+      },
+      "id": "node/1295312646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312650",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Via Grazioli",
+        "ref": "11366",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1767107,
+          45.5096575
+        ]
+      },
+      "id": "node/1295312650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312655",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Via Trevi",
+        "public_transport": "platform",
+        "ref": "11368",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1786135,
+          45.5066984
+        ]
+      },
+      "id": "node/1295312655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312656",
+        "bench": "no",
+        "comment:it": "senza indicatore tempo di attesa",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Via Pastro",
+        "ref": "11365",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1752477,
+          45.5117677
+        ]
+      },
+      "id": "node/1295312656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295312657",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Astesani - Viale Affori",
+        "ref": "11374",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1709098,
+          45.51788
+        ]
+      },
+      "id": "node/1295312657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295343768",
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Rubicone - Via Da Seregno",
+        "passenger_information_display": "no",
+        "ref": "11378",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1726523,
+          45.5225031
+        ]
+      },
+      "id": "node/1295343768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523738",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Viale Jenner",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1785707,
+          45.4975099
+        ]
+      },
+      "id": "node/1295523738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523743",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Candiani - Via Don Minzoni",
+        "public_transport": "platform",
+        "ref": "11340",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1704891,
+          45.5049393
+        ]
+      },
+      "id": "node/1295523743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523744",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Via Abba",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1781924,
+          45.5020254
+        ]
+      },
+      "id": "node/1295523744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523757",
+        "highway": "bus_stop",
+        "name": "Piazza Dergano",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1765529,
+          45.5029142
+        ]
+      },
+      "id": "node/1295523757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523759",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Via Monte San Genesio",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.178453,
+          45.499955
+        ]
+      },
+      "id": "node/1295523759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523761",
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Via Monte San Genesio",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1782053,
+          45.5004358
+        ]
+      },
+      "id": "node/1295523761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523762",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Dergano",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1767368,
+          45.5029255
+        ]
+      },
+      "id": "node/1295523762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523766",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Viale Jenner",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1787205,
+          45.4977841
+        ]
+      },
+      "id": "node/1295523766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295523767",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Livigno - Via Abba",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1779979,
+          45.5021033
+        ]
+      },
+      "id": "node/1295523767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1473306609",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazzale Nigra",
+        "public_transport": "platform",
+        "ref": "11361",
+        "route_ref": "92",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1719984,
+          45.4956946
+        ]
+      },
+      "id": "node/1473306609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1473306610",
+        "highway": "bus_stop",
+        "name": "Piazzale Nigra",
+        "route_ref": "92",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1706909,
+          45.4969761
+        ]
+      },
+      "id": "node/1473306610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1474050948",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Viale Stelvio",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "ref": "11618",
+        "shelter": "yes",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1854362,
+          45.4948582
+        ]
+      },
+      "id": "node/1474050948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1502859830",
+        "amenity": "parking_entrance",
+        "name": "Coop",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1915688,
+          45.5170333
+        ]
+      },
+      "id": "node/1502859830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1514331910",
+        "amenity": "parking_entrance",
+        "barrier": "lift_gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1856491,
+          45.4956972
+        ]
+      },
+      "id": "node/1514331910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1514331921",
+        "amenity": "parking_entrance",
+        "layer": "-1",
+        "name": "Parcheggio Sotterraneo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.185149,
+          45.4947988
+        ]
+      },
+      "id": "node/1514331921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1514331927",
+        "amenity": "parking_entrance",
+        "barrier": "lift_gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1855423,
+          45.4957119
+        ]
+      },
+      "id": "node/1514331927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1522994523",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2130238,
+          45.5160379
+        ]
+      },
+      "id": "node/1522994523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1522994536",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2123663,
+          45.516178
+        ]
+      },
+      "id": "node/1522994536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1523171876",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2125231,
+          45.5147742
+        ]
+      },
+      "id": "node/1523171876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1523171896",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2115713,
+          45.5150419
+        ]
+      },
+      "id": "node/1523171896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539325715",
+        "amenity": "taxi",
+        "name": "Posteggio Taxi Affori",
+        "phone": "+39 02 6456713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1716984,
+          45.5166377
+        ]
+      },
+      "id": "node/1539325715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539516740",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda Nord",
+        "public_transport": "platform",
+        "ref": "11690"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1914947,
+          45.5187573
+        ]
+      },
+      "id": "node/1539516740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539534959",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Gran Paradiso",
+        "public_transport": "platform",
+        "ref": "11997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1942776,
+          45.5173551
+        ]
+      },
+      "id": "node/1539534959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539534962",
+        "highway": "bus_stop",
+        "name": "Via Arganini - Viale Suzzani",
+        "ref": "12003",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2006314,
+          45.516587
+        ]
+      },
+      "id": "node/1539534962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539534967",
+        "highway": "bus_stop",
+        "name": "Via Arganini, 30",
+        "ref": "11999",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1976728,
+          45.5173914
+        ]
+      },
+      "id": "node/1539534967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539547355",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Arganini - Viale Suzzani",
+        "public_transport": "platform",
+        "ref": "12003",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2025117,
+          45.5160344
+        ]
+      },
+      "id": "node/1539547355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539547356",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Emanueli - Viale Sarca",
+        "operator": "ATM",
+        "public_transport": "platform",
+        "ref": "15424",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2087373,
+          45.5142861
+        ]
+      },
+      "id": "node/1539547356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539547361",
+        "bench": "no",
+        "bus": "yes",
+        "fixme": "position not accurately checked (source from memory, not from GPS)",
+        "highway": "bus_stop",
+        "mapillary": "VI7Alg2aeAfgqCMvg3sl4Q",
+        "name": "Bicocca M5",
+        "pole": "yes",
+        "public_transport": "platform",
+        "ref": "16796",
+        "shelter": "no",
+        "survey:date": "2020-01-24",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2050766,
+          45.5153009
+        ]
+      },
+      "id": "node/1539547361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539562850",
+        "highway": "bus_stop",
+        "name": "Via Arganini - Via Della Pila",
+        "ref": "12002",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2008039,
+          45.5170052
+        ]
+      },
+      "id": "node/1539562850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539562852",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Polvani - Via P. A. Pirelli",
+        "public_transport": "platform",
+        "ref": "15427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2103611,
+          45.5131895
+        ]
+      },
+      "id": "node/1539562852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539562853",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Viale Esperia",
+        "public_transport": "platform",
+        "ref": "12006",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2035814,
+          45.5165876
+        ]
+      },
+      "id": "node/1539562853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539562854",
+        "bench": "yes",
+        "bus": "yes",
+        "fixme": "position not accurately checked (source from memory, not from GPS)",
+        "highway": "bus_stop",
+        "mapillary": "OEtYdtnVAwPEldU5e7D6ZQ",
+        "name": "Bicocca M5",
+        "public_transport": "platform",
+        "ref": "12004",
+        "shelter": "yes",
+        "survey:date": "2018-02-15",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2049035,
+          45.5155059
+        ]
+      },
+      "id": "node/1539562854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539583173",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Cecchi",
+        "ref": "12001",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2000222,
+          45.5186247
+        ]
+      },
+      "id": "node/1539583173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539597590",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda Nord",
+        "public_transport": "platform",
+        "ref": "11691",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1921448,
+          45.5188704
+        ]
+      },
+      "id": "node/1539597590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539597615",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda Nord",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1921676,
+          45.5192639
+        ]
+      },
+      "id": "node/1539597615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539597616",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Maestri del Lavoro",
+        "public_transport": "platform",
+        "ref": "11998",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1967569,
+          45.51912
+        ]
+      },
+      "id": "node/1539597616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539678548",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Imbonati - Via Bovio",
+        "public_transport": "platform",
+        "ref": "11645",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1810207,
+          45.5035198
+        ]
+      },
+      "id": "node/1539678548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1539678558",
+        "bus": "yes",
+        "fixme": "position is approximate",
+        "highway": "bus_stop",
+        "name": "Via Imbonati - Via Monte San Genesio",
+        "public_transport": "platform",
+        "ref": "11647",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1833771,
+          45.5001573
+        ]
+      },
+      "id": "node/1539678558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1544841003",
+        "bench": "no",
+        "bus": "yes",
+        "comment:it": "senza indicatore tempo di attesa",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Astesani - Via Zanoli",
+        "note": "this stop used to be just before the crossing with via Zanoli. It was moved near the crossing with Brusuglio sometime between March 2011 and Aug 2013",
+        "public_transport": "platform",
+        "ref": "11377",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.171845,
+          45.5164119
+        ]
+      },
+      "id": "node/1544841003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547068643",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda Centro",
+        "public_transport": "platform",
+        "ref": "11676"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1911928,
+          45.514367
+        ]
+      },
+      "id": "node/1547068643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547080406",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Girola",
+        "public_transport": "platform",
+        "ref": "11669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1905219,
+          45.5110135
+        ]
+      },
+      "id": "node/1547080406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547084482",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nizza",
+        "public_transport": "platform",
+        "ref": "11655",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1887892,
+          45.5041187
+        ]
+      },
+      "id": "node/1547084482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547085681",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Murat - Via Cufra",
+        "public_transport": "platform",
+        "ref": "11658",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1897878,
+          45.5017576
+        ]
+      },
+      "id": "node/1547085681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547090441",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Murat - Via Biraghi",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1909271,
+          45.4989711
+        ]
+      },
+      "id": "node/1547090441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547091135",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Lario - Via Murat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1917662,
+          45.4970045
+        ]
+      },
+      "id": "node/1547091135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547092080",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Lario - Via Nava",
+        "public_transport": "platform",
+        "ref": "11637",
+        "route_ref": "86:166",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1910903,
+          45.4942143
+        ]
+      },
+      "id": "node/1547092080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547093044",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Stelvio - Via Lario",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1910532,
+          45.4929275
+        ]
+      },
+      "id": "node/1547093044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547094139",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "mapillary": "unwxm3-tXTtp4l75vTGBSg",
+        "name": "Zara M3 M5",
+        "pole": "yes",
+        "public_transport": "platform",
+        "shelter": "no",
+        "survey:date": "2019-11-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1923542,
+          45.4919233
+        ]
+      },
+      "id": "node/1547094139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547095073",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zara M3",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.192984,
+          45.4921386
+        ]
+      },
+      "id": "node/1547095073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547097088",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Stelvio - Via Lario",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1910367,
+          45.4931652
+        ]
+      },
+      "id": "node/1547097088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547098418",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Lario - Via Nava",
+        "public_transport": "platform",
+        "route_ref": "86:166",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1913317,
+          45.4943836
+        ]
+      },
+      "id": "node/1547098418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547099219",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Lario - Via Murat",
+        "public_transport": "platform",
+        "ref": "11643",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1919705,
+          45.4955917
+        ]
+      },
+      "id": "node/1547099219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547099890",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Murat - Via Biraghi",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1911927,
+          45.4987409
+        ]
+      },
+      "id": "node/1547099890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547100409",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Murat - Via Cufra",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1904519,
+          45.5004412
+        ]
+      },
+      "id": "node/1547100409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547100713",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nizza",
+        "public_transport": "platform",
+        "ref": "11659"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1895024,
+          45.5026971
+        ]
+      },
+      "id": "node/1547100713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547101216",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Maggiore (Niguarda)",
+        "public_transport": "platform",
+        "ref": "11666"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1898029,
+          45.5092726
+        ]
+      },
+      "id": "node/1547101216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547101542",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "mapillary": "hl2i5xx932TNt0afHL-UPA",
+        "name": "Girola",
+        "pole": "yes",
+        "public_transport": "platform",
+        "ref": "11670",
+        "shelter": "no",
+        "survey:date": "2018-04-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1907363,
+          45.5112086
+        ]
+      },
+      "id": "node/1547101542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547102325",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Danzi",
+        "public_transport": "platform",
+        "ref": "11670"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1932683,
+          45.5135693
+        ]
+      },
+      "id": "node/1547102325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547103089",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Belloveso",
+        "public_transport": "platform",
+        "ref": "15071",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1935316,
+          45.5159649
+        ]
+      },
+      "id": "node/1547103089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961122",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gioia - Via Cagliero",
+        "public_transport": "platform",
+        "ref": "11940",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2062948,
+          45.4939033
+        ]
+      },
+      "id": "node/1547961122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961128",
+        "bench": "yes;no",
+        "bus": "yes",
+        "covered": "no",
+        "disused:highway": "bus_stop",
+        "disused:name": "Via Gioia - Via Cagliero",
+        "disused:passenger_information_display": "yes",
+        "disused:ref": "12234",
+        "highway": "bus_stop",
+        "name": "Via Gioia Via Cagliero",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "shelter": "yes;no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064346,
+          45.4944613
+        ]
+      },
+      "id": "node/1547961128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961131",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gioia - Via Tirano",
+        "public_transport": "platform",
+        "ref": "12265",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2082931,
+          45.4972312
+        ]
+      },
+      "id": "node/1547961131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961134",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gioia - Via Tirano",
+        "public_transport": "platform",
+        "ref": "12266",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2078604,
+          45.4966866
+        ]
+      },
+      "id": "node/1547961134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961136",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Lunigiana - Via Gioia",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "11932",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2035181,
+          45.4915113
+        ]
+      },
+      "id": "node/1547961136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547961140",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Lunigiana - Via Gioia",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "11933",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2045978,
+          45.4927054
+        ]
+      },
+      "id": "node/1547961140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548015810",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Belloveso",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1935095,
+          45.5157187
+        ]
+      },
+      "id": "node/1548015810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548018877",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Danzi",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.193032,
+          45.5140196
+        ]
+      },
+      "id": "node/1548018877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548019979",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Santhià - Via Girola",
+        "public_transport": "platform",
+        "route_ref": "83"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1928711,
+          45.5113525
+        ]
+      },
+      "id": "node/1548019979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548020871",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "mapillary": "jKv_5XbqzCrTDhN9YVK6Lw",
+        "name": "Via Cherasco",
+        "pole": "yes",
+        "public_transport": "platform",
+        "route_ref": "83;166(solo domenica)",
+        "shelter": "no",
+        "survey:date": "2018-04-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1930267,
+          45.5105556
+        ]
+      },
+      "id": "node/1548020871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548022428",
+        "bus": "yes",
+        "fixme": "check and update name",
+        "highway": "bus_stop",
+        "name": "Viale Cà Granda (Osp. Maggiore)",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.19131,
+          45.5087812
+        ]
+      },
+      "id": "node/1548022428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548045188",
+        "highway": "bus_stop",
+        "name": "Via Terruggia - Via Val di Ledro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1891717,
+          45.517369
+        ]
+      },
+      "id": "node/1548045188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548046401",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Frugoni",
+        "public_transport": "platform",
+        "ref": "11689"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1908829,
+          45.5206245
+        ]
+      },
+      "id": "node/1548046401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548046768",
+        "highway": "bus_stop",
+        "name": "Q.re Niguarda",
+        "ref": "11693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1915083,
+          45.5230109
+        ]
+      },
+      "id": "node/1548046768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549038714",
+        "amenity": "motorcycle_parking",
+        "capacity": "29",
+        "covered": "no",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2122352,
+          45.5169229
+        ]
+      },
+      "id": "node/1549038714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549038725",
+        "amenity": "bicycle_parking",
+        "capacity": "23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2107667,
+          45.5143245
+        ]
+      },
+      "id": "node/1549038725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549044529",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2094605,
+          45.5120183
+        ]
+      },
+      "id": "node/1549044529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549044543",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2091775,
+          45.511524
+        ]
+      },
+      "id": "node/1549044543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549044565",
+        "amenity": "bicycle_parking",
+        "capacity": "30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.210292,
+          45.5134919
+        ]
+      },
+      "id": "node/1549044565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1549044568",
+        "amenity": "bicycle_parking",
+        "capacity": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2100398,
+          45.513037
+        ]
+      },
+      "id": "node/1549044568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1596105515",
+        "bench": "no",
+        "bus": "yes",
+        "comment": "L'annuncio sul bus annuncia questa fermata semplicemente come \"Via Imbonati (Dergano M3)\"",
+        "highway": "bus_stop",
+        "name": "Dergano M3",
+        "public_transport": "platform",
+        "ref": "16837",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1799784,
+          45.5048205
+        ]
+      },
+      "id": "node/1596105515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1596105520",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Imbonati - Via Bovio",
+        "public_transport": "platform",
+        "ref": "11644",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1807911,
+          45.5036381
+        ]
+      },
+      "id": "node/1596105520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1596393419",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1736243,
+          45.5133529
+        ]
+      },
+      "id": "node/1596393419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1606676479",
+        "name": "Milano Lancetti",
+        "operator": "RFI",
+        "platforms": "4",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "1997",
+        "wikidata": "Q920889",
+        "wikipedia": "it:Stazione di Milano Lancetti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1771357,
+          45.4935636
+        ]
+      },
+      "id": "node/1606676479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1610862928",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Autorimessa Sarca",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2032698,
+          45.5068097
+        ]
+      },
+      "id": "node/1610862928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1618961808",
+        "comment": "bus stop for the line to Cantù",
+        "highway": "bus_stop",
+        "name": "Viale Rubicone (Galeazzi)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1731863,
+          45.5226783
+        ]
+      },
+      "id": "node/1618961808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1712688460",
+        "amenity": "car_wash",
+        "automated": "yes",
+        "self_service": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1800132,
+          45.5243978
+        ]
+      },
+      "id": "node/1712688460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1737802638",
+        "name": "Maciachini",
+        "operator": "ATM",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q1088228",
+        "wikipedia": "it:Maciachini (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1850425,
+          45.4977017
+        ]
+      },
+      "id": "node/1737802638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1737802640",
+        "name": "Zara",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q1088305",
+        "wikipedia": "it:Zara (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.192414,
+          45.4927242
+        ]
+      },
+      "id": "node/1737802640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1757795552",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1920967,
+          45.5242789
+        ]
+      },
+      "id": "node/1757795552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1841346148",
+        "access": "customers",
+        "amenity": "parking",
+        "name": "Esselunga",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1730422,
+          45.5118282
+        ]
+      },
+      "id": "node/1841346148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1841350510",
+        "access": "customers",
+        "amenity": "parking",
+        "name": "Esselunga",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1736328,
+          45.5118476
+        ]
+      },
+      "id": "node/1841350510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1860891778",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Monte Rotondo",
+        "public_transport": "platform",
+        "ref": "11965",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1943633,
+          45.5146996
+        ]
+      },
+      "id": "node/1860891778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1860891779",
+        "bus": "yes",
+        "fixme": "Probably not in use anymore",
+        "highway": "bus_stop",
+        "name": "Via Monte Rotondo",
+        "public_transport": "platform",
+        "route_ref": "?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1934796,
+          45.5149215
+        ]
+      },
+      "id": "node/1860891779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1925761601",
+        "amenity": "parking_entrance",
+        "maxheight": "2",
+        "name": "Bicocca Village",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164529,
+          45.5211262
+        ]
+      },
+      "id": "node/1925761601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1954713815",
+        "amenity": "taxi",
+        "comment": "taxi are not usually present here"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1683486,
+          45.5216675
+        ]
+      },
+      "id": "node/1954713815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1969995704",
+        "amenity": "parking",
+        "name": "Esselunga",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2043654,
+          45.5185045
+        ]
+      },
+      "id": "node/1969995704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1973121658",
+        "amenity": "bicycle_rental",
+        "capacity": "28",
+        "fee": "yes",
+        "name": "Carbonari",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "168",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1991839,
+          45.4925677
+        ]
+      },
+      "id": "node/1973121658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2027873164",
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1839588,
+          45.5023749
+        ]
+      },
+      "id": "node/2027873164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2039954495",
+        "amenity": "parking_entrance",
+        "capacity": "426",
+        "name": "Maciachini",
+        "operator": "ATM",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1881794,
+          45.4977309
+        ]
+      },
+      "id": "node/2039954495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2064784271",
+        "addr:city": "Milano",
+        "addr:street": "Via Carlo Farini",
+        "amenity": "taxi",
+        "name": "Posteggio taxi Farini - Stelvio",
+        "phone": "+39 02 6686555",
+        "source": "personal survey on site (including phone number)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.18577,
+          45.4958311
+        ]
+      },
+      "id": "node/2064784271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091955957",
+        "amenity": "car_wash",
+        "automated": "no",
+        "noname": "yes",
+        "opening_hours": "24/7",
+        "self_service": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1752083,
+          45.5122395
+        ]
+      },
+      "id": "node/2091955957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2118422087",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2077945,
+          45.4972428
+        ]
+      },
+      "id": "node/2118422087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2119897525",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2184833,
+          45.4911477
+        ]
+      },
+      "id": "node/2119897525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2119897542",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "10",
+        "fixme": "posizione approssimativa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2146353,
+          45.5117697
+        ]
+      },
+      "id": "node/2119897542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2168973258",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2079931,
+          45.4973254
+        ]
+      },
+      "id": "node/2168973258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2168973259",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "24",
+        "motorcycle_parking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2086026,
+          45.4997398
+        ]
+      },
+      "id": "node/2168973259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193287724",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bicocca M5",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2056523,
+          45.5159426
+        ]
+      },
+      "id": "node/2193287724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193287727",
+        "bench": "no",
+        "check_date:shelter": "2020-12-20",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Da Bussero",
+        "ref": "12009",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2049525,
+          45.5190124
+        ]
+      },
+      "id": "node/2193287727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193330937",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Maggiore Via Zubiani",
+        "public_transport": "platform",
+        "ref": "16094",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1853467,
+          45.5073141
+        ]
+      },
+      "id": "node/2193330937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2195525294",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.211548,
+          45.4913745
+        ]
+      },
+      "id": "node/2195525294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2215015137",
+        "bench": "no",
+        "bus": "yes",
+        "description": "sostitutiva M1 per Sesto FS",
+        "highway": "bus_stop",
+        "name": "Rovereto M1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2195125,
+          45.49504
+        ]
+      },
+      "id": "node/2215015137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2222547018",
+        "amenity": "parking_entrance",
+        "fee": "yes",
+        "maxheight": "2.1",
+        "name": "P8 Bicocca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2108911,
+          45.5178647
+        ]
+      },
+      "id": "node/2222547018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2222547019",
+        "amenity": "parking_entrance",
+        "fee": "yes",
+        "maxheight": "2.1",
+        "name": "P8 Bicocca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2107468,
+          45.5179004
+        ]
+      },
+      "id": "node/2222547019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2300759834",
+        "bench": "no",
+        "bus": "yes",
+        "comment": "terminus",
+        "comment:it": "capolinea",
+        "highway": "bus_stop",
+        "name": "Istria M5",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1966981,
+          45.5020429
+        ]
+      },
+      "id": "node/2300759834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2301075384",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Niguarda Nord",
+        "public_transport": "platform",
+        "ref": "11994",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1924671,
+          45.5185783
+        ]
+      },
+      "id": "node/2301075384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2325726419",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "fee": "yes",
+        "name": "Zara M3",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "160",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918902,
+          45.4915607
+        ]
+      },
+      "id": "node/2325726419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2394469902",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1857377,
+          45.4981364
+        ]
+      },
+      "id": "node/2394469902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419304189",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Stelvio - Via Lario",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1902165,
+          45.4932256
+        ]
+      },
+      "id": "node/2419304189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419311329",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "fixme": "Position estimated",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "public_transport": "platform",
+        "route_ref": "NM3",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1935099,
+          45.4922792
+        ]
+      },
+      "id": "node/2419311329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2454367769",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Val Nievole",
+        "public_transport": "platform",
+        "ref": "11954",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1968115,
+          45.5047386
+        ]
+      },
+      "id": "node/2454367769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060423",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazzale Farina",
+        "public_transport": "platform",
+        "ref": "11960",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1995126,
+          45.4986184
+        ]
+      },
+      "id": "node/2477060423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060431",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Abbazia - Piazza Istria",
+        "public_transport": "platform",
+        "ref": "11955",
+        "shelter": "yes",
+        "type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1985151,
+          45.5008276
+        ]
+      },
+      "id": "node/2477060431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060449",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Cufra - Via Trescore",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1944017,
+          45.5017243
+        ]
+      },
+      "id": "node/2477060449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060461",
+        "amenity": "taxi",
+        "phone": "+39 02 67072216",
+        "source": "personal survey on site (including phone number)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2023225,
+          45.4960777
+        ]
+      },
+      "id": "node/2477060461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060466",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Cufra - Via Murat",
+        "public_transport": "platform",
+        "ref": "17145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918475,
+          45.5012072
+        ]
+      },
+      "id": "node/2477060466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2477060473",
+        "amenity": "taxi",
+        "phone": "+39 02 603879",
+        "source": "personal survey on site (including phone number)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1971448,
+          45.5016721
+        ]
+      },
+      "id": "node/2477060473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2493833605",
+        "bench": "yes",
+        "bus": "yes",
+        "comment:it": "Fermata bus sostituitivo M3 ed NM3 in direzione Comasina",
+        "highway": "bus_stop",
+        "name": "Maciachini M3",
+        "public_transport": "platform",
+        "ref": "15598-A",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1845906,
+          45.4978592
+        ]
+      },
+      "id": "node/2493833605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519017877",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Jenner - Piazzale Maciachini",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1833896,
+          45.4974625
+        ]
+      },
+      "id": "node/2519017877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529130118",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Viale Lancetti - Via Resegone",
+        "public_transport": "platform",
+        "route_ref": "92",
+        "shelter": "no",
+        "towards": "Varé",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1769522,
+          45.4954323
+        ]
+      },
+      "id": "node/2529130118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529588241",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazzale Nigra",
+        "old_name": "Viale Jenner - Piazzale Nigra",
+        "public_transport": "platform",
+        "ref": "11341",
+        "route_ref": "90",
+        "shelter": "yes",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1718123,
+          45.4965557
+        ]
+      },
+      "id": "node/2529588241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529588265",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazzale Nigra",
+        "old_name": "Viale Jenner - Piazzale Nigra",
+        "public_transport": "platform",
+        "ref": "11342",
+        "route_ref": "91",
+        "shelter": "yes",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.171579,
+          45.4966291
+        ]
+      },
+      "id": "node/2529588265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2533453859",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2012927,
+          45.4942328
+        ]
+      },
+      "id": "node/2533453859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2550430457",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "name": "Esselunga",
+        "parking": "multi-storey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1957602,
+          45.4987791
+        ]
+      },
+      "id": "node/2550430457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2575832359",
+        "bench": "no",
+        "bus": "yes",
+        "operator": "Air Pulman",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1787138,
+          45.516984
+        ]
+      },
+      "id": "node/2575832359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310814",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani, 125",
+        "public_transport": "platform",
+        "ref": "15437",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2019563,
+          45.5140162
+        ]
+      },
+      "id": "node/2616310814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310816",
+        "bench": "yes",
+        "check_date:shelter": "2020-12-24",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Santa Monica",
+        "ref": "11981",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2009132,
+          45.5122191
+        ]
+      },
+      "id": "node/2616310816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310817",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Da Bussero",
+        "ref": "12008",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2046758,
+          45.5187712
+        ]
+      },
+      "id": "node/2616310817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310818",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Viale Barbera",
+        "ref": "12304",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064568,
+          45.5216503
+        ]
+      },
+      "id": "node/2616310818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310819",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Santa Monica",
+        "ref": "11980",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.200594,
+          45.5113206
+        ]
+      },
+      "id": "node/2616310819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310822",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Ponale",
+        "ref": "12309",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2075994,
+          45.5236383
+        ]
+      },
+      "id": "node/2616310822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310823",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Viale Esperia",
+        "public_transport": "platform",
+        "ref": "15403",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2033239,
+          45.5164971
+        ]
+      },
+      "id": "node/2616310823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616310833",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani, 125",
+        "public_transport": "platform",
+        "ref": "15439",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2022996,
+          45.5143393
+        ]
+      },
+      "id": "node/2616310833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331666",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Istria M5",
+        "public_transport": "platform",
+        "ref": "11957",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1988157,
+          45.5018862
+        ]
+      },
+      "id": "node/2616331666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331667",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Istria M5",
+        "public_transport": "platform",
+        "ref": "11951",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1969042,
+          45.5019555
+        ]
+      },
+      "id": "node/2616331667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331669",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Istria - Via Lussinpiccolo",
+        "public_transport": "platform",
+        "ref": "11952",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1969435,
+          45.5015308
+        ]
+      },
+      "id": "node/2616331669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331670",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Pianell",
+        "ref": "11976",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1998057,
+          45.5102833
+        ]
+      },
+      "id": "node/2616331670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331671",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Val Nievole",
+        "public_transport": "platform",
+        "ref": "11953",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1973804,
+          45.5054408
+        ]
+      },
+      "id": "node/2616331671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331672",
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2020-12-30",
+        "highway": "bus_stop",
+        "name": "Viale Suzzani - Via Pianell",
+        "public_transport": "platform",
+        "ref": "11975",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1996734,
+          45.5096262
+        ]
+      },
+      "id": "node/2616331672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331673",
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2020-12-19",
+        "highway": "bus_stop",
+        "name": "Viale Ca' Granda - Viale Suzzani",
+        "public_transport": "platform",
+        "ref": "11969",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1983036,
+          45.5074824
+        ]
+      },
+      "id": "node/2616331673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331674",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gioia - Via Cagliero",
+        "public_transport": "platform",
+        "ref": "11942",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2053731,
+          45.4947589
+        ]
+      },
+      "id": "node/2616331674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331676",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2024244,
+          45.4960476
+        ]
+      },
+      "id": "node/2616331676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331677",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Cagliero - Viale Stefini",
+        "public_transport": "platform",
+        "ref": "11962",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2009351,
+          45.4966058
+        ]
+      },
+      "id": "node/2616331677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331678",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Cagliero - Viale Stefini",
+        "public_transport": "platform",
+        "ref": "11927",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2026271,
+          45.4958156
+        ]
+      },
+      "id": "node/2616331678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331679",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gioia - Via Cagliero",
+        "public_transport": "platform",
+        "ref": "11941",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.205974,
+          45.4943079
+        ]
+      },
+      "id": "node/2616331679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331680",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazzale Farina",
+        "public_transport": "platform",
+        "ref": "11959",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1996901,
+          45.4985717
+        ]
+      },
+      "id": "node/2616331680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616331681",
+        "bench": "no",
+        "bus": "yes",
+        "check_date:shelter": "2020-12-19",
+        "highway": "bus_stop",
+        "name": "Viale Ca' Granda - Viale Suzzani",
+        "public_transport": "platform",
+        "ref": "11970",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1987918,
+          45.5080653
+        ]
+      },
+      "id": "node/2616331681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616339079",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Lunigiana",
+        "public_transport": "platform",
+        "ref": "11937",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2055208,
+          45.491209
+        ]
+      },
+      "id": "node/2616339079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616339081",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Lunigiana",
+        "public_transport": "platform",
+        "ref": "11939",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2049951,
+          45.491822
+        ]
+      },
+      "id": "node/2616339081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617569033",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Greco",
+        "public_transport": "platform",
+        "ref": "12276",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2116496,
+          45.5018732
+        ]
+      },
+      "id": "node/2617569033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617569034",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Greco (Rimembranze)",
+        "public_transport": "platform",
+        "ref": "12269",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117622,
+          45.5005648
+        ]
+      },
+      "id": "node/2617569034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617575259",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Emilio De Marchi - Via San Rafael delle Ande",
+        "public_transport": "platform",
+        "ref": "12268",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2091391,
+          45.4995568
+        ]
+      },
+      "id": "node/2617575259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2617575260",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Emilio De Marchi Via San Rafael delle Ande",
+        "public_transport": "platform",
+        "ref": "12267-A",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2084782,
+          45.4990548
+        ]
+      },
+      "id": "node/2617575260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639702343",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Chiese (HangarBicocca)",
+        "ref": "12952",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2183117,
+          45.5201944
+        ]
+      },
+      "id": "node/2639702343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639703129",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Viale Sarca - Via Chiese",
+        "ref": "12953",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2113763,
+          45.5220728
+        ]
+      },
+      "id": "node/2639703129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639704177",
+        "bench": "no;yes",
+        "highway": "bus_stop",
+        "name": "Ponale M5;Viale Suzzani - Via Ponale",
+        "ref": "12308;12305",
+        "shelter": "no;yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.208584,
+          45.5228189
+        ]
+      },
+      "id": "node/2639704177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639708393",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Val di Ledro",
+        "ref": "11686",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1888725,
+          45.5158784
+        ]
+      },
+      "id": "node/2639708393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639729656",
+        "bus": "yes",
+        "fixme": "check position",
+        "highway": "bus_stop",
+        "name": "Via Taormina - Piazza Caserta",
+        "public_transport": "platform",
+        "ref": "17148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.194934,
+          45.5011134
+        ]
+      },
+      "id": "node/2639729656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639729663",
+        "bus": "yes",
+        "fixme": "check position",
+        "highway": "bus_stop",
+        "name": "Via Murat - Via Cufra",
+        "public_transport": "platform",
+        "ref": "17149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1909161,
+          45.500309
+        ]
+      },
+      "id": "node/2639729663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639746328",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Ponale M5",
+        "ref": "16778",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.209464,
+          45.5226609
+        ]
+      },
+      "id": "node/2639746328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639749378",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Sarca - Via Chiese",
+        "ref": "12946",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2129048,
+          45.5215143
+        ]
+      },
+      "id": "node/2639749378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639749379",
+        "bench": "no",
+        "check_date:shelter": "2020-12-11",
+        "highway": "bus_stop",
+        "name": "Via Chiese - Via Piero e Alberto Pirelli",
+        "ref": "15928",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2151154,
+          45.5209395
+        ]
+      },
+      "id": "node/2639749379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639749380",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Chiese - Viale Testi",
+        "ref": "12945",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2103703,
+          45.5221987
+        ]
+      },
+      "id": "node/2639749380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2639751512",
+        "bench": "no",
+        "check_date:shelter": "2020-12-29",
+        "highway": "bus_stop",
+        "name": "Via Chiese (HangarBicocca)",
+        "ref": "12947",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2179503,
+          45.5201558
+        ]
+      },
+      "id": "node/2639751512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645243727",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1779584,
+          45.5225671
+        ]
+      },
+      "id": "node/2645243727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2645436023",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Teatro Arcimboldi",
+        "public_transport": "platform",
+        "ref": "15425",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2123202,
+          45.5141382
+        ]
+      },
+      "id": "node/2645436023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2656276346",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1733814,
+          45.4955048
+        ]
+      },
+      "id": "node/2656276346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707129442",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1929762,
+          45.4934785
+        ]
+      },
+      "id": "node/2707129442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707129452",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Zara M3 M5",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1927241,
+          45.4930367
+        ]
+      },
+      "id": "node/2707129452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707204585",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Maciachini M3",
+        "public_transport": "platform",
+        "ref": "15436",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1832863,
+          45.4971469
+        ]
+      },
+      "id": "node/2707204585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707210897",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Maffucci - Via Baldinucci",
+        "public_transport": "platform",
+        "ref": "11337",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1693886,
+          45.5039147
+        ]
+      },
+      "id": "node/2707210897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707223596",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Candiani - Via Tartini",
+        "public_transport": "platform",
+        "ref": "11362",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1740016,
+          45.5059272
+        ]
+      },
+      "id": "node/2707223596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2707224402",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Tartini - Via Carnevali",
+        "ref": "11350",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1758824,
+          45.5049218
+        ]
+      },
+      "id": "node/2707224402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2742497582",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1981355,
+          45.5216988
+        ]
+      },
+      "id": "node/2742497582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2748737759",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.172494,
+          45.520967
+        ]
+      },
+      "id": "node/2748737759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2748737760",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "parking": "underground",
+        "phone": "+39 02 6465805"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1724519,
+          45.5210038
+        ]
+      },
+      "id": "node/2748737760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2762341491",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Via Emilio De Marchi Via San Rafael delle Ande",
+        "public_transport": "platform",
+        "ref": "15847",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2086485,
+          45.4991124
+        ]
+      },
+      "id": "node/2762341491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2829045247",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "30",
+        "check_date:capacity": "2021-01-31",
+        "covered": "no",
+        "fixme": "posizione approssimativa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2139065,
+          45.5126527
+        ]
+      },
+      "id": "node/2829045247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2850147961",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2138245,
+          45.5159081
+        ]
+      },
+      "id": "node/2850147961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2887569569",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "10",
+        "check_date:capacity": "2021-01-31",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2143494,
+          45.5132256
+        ]
+      },
+      "id": "node/2887569569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2917137891",
+        "amenity": "taxi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1890709,
+          45.5088235
+        ]
+      },
+      "id": "node/2917137891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2917959122",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1878324,
+          45.5068777
+        ]
+      },
+      "id": "node/2917959122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2917959139",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1881362,
+          45.5075087
+        ]
+      },
+      "id": "node/2917959139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2919153078",
+        "amenity": "parking_entrance",
+        "foot": "designated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.213483,
+          45.5167293
+        ]
+      },
+      "id": "node/2919153078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2947251443",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Lario - Via Murat",
+        "public_transport": "platform",
+        "ref": "no",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918893,
+          45.49579
+        ]
+      },
+      "id": "node/2947251443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2947310569",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1747859,
+          45.5243147
+        ]
+      },
+      "id": "node/2947310569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2947310572",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1757139,
+          45.5244368
+        ]
+      },
+      "id": "node/2947310572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2972889017",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1840042,
+          45.5209762
+        ]
+      },
+      "id": "node/2972889017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2978980335",
+        "amenity": "taxi",
+        "comment:en": "no phone",
+        "comment:it": "senza telefono"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1751623,
+          45.5233578
+        ]
+      },
+      "id": "node/2978980335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3028081934",
+        "bench": "no",
+        "bus": "yes",
+        "comment:it": "senza indicatore tempo di attesa",
+        "covered": "no",
+        "fixme": "Position estimated",
+        "highway": "bus_stop",
+        "note:it": "sulla palina non c'è il nome della fermata e non c'è il numero della fermata. Sul sito web questa fermata non è riportata. Tuttavai la linea 70 ferma a questa fermata",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.172865,
+          45.5149333
+        ]
+      },
+      "id": "node/3028081934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3028366657",
+        "bench": "yes",
+        "bus": "yes",
+        "comment:it": "senza indicatore tempo di attesa",
+        "fixme": "Position estimated",
+        "highway": "bus_stop",
+        "name": "Via Pellegrino Rossi - Affori Centro M3",
+        "old_name": "Via P. Rossi",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "16836",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1744147,
+          45.5127554
+        ]
+      },
+      "id": "node/3028366657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3224062596",
+        "bench": "no",
+        "bus": "yes",
+        "description": "sostitutiva M1 per Molino Dorino o Rho Fiera",
+        "highway": "bus_stop",
+        "name": "Rovereto M1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2193241,
+          45.4952525
+        ]
+      },
+      "id": "node/3224062596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3234072552",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120402,
+          45.4981103
+        ]
+      },
+      "id": "node/3234072552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3247873897",
+        "amenity": "motorcycle_parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2129556,
+          45.5169114
+        ]
+      },
+      "id": "node/3247873897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3326956489",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2167592,
+          45.5221739
+        ]
+      },
+      "id": "node/3326956489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3326956490",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164608,
+          45.5215875
+        ]
+      },
+      "id": "node/3326956490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3396619637",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "passenger_information_display": "no",
+        "public_transport": "stop_position",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.207578,
+          45.4956379
+        ]
+      },
+      "id": "node/3396619637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3431424608",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2107915,
+          45.5136716
+        ]
+      },
+      "id": "node/3431424608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3431424610",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2109147,
+          45.5139064
+        ]
+      },
+      "id": "node/3431424610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3431593560",
+        "amenity": "motorcycle_parking",
+        "capacity": "27",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120438,
+          45.5142003
+        ]
+      },
+      "id": "node/3431593560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3431593561",
+        "amenity": "motorcycle_parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2111742,
+          45.5144431
+        ]
+      },
+      "id": "node/3431593561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3433422996",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117412,
+          45.5134079
+        ]
+      },
+      "id": "node/3433422996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3433423000",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2118846,
+          45.5136368
+        ]
+      },
+      "id": "node/3433423000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3542225814",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "30",
+        "check_date:capacity": "2021-01-31",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2150481,
+          45.5220672
+        ]
+      },
+      "id": "node/3542225814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3600438354",
+        "amenity": "car_wash",
+        "automated": "yes",
+        "name": "Beauty Car",
+        "self_service": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1714972,
+          45.5036089
+        ]
+      },
+      "id": "node/3600438354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3600450039",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1687626,
+          45.5047689
+        ]
+      },
+      "id": "node/3600450039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3726692885",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "fee": "yes",
+        "name": "Imbonati - Dergano M3",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "261",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1799001,
+          45.5053715
+        ]
+      },
+      "id": "node/3726692885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3758001463",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ospedale Maggiore - Via Zubiani",
+        "public_transport": "platform",
+        "ref": "16094",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1853316,
+          45.5073171
+        ]
+      },
+      "id": "node/3758001463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780581690",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "ref": "12271",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2113958,
+          45.502095
+        ]
+      },
+      "id": "node/3780581690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780582515",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2114366,
+          45.5022299
+        ]
+      },
+      "id": "node/3780582515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3780584592",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "ref": "15745",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2077432,
+          45.507822
+        ]
+      },
+      "id": "node/3780584592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3783192571",
+        "highway": "bus_stop",
+        "name": "Via Cesari",
+        "ref": "17335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.187081,
+          45.519581
+        ]
+      },
+      "id": "node/3783192571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3783192572",
+        "highway": "bus_stop",
+        "name": "Via Maffi",
+        "ref": "17334"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1868316,
+          45.5178952
+        ]
+      },
+      "id": "node/3783192572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3785190648",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Via Tartini - Via Carnevali",
+        "ref": "11349",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1763063,
+          45.5042602
+        ]
+      },
+      "id": "node/3785190648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3786669546",
+        "bench": "yes",
+        "check_date:shelter": "2020-12-24",
+        "highway": "bus_stop",
+        "name": "Via Gregorovius - Viale Suzzani",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2006312,
+          45.5133036
+        ]
+      },
+      "id": "node/3786669546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3786669547",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gregorovius - Via Monte Rotondo",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1974156,
+          45.5141906
+        ]
+      },
+      "id": "node/3786669547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3786669548",
+        "highway": "bus_stop",
+        "name": "Via Gregorovius - Viale Suzzani",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2006124,
+          45.5134595
+        ]
+      },
+      "id": "node/3786669548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3786669549",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Via Gregorovius - Via Monte Rotondo",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1973325,
+          45.5143804
+        ]
+      },
+      "id": "node/3786669549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935587731",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Istria M5 - Fulvio Testi",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "310",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1983267,
+          45.5017091
+        ]
+      },
+      "id": "node/3935587731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935597228",
+        "amenity": "bicycle_parking",
+        "capacity": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1975064,
+          45.5018271
+        ]
+      },
+      "id": "node/3935597228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3984611032",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1726071,
+          45.5213214
+        ]
+      },
+      "id": "node/3984611032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812652",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Sammartini Via Lesa",
+        "public_transport": "platform",
+        "ref": "12239",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2111964,
+          45.4946944
+        ]
+      },
+      "id": "node/4041812652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812653",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Sammartini Via Lesa",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2116766,
+          45.4949487
+        ]
+      },
+      "id": "node/4041812653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812654",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Sammartini Via Parravicini",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2089499,
+          45.4921879
+        ]
+      },
+      "id": "node/4041812654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812885",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Sammartini Via Parravicini",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2088574,
+          45.4923581
+        ]
+      },
+      "id": "node/4041812885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041812886",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Lunigiana",
+        "public_transport": "platform",
+        "ref": "14076",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2078043,
+          45.4912372
+        ]
+      },
+      "id": "node/4041812886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4087871250",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "De Marchi - Bottelli",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "312",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2113198,
+          45.5033367
+        ]
+      },
+      "id": "node/4087871250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092140237",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Angeleri",
+        "public_transport": "platform",
+        "ref": "12291",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2135529,
+          45.5092191
+        ]
+      },
+      "id": "node/4092140237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092140238",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Rucellai Via Pericle",
+        "public_transport": "platform",
+        "ref": "12296",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2182451,
+          45.5115014
+        ]
+      },
+      "id": "node/4092140238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092142658",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Angeleri",
+        "public_transport": "platform",
+        "ref": "12292",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2138721,
+          45.5096543
+        ]
+      },
+      "id": "node/4092142658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092143105",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Rucellai",
+        "public_transport": "platform",
+        "ref": "12293",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2153875,
+          45.5110118
+        ]
+      },
+      "id": "node/4092143105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142386593",
+        "amenity": "bicycle_rental",
+        "capacity": "29",
+        "fee": "yes",
+        "name": "Temolo - Innovazione",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "323",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2107325,
+          45.5113412
+        ]
+      },
+      "id": "node/4142386593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142387313",
+        "amenity": "bicycle_rental",
+        "capacity": "28",
+        "fee": "yes",
+        "name": "Piazzi - Bernina",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "307",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1810278,
+          45.4945101
+        ]
+      },
+      "id": "node/4142387313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142387316",
+        "amenity": "bicycle_rental",
+        "capacity": "26",
+        "fee": "yes",
+        "name": "Valtellina - Aprica",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "257",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1824584,
+          45.4930892
+        ]
+      },
+      "id": "node/4142387316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142388097",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Stazione Greco Pirelli",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "324",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2135425,
+          45.5127864
+        ]
+      },
+      "id": "node/4142388097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142388098",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale dell'Innovazione Via Figini",
+        "public_transport": "platform",
+        "ref": "15849",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2105019,
+          45.5100879
+        ]
+      },
+      "id": "node/4142388098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142388099",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale dell'Innovazione Via Temolo",
+        "public_transport": "platform",
+        "ref": "15931",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2107802,
+          45.5109195
+        ]
+      },
+      "id": "node/4142388099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142393672",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "ref": "13123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2034834,
+          45.5107659
+        ]
+      },
+      "id": "node/4142393672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4142394876",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1953201,
+          45.5118504
+        ]
+      },
+      "id": "node/4142394876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4168033304",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1927657,
+          45.4920865
+        ]
+      },
+      "id": "node/4168033304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4168033305",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "Verona_rack",
+        "capacity": "15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1924053,
+          45.4921848
+        ]
+      },
+      "id": "node/4168033305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193179568",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Greco",
+        "public_transport": "platform",
+        "ref": "15848",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2104107,
+          45.5019781
+        ]
+      },
+      "id": "node/4193179568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193188214",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cimitero di Greco",
+        "public_transport": "platform",
+        "ref": "12286-A",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2113492,
+          45.5064315
+        ]
+      },
+      "id": "node/4193188214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193188215",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cimitero di Greco",
+        "public_transport": "platform",
+        "ref": "12278-A",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2122478,
+          45.5045328
+        ]
+      },
+      "id": "node/4193188215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193215078",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Capelli",
+        "public_transport": "platform",
+        "ref": "12314",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2193234,
+          45.5161903
+        ]
+      },
+      "id": "node/4193215078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193215079",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Gilardi",
+        "public_transport": "platform",
+        "ref": "12297-B",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2171374,
+          45.5134387
+        ]
+      },
+      "id": "node/4193215079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4193216816",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Rucellai",
+        "public_transport": "platform",
+        "ref": "12295-B",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.215402,
+          45.5115423
+        ]
+      },
+      "id": "node/4193216816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194146586",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Capelli",
+        "public_transport": "platform",
+        "ref": "12298-B",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2191791,
+          45.5162187
+        ]
+      },
+      "id": "node/4194146586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194146587",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Rucellai",
+        "public_transport": "platform",
+        "ref": "12294-B",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2152496,
+          45.5116082
+        ]
+      },
+      "id": "node/4194146587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194150189",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Breda Via Gilardi",
+        "public_transport": "platform",
+        "ref": "12298-B",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2168536,
+          45.513298
+        ]
+      },
+      "id": "node/4194150189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194156248",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piazza Greco",
+        "public_transport": "platform",
+        "ref": "15845",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2101722,
+          45.5018317
+        ]
+      },
+      "id": "node/4194156248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4194156249",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cimitero di Greco",
+        "public_transport": "platform",
+        "ref": "12277-A",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117624,
+          45.5041137
+        ]
+      },
+      "id": "node/4194156249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4277861399",
+        "amenity": "car_wash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1953662,
+          45.4956618
+        ]
+      },
+      "id": "node/4277861399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310005001",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "12",
+        "addr:street": "Viale Giovanni Suzzani",
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Esso",
+        "operator": "Colella Raffaele",
+        "ref:mise": "15350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1977902,
+          45.506018
+        ]
+      },
+      "id": "node/4310005001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362472195",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Bernina",
+        "public_transport": "platform",
+        "ref": "11610",
+        "shelter": "yes",
+        "tram": "yes",
+        "trolleybus": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1815824,
+          45.4956192
+        ]
+      },
+      "id": "node/4362472195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4387397610",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Bicocca M5 - Pulci",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "322",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2055777,
+          45.514126
+        ]
+      },
+      "id": "node/4387397610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424654969",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Fulvio Testi - Via La Farina",
+        "note:it": "Fermata linea 172",
+        "public_transport": "platform",
+        "ref": "13117",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064972,
+          45.5160582
+        ]
+      },
+      "id": "node/4424654969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424657665",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Sarca - Via La Farina",
+        "note:it": "Fermata linea z301",
+        "operator": "Nordest Trasporti",
+        "public_transport": "platform",
+        "ref": "13607",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.20836,
+          45.5152472
+        ]
+      },
+      "id": "node/4424657665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424657666",
+        "bench": "yes",
+        "bus": "yes",
+        "check_date:shelter": "2020-12-20",
+        "highway": "bus_stop",
+        "name": "Viale Sarca - Via La Farina",
+        "note:it": "Fermata linea z301",
+        "operator": "Nordest Trasporti",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2086376,
+          45.5152528
+        ]
+      },
+      "id": "node/4424657666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424661061",
+        "amenity": "car_wash",
+        "name": "Autolavaggio Sarca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2092737,
+          45.5174748
+        ]
+      },
+      "id": "node/4424661061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426436695",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2118693,
+          45.4996056
+        ]
+      },
+      "id": "node/4426436695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426442193",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120172,
+          45.4997032
+        ]
+      },
+      "id": "node/4426442193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426464893",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2127838,
+          45.4974999
+        ]
+      },
+      "id": "node/4426464893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4426482290",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "mapillary": "sZq4GxF7F-Nh2SG6ufsK_w",
+        "pole": "yes",
+        "public_transport": "platform",
+        "shelter": "no",
+        "survey:date": "2020-01-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2126677,
+          45.4974847
+        ]
+      },
+      "id": "node/4426482290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4529284717",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2009864,
+          45.4928967
+        ]
+      },
+      "id": "node/4529284717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4547684770",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "fee": "yes",
+        "name": "Pirelli - Università Bicocca",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "327",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2128182,
+          45.5185307
+        ]
+      },
+      "id": "node/4547684770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4547857883",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Stefini - Ressi",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "281",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2028556,
+          45.4968641
+        ]
+      },
+      "id": "node/4547857883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4547940486",
+        "amenity": "parking",
+        "layer": "-1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2042179,
+          45.4943475
+        ]
+      },
+      "id": "node/4547940486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4551179617",
+        "amenity": "motorcycle_parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2133245,
+          45.5168097
+        ]
+      },
+      "id": "node/4551179617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4551180220",
+        "access": "permissive",
+        "amenity": "parking_entrance",
+        "covered": "yes",
+        "name": "Piazza dell'Ateneo Nuovo",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2136844,
+          45.51748
+        ]
+      },
+      "id": "node/4551180220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568359909",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ca' Granda M5",
+        "public_transport": "platform",
+        "ref": "17168",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2009481,
+          45.5062464
+        ]
+      },
+      "id": "node/4568359909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568362314",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Viale Sarca Via Venosta",
+        "public_transport": "platform",
+        "ref": "15748",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2056461,
+          45.5099702
+        ]
+      },
+      "id": "node/4568362314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4572043280",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Alserio - Cola",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "317",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1856719,
+          45.491013
+        ]
+      },
+      "id": "node/4572043280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4574630027",
+        "access": "permissive",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1880812,
+          45.4966331
+        ]
+      },
+      "id": "node/4574630027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4588164250",
+        "amenity": "car_wash",
+        "noname": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1689562,
+          45.5048826
+        ]
+      },
+      "id": "node/4588164250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4588164280",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "fee": "yes",
+        "name": "Baldinucci - Maffucci",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "260",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1692348,
+          45.5034933
+        ]
+      },
+      "id": "node/4588164280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621725801",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Pianell Via Ugolini",
+        "public_transport": "platform",
+        "ref": "15746",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2058145,
+          45.5069329
+        ]
+      },
+      "id": "node/4621725801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889206189",
+        "bench": "no",
+        "name": "Greco Rovereto",
+        "public_transport": "platform",
+        "ref": "12254",
+        "shelter": "no",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2160769,
+          45.4949224
+        ]
+      },
+      "id": "node/4889206189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889473573",
+        "bench": "no",
+        "name": "Piazza Morbegno",
+        "public_transport": "platform",
+        "ref": "12253",
+        "shelter": "no",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164289,
+          45.4925886
+        ]
+      },
+      "id": "node/4889473573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889662235",
+        "bench": "no",
+        "name": "Via Venini Via Sauli",
+        "public_transport": "platform",
+        "ref": "12248",
+        "shelter": "no",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2158784,
+          45.4913283
+        ]
+      },
+      "id": "node/4889662235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889662237",
+        "bench": "no",
+        "name": "Piazza Morbegno",
+        "public_transport": "platform",
+        "ref": "12249",
+        "shelter": "no",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2161989,
+          45.4933827
+        ]
+      },
+      "id": "node/4889662237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4893995307",
+        "bench": "no",
+        "bus": "yes",
+        "name": "Via Imbriani Via Scalvini",
+        "public_transport": "platform",
+        "ref": "11334",
+        "shelter": "no",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1692308,
+          45.4989457
+        ]
+      },
+      "id": "node/4893995307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4970318192",
+        "access": "private",
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1780292,
+          45.5039469
+        ]
+      },
+      "id": "node/4970318192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5068861083",
+        "access": "permissive",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1960882,
+          45.5214235
+        ]
+      },
+      "id": "node/5068861083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5068861084",
+        "access": "permissive",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "5",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1960185,
+          45.5216504
+        ]
+      },
+      "id": "node/5068861084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5105393969",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "capacity": "6",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2189295,
+          45.51155
+        ]
+      },
+      "id": "node/5105393969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111687989",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini Viale Stelvio",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "ref": "11616",
+        "shelter": "yes",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1852603,
+          45.4943385
+        ]
+      },
+      "id": "node/5111687989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111687991",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Via Alserio",
+        "public_transport": "platform",
+        "ref": "11613",
+        "shelter": "yes",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838831,
+          45.4910295
+        ]
+      },
+      "id": "node/5111687991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111687992",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Via Farini - Via Alserio",
+        "public_transport": "stop_position",
+        "ref": "11613",
+        "shelter": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1838383,
+          45.4910349
+        ]
+      },
+      "id": "node/5111687992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5216248522",
+        "name": "Zara",
+        "operator": "ATM",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1088305",
+        "wikipedia": "it:Zara (metropolitana di Milano)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1925598,
+          45.4925737
+        ]
+      },
+      "id": "node/5216248522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300922930",
+        "amenity": "bicycle_rental",
+        "capacity": "27",
+        "fee": "yes",
+        "name": "Piazzale Nizza",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "321",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1888177,
+          45.5033825
+        ]
+      },
+      "id": "node/5300922930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5300933691",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Murat - Villani",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "280",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1906619,
+          45.4995199
+        ]
+      },
+      "id": "node/5300933691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302000861",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2059878,
+          45.4961736
+        ]
+      },
+      "id": "node/5302000861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302000901",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2069191,
+          45.4956204
+        ]
+      },
+      "id": "node/5302000901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5659087438",
+        "amenity": "bicycle_rental",
+        "capacity": "28",
+        "fee": "yes",
+        "name": "Gioia - Cassina de Pomm",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "296",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2082322,
+          45.497001
+        ]
+      },
+      "id": "node/5659087438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311061",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2171914,
+          45.5224216
+        ]
+      },
+      "id": "node/5972311061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311066",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2140819,
+          45.5217926
+        ]
+      },
+      "id": "node/5972311066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311071",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2144952,
+          45.5217943
+        ]
+      },
+      "id": "node/5972311071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311073",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2147297,
+          45.521618
+        ]
+      },
+      "id": "node/5972311073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311078",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2148289,
+          45.5230722
+        ]
+      },
+      "id": "node/5972311078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972311084",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2151324,
+          45.5228808
+        ]
+      },
+      "id": "node/5972311084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5972320589",
+        "amenity": "parking_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2154838,
+          45.5228939
+        ]
+      },
+      "id": "node/5972320589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6109930438",
+        "amenity": "bicycle_parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2117518,
+          45.5007421
+        ]
+      },
+      "id": "node/6109930438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6363762843",
+        "bus": "yes",
+        "departures_board": "yes",
+        "highway": "bus_stop",
+        "mapillary": "a-MnOXcTTyPHHGXK63CpqA",
+        "name": "Viale Sarca - via San Glicerio",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2019-08-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2104646,
+          45.5184896
+        ]
+      },
+      "id": "node/6363762843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793798",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Chiese - F. Testi",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "329",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2103437,
+          45.5223791
+        ]
+      },
+      "id": "node/6727793798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793799",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "G. da Bussero - F. Testi",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "328",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2070445,
+          45.5186261
+        ]
+      },
+      "id": "node/6727793799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793800",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "fee": "yes",
+        "name": "Arcimboldi - Innovazione",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "326",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2127576,
+          45.5149274
+        ]
+      },
+      "id": "node/6727793800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793801",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Ca' Granda - F. Testi",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "313",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2000131,
+          45.5067191
+        ]
+      },
+      "id": "node/6727793801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793802",
+        "amenity": "bicycle_rental",
+        "capacity": "28",
+        "fee": "yes",
+        "name": "Ospedale Maggiore",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "315",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1896665,
+          45.5084503
+        ]
+      },
+      "id": "node/6727793802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793804",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "fee": "yes",
+        "name": "Sauli - Battaglia",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "266",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2133021,
+          45.4911224
+        ]
+      },
+      "id": "node/6727793804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793817",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "De Marchi - Lucini",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "311",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2088242,
+          45.5005118
+        ]
+      },
+      "id": "node/6727793817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793818",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Gioia - Cagliero",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "319",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064022,
+          45.4939212
+        ]
+      },
+      "id": "node/6727793818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793823",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "fee": "yes",
+        "name": "Marche - Zara",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "202",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1939808,
+          45.495696
+        ]
+      },
+      "id": "node/6727793823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793824",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Maciachini - Marche",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "258",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1868998,
+          45.4980499
+        ]
+      },
+      "id": "node/6727793824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793825",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "fee": "yes",
+        "name": "Dergano",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "282",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.176812,
+          45.5030074
+        ]
+      },
+      "id": "node/6727793825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793826",
+        "amenity": "bicycle_rental",
+        "capacity": "29",
+        "fee": "yes",
+        "name": "Livigno - Monte San Genesio",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "262",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1784106,
+          45.5000521
+        ]
+      },
+      "id": "node/6727793826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793827",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Stelvio - Farini",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "270",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1849673,
+          45.494787
+        ]
+      },
+      "id": "node/6727793827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793828",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "fee": "yes",
+        "name": "Lancetti - Maloja",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "256",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1763373,
+          45.494897
+        ]
+      },
+      "id": "node/6727793828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6727793832",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "fee": "yes",
+        "name": "Nigra - Castellini",
+        "network": "BikeMi",
+        "operator": "Clear Channel",
+        "payment:credit_cards": "no",
+        "ref": "255",
+        "source": "https://www.bikemi.com/it/mappa-stazioni.aspx",
+        "website": "https://www.bikemi.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.170545,
+          45.4962779
+        ]
+      },
+      "id": "node/6727793832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6926262642",
+        "amenity": "bicycle_parking",
+        "capacity": "15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1939151,
+          45.5154001
+        ]
+      },
+      "id": "node/6926262642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7952362836",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "5",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1858209,
+          45.4924212
+        ]
+      },
+      "id": "node/7952362836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7952362837",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "5",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1857585,
+          45.4924015
+        ]
+      },
+      "id": "node/7952362837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7952362842",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1855896,
+          45.4930497
+        ]
+      },
+      "id": "node/7952362842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7952362844",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1853736,
+          45.4930036
+        ]
+      },
+      "id": "node/7952362844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8021107184",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2172014,
+          45.4950864
+        ]
+      },
+      "id": "node/8021107184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8021113285",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2172014,
+          45.4952213
+        ]
+      },
+      "id": "node/8021113285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8021113286",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.216951,
+          45.4950819
+        ]
+      },
+      "id": "node/8021113286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8265067945",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1852643,
+          45.4912277
+        ]
+      },
+      "id": "node/8265067945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8318232669",
+        "amenity": "parking_entrance",
+        "layer": "-1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1857109,
+          45.4958791
+        ]
+      },
+      "id": "node/8318232669"
+    }
+  ]
+}

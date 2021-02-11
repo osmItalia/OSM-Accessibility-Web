@@ -2,8 +2,126 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2021-01-08T15:19:02Z",
+  "timestamp": "2021-02-11T07:15:03Z",
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32022249",
+        "brand": "Audi;Volkswagen",
+        "building": "retail",
+        "name": "Sagam",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2112696,
+              45.5217887
+            ],
+            [
+              9.2113162,
+              45.5218737
+            ],
+            [
+              9.2103522,
+              45.5221431
+            ],
+            [
+              9.2102705,
+              45.5220107
+            ],
+            [
+              9.2103019,
+              45.521996
+            ],
+            [
+              9.2101393,
+              45.5216907
+            ],
+            [
+              9.2104113,
+              45.5216228
+            ],
+            [
+              9.2111101,
+              45.5214158
+            ],
+            [
+              9.2111788,
+              45.5215464
+            ],
+            [
+              9.2112727,
+              45.5215123
+            ],
+            [
+              9.2112796,
+              45.5214711
+            ],
+            [
+              9.2112982,
+              45.5214279
+            ],
+            [
+              9.2113544,
+              45.5213962
+            ],
+            [
+              9.2114179,
+              45.5213887
+            ],
+            [
+              9.2114695,
+              45.5213916
+            ],
+            [
+              9.2115232,
+              45.5214184
+            ],
+            [
+              9.2115423,
+              45.5214575
+            ],
+            [
+              9.2115522,
+              45.5214908
+            ],
+            [
+              9.2115334,
+              45.5215384
+            ],
+            [
+              9.2114859,
+              45.5215651
+            ],
+            [
+              9.211438,
+              45.5215756
+            ],
+            [
+              9.21139,
+              45.5215791
+            ],
+            [
+              9.2112354,
+              45.5216499
+            ],
+            [
+              9.2113094,
+              45.5217777
+            ],
+            [
+              9.2112696,
+              45.5217887
+            ]
+          ]
+        ]
+      },
+      "id": "way/32022249"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -296,6 +414,92 @@
         ]
       },
       "id": "way/45019971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58216916",
+        "building": "retail",
+        "name": "Esselunga",
+        "operator": "Esselunga S.p.A.",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2032543,
+              45.5182501
+            ],
+            [
+              9.2036665,
+              45.518129
+            ],
+            [
+              9.203985,
+              45.5186819
+            ],
+            [
+              9.2041902,
+              45.5186275
+            ],
+            [
+              9.2043957,
+              45.5189776
+            ],
+            [
+              9.2040242,
+              45.51908
+            ],
+            [
+              9.2039708,
+              45.5189782
+            ],
+            [
+              9.2035159,
+              45.5191027
+            ],
+            [
+              9.20321,
+              45.5190409
+            ],
+            [
+              9.203146,
+              45.5189303
+            ],
+            [
+              9.2030075,
+              45.5189673
+            ],
+            [
+              9.2028864,
+              45.518744
+            ],
+            [
+              9.2031181,
+              45.5186796
+            ],
+            [
+              9.2030481,
+              45.5185609
+            ],
+            [
+              9.2032903,
+              45.5184921
+            ],
+            [
+              9.203223,
+              45.5183731
+            ],
+            [
+              9.2032543,
+              45.5182501
+            ]
+          ]
+        ]
+      },
+      "id": "way/58216916"
     },
     {
       "type": "Feature",
@@ -895,6 +1099,61 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/436386084",
+        "amenity": "marketplace",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Mercato comunale Monza",
+        "wikidata": "Q28668593"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.2195391,
+              45.4933938
+            ],
+            [
+              9.2192013,
+              45.4933889
+            ],
+            [
+              9.2191232,
+              45.4933877
+            ],
+            [
+              9.219066,
+              45.4933869
+            ],
+            [
+              9.2189874,
+              45.4931246
+            ],
+            [
+              9.2195169,
+              45.4931281
+            ],
+            [
+              9.219526,
+              45.4932366
+            ],
+            [
+              9.2195344,
+              45.4933379
+            ],
+            [
+              9.2195391,
+              45.4933938
+            ]
+          ]
+        ]
+      },
+      "id": "way/436386084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/436811189",
         "brand": "Simply Market",
         "brand:wikidata": "Q3484790",
@@ -1185,6 +1444,22 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/365547376",
+        "name": "Fiorista",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2071099,
+          45.5232895
+        ]
+      },
+      "id": "node/365547376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/446783400",
         "brand": "Carrefour Express",
         "brand:wikidata": "Q2940190",
@@ -1243,6 +1518,21 @@
         ]
       },
       "id": "node/1179315734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1238567863",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2120497,
+          45.5235096
+        ]
+      },
+      "id": "node/1238567863"
     },
     {
       "type": "Feature",
@@ -1403,6 +1693,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/1439230003",
+        "addr:housenumber": "46",
+        "addr:postcode": "20161",
+        "addr:street": "Via Alessandro Astesani",
+        "contact:phone": "+39 02 6457310",
+        "contact:phone:2": "+39 02 66201782",
+        "name": "My Auchan",
+        "old_name": "Simply",
+        "opening_hours": "Mo-Sa 08:30-20:00; Su 09:00-19:00",
+        "operator": "SMA S.p.A.",
+        "ref:vatin": "IT08970540152",
+        "shop": "supermarket",
+        "website": "https://www.auchan.it/it-IT-it/Custom/Organa/PuntoVendita.aspx?codiceNegozio=1100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.170048,
+          45.5201786
+        ]
+      },
+      "id": "node/1439230003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/1514331907",
         "name": "Upim",
         "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-19:30",
@@ -1418,6 +1734,38 @@
         ]
       },
       "id": "node/1514331907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1524489864",
+        "shop": "newsagent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1696818,
+          45.5200872
+        ]
+      },
+      "id": "node/1524489864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1525006579",
+        "addr:street": "Via Vincenzo da Seregno",
+        "name": "OVS Kids",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1705531,
+          45.5200112
+        ]
+      },
+      "id": "node/1525006579"
     },
     {
       "type": "Feature",
@@ -1484,6 +1832,28 @@
         ]
       },
       "id": "node/1593182502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1922663958",
+        "addr:city": "Milano",
+        "addr:housenumber": "232",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "name": "OVS",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "phone": "+39 02 6611 1436",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.214829,
+          45.5227785
+        ]
+      },
+      "id": "node/1922663958"
     },
     {
       "type": "Feature",
@@ -1790,6 +2160,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2272854988",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "29",
+        "addr:street": "Via Gian Rinaldo Carli",
+        "contact:mobile": "+39 340 1680242",
+        "delivery:covid19": "yes",
+        "description": "Enoteca-Vini-Bevande–Olii",
+        "description:covid19": "Orario di consegna da concordare",
+        "name": "Vini enoteca",
+        "shop": "alcohol",
+        "source": "ds959"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1705153,
+          45.5222119
+        ]
+      },
+      "id": "node/2272854988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2278117974",
         "shop": "bakery"
       },
@@ -1801,6 +2196,47 @@
         ]
       },
       "id": "node/2278117974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2341050671",
+        "addr:housenumber": "11",
+        "addr:postcode": "20161",
+        "addr:street": "Via Franco Faccio",
+        "name": "EffeCorta Milano",
+        "organic": "yes",
+        "ref:vatin": "IT08088430965",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1699032,
+          45.5179976
+        ]
+      },
+      "id": "node/2341050671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349904387",
+        "addr:housenumber": "2",
+        "addr:street": "Via Giuseppe Taccioli",
+        "contact:phone": "+39 02 66222987",
+        "name": "Ferramenta Nord",
+        "ref:vatin": "IT05905420153",
+        "shop": "hardware"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1686585,
+          45.5170208
+        ]
+      },
+      "id": "node/2349904387"
     },
     {
       "type": "Feature",
@@ -1821,6 +2257,46 @@
         ]
       },
       "id": "node/2357022335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2357022342",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "22",
+        "addr:postcode": "20161",
+        "addr:street": "Via Carlo Montanari",
+        "contact:phone": "+39 02 6468569",
+        "contact:website": "http://ferrariopaolo.it",
+        "name": "Paolo G. Ferrario",
+        "opening_hours": "Mo-Fr 08:30-12:30, 14:00-18:30",
+        "ref:vatin": "IT07702800157",
+        "shop": "kitchen_tools"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1696394,
+          45.5092173
+        ]
+      },
+      "id": "node/2357022342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2357022343",
+        "shop": "funeral_directors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1685539,
+          45.509384
+        ]
+      },
+      "id": "node/2357022343"
     },
     {
       "type": "Feature",
@@ -1977,6 +2453,106 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2510278530",
+        "fixme": "Position estimated",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1711104,
+          45.5174299
+        ]
+      },
+      "id": "node/2510278530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2510278531",
+        "fixme": "Position estimated",
+        "shop": "newsagent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1710912,
+          45.5174718
+        ]
+      },
+      "id": "node/2510278531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2510278533",
+        "shop": "shoes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1713524,
+          45.517577
+        ]
+      },
+      "id": "node/2510278533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2510278534",
+        "shop": "paint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1713125,
+          45.517667
+        ]
+      },
+      "id": "node/2510278534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520897538",
+        "name": "Cambielli Edilfriuli",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:00",
+        "shop": "bathroom_furnishing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1717166,
+          45.5198922
+        ]
+      },
+      "id": "node/2520897538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2535142766",
+        "addr:housenumber": "39",
+        "addr:postcode": "20161",
+        "addr:street": "Via Alessandro Astesani",
+        "name": "Olly",
+        "operator": "Olly s.n.c.",
+        "ref:vatin": "IT07705640964",
+        "shop": "department_store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1697546,
+          45.5193687
+        ]
+      },
+      "id": "node/2535142766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2535463886",
         "brand": "Simply Market",
         "brand:wikidata": "Q3484790",
@@ -1992,6 +2568,21 @@
         ]
       },
       "id": "node/2535463886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2535463888",
+        "amenity": "marketplace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1856637,
+          45.4942978
+        ]
+      },
+      "id": "node/2535463888"
     },
     {
       "type": "Feature",
@@ -2115,6 +2706,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2743753594",
+        "name": "Punto Snai",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1928306,
+          45.5240478
+        ]
+      },
+      "id": "node/2743753594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2746602307",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1768132,
+          45.5203578
+        ]
+      },
+      "id": "node/2746602307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2773073454",
         "name": "Conti",
         "shop": "hardware"
@@ -2142,6 +2764,21 @@
         ]
       },
       "id": "node/2773073455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2773073462",
+        "shop": "hardware"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1694957,
+          45.5152263
+        ]
+      },
+      "id": "node/2773073462"
     },
     {
       "type": "Feature",
@@ -2182,6 +2819,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2852784537",
+        "addr:housenumber": "38/A",
+        "addr:postcode": "20161",
+        "addr:street": "Via Alessandro Astesani",
+        "contact:phone": "+39 02 66220466",
+        "fixme": "Position estimated",
+        "name": "Grassi",
+        "ref:vatin": "IT10742560153",
+        "shop": "electronics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1702071,
+          45.5193182
+        ]
+      },
+      "id": "node/2852784537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2893566523",
         "name": "Nino Bixio",
         "phone": "+39 02 66102953",
@@ -2199,6 +2858,21 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/2909180449",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064474,
+          45.490936
+        ]
+      },
+      "id": "node/2909180449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/2917137899",
         "shop": "florist"
       },
@@ -2210,6 +2884,21 @@
         ]
       },
       "id": "node/2917137899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2929088284",
+        "shop": "kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1743272,
+          45.5237285
+        ]
+      },
+      "id": "node/2929088284"
     },
     {
       "type": "Feature",
@@ -2332,6 +3021,26 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/3217394292",
+        "addr:city": "Milano",
+        "addr:housenumber": "232",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "name": "CVG Moda",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2147896,
+          45.5219158
+        ]
+      },
+      "id": "node/3217394292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/3217954521",
         "addr:city": "Milano",
         "addr:housenumber": "16",
@@ -2375,6 +3084,26 @@
         ]
       },
       "id": "node/3269474743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3326951696",
+        "addr:city": "Milano",
+        "addr:postcode": "20126",
+        "addr:street": "Via Chiese",
+        "name": "Unieuro",
+        "operator": "Unieuro",
+        "shop": "electronics"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2164492,
+          45.5223513
+        ]
+      },
+      "id": "node/3326951696"
     },
     {
       "type": "Feature",
@@ -2559,6 +3288,39 @@
         ]
       },
       "id": "node/3619559745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3661337025",
+        "shop": "tobacco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1919292,
+          45.5221678
+        ]
+      },
+      "id": "node/3661337025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3661337026",
+        "amenity": "cafe",
+        "name": "Capolinea",
+        "shop": "tobacco",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1926569,
+          45.5243047
+        ]
+      },
+      "id": "node/3661337026"
     },
     {
       "type": "Feature",
@@ -3194,6 +3956,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4041812881",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:postcode": "20125",
+        "addr:street": "Viale Lunigiana",
+        "name": "Oasi del Pescatore",
+        "phone": "+39 02 66982991",
+        "shop": "hunting",
+        "website": "http://oasidelpescatore.altervista.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2068682,
+          45.4909378
+        ]
+      },
+      "id": "node/4041812881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4041813168",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:postcode": "20125",
+        "addr:street": "Viale Lunigiana",
+        "name": "Ottica Valsecchi",
+        "opening_hours": "Mo 10:00-13:00,15:00-19:30; Tu-Sa 09:00-13:00,15:00-19:30",
+        "shop": "optician",
+        "website": "http://www.fotootticavalsecchi.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2067776,
+          45.4909768
+        ]
+      },
+      "id": "node/4041813168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4041813169",
         "addr:city": "Milano",
         "addr:country": "IT",
@@ -3253,6 +4059,26 @@
         ]
       },
       "id": "node/4092138188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4092138537",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "29",
+        "addr:postcode": "20126",
+        "addr:street": "Via Ernesto Breda",
+        "shop": "vacant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2137956,
+          45.5099231
+        ]
+      },
+      "id": "node/4092138537"
     },
     {
       "type": "Feature",
@@ -3715,6 +4541,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4237791491",
+        "name": "Deus Cycleworks",
+        "shop": "bicycle",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1888226,
+          45.490972
+        ]
+      },
+      "id": "node/4237791491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4270803657",
         "shop": "dry_cleaning"
       },
@@ -3840,6 +4683,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/4405526497",
+        "addr:city": "Milano",
+        "addr:housenumber": "60",
+        "addr:postcode": "20126",
+        "addr:street": "Via Chiese",
+        "name": "carpisa",
+        "name:it": "carpisa",
+        "phone": "+39 02 6611 1811",
+        "shop": "department_store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2159005,
+          45.5224503
+        ]
+      },
+      "id": "node/4405526497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/4405541395",
         "name": "hangar 107",
         "name:it": "hangar 107",
@@ -3874,6 +4739,27 @@
         ]
       },
       "id": "node/4424654939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424655371",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "199/A",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "name": "Autofficina Luciano",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2096384,
+          45.5176345
+        ]
+      },
+      "id": "node/4424655371"
     },
     {
       "type": "Feature",
@@ -3916,6 +4802,48 @@
         ]
       },
       "id": "node/4424655810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424656509",
+        "addr:city": "Milano",
+        "addr:housenumber": "14",
+        "addr:postcode": "20126",
+        "addr:street": "Via San Glicerio",
+        "name": "Il Panino dei Sogni",
+        "phone": "+39 02 6424671",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2095057,
+          45.5178765
+        ]
+      },
+      "id": "node/4424656509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424656510",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "188",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "name": "Libreria Emmedue",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2099489,
+          45.5174832
+        ]
+      },
+      "id": "node/4424656510"
     },
     {
       "type": "Feature",
@@ -3963,6 +4891,23 @@
         ]
       },
       "id": "node/4459093371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4486004528",
+        "fixme": "Position estimated",
+        "opening_hours": "Mo 15:30-19:00; Tu-Fr 08:30-12:30, 15:30-19:00; Sa 08:30-12:30",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1687737,
+          45.5203435
+        ]
+      },
+      "id": "node/4486004528"
     },
     {
       "type": "Feature",
@@ -4449,8 +5394,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.1853146,
-          45.4947996
+          9.1852948,
+          45.4948024
         ]
       },
       "id": "node/4585321452"
@@ -4560,6 +5505,53 @@
         ]
       },
       "id": "node/4710074605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4720208546",
+        "addr:city": "Milano",
+        "addr:housenumber": "1",
+        "addr:postcode": "20126",
+        "addr:street": "Via Chiese",
+        "name": "Coop - Supermercato del Futuro",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "operator": "Coop Lombardia",
+        "phone": "+39 02 64259641",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2144535,
+          45.5219834
+        ]
+      },
+      "id": "node/4720208546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4812221408",
+        "addr:housenumber": "14",
+        "addr:postcode": "20159",
+        "addr:street": "Via Lario",
+        "contact:phone": "+39 02 6886493",
+        "fixme": "Position estimated",
+        "name": "Tessuti e Scampoli",
+        "operator": "Tessuti e Scampoli srl",
+        "ref:vatin": "IT09738320150",
+        "shop": "fabric",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1896247,
+          45.4909245
+        ]
+      },
+      "id": "node/4812221408"
     },
     {
       "type": "Feature",
@@ -4775,6 +5767,44 @@
         ]
       },
       "id": "node/4950828821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4952154916",
+        "level": "0",
+        "name": "Grand Vision",
+        "shop": "optician"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2153263,
+          45.5218497
+        ]
+      },
+      "id": "node/4952154916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4952154919",
+        "addr:city": "Milano",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Sarca",
+        "level": "0",
+        "name": "Pittarosso",
+        "phone": "+39 02 6610 7144",
+        "shop": "shoes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2151991,
+          45.522675
+        ]
+      },
+      "id": "node/4952154919"
     },
     {
       "type": "Feature",
@@ -5544,6 +6574,21 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5157878347",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1765429,
+          45.5242823
+        ]
+      },
+      "id": "node/5157878347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5184633254",
         "addr:housenumber": "68",
         "addr:postcode": "20159",
@@ -6090,6 +7135,59 @@
         ]
       },
       "id": "node/5631929600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5634587616",
+        "name": "Officina Zanoli",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1706293,
+          45.51583
+        ]
+      },
+      "id": "node/5634587616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5664610528",
+        "addr:city": "Milano",
+        "addr:housenumber": "6",
+        "addr:street": "Via Ponale",
+        "name": "I Barbieri di Bicocca",
+        "phone": "+39 340 538 3928",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2083611,
+          45.5229196
+        ]
+      },
+      "id": "node/5664610528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5671583897",
+        "level": "0",
+        "name": "Evoc Parrucchieri",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1697287,
+          45.5154386
+        ]
+      },
+      "id": "node/5671583897"
     },
     {
       "type": "Feature",
@@ -7128,6 +8226,59 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/5890846763",
+        "addr:city": "Milano",
+        "addr:housenumber": "229",
+        "addr:postcode": "20162",
+        "addr:street": "Viale Giovanni Suzzani",
+        "name": "Triborgo",
+        "phone": "+39 02 87158588",
+        "shop": "estate_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2049086,
+          45.5196501
+        ]
+      },
+      "id": "node/5890846763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5937655549",
+        "name": "PANetto",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2073996,
+          45.5231979
+        ]
+      },
+      "id": "node/5937655549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5971878591",
+        "name": "Fronteretro",
+        "shop": "copyshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2091532,
+          45.5168136
+        ]
+      },
+      "id": "node/5971878591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/5999571735",
         "female": "yes",
         "shop": "hairdresser"
@@ -7356,6 +8507,64 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6514991656",
+        "addr:city": "Milano",
+        "addr:housenumber": "27",
+        "addr:street": "Via dei Transiti",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2187487,
+          45.4909537
+        ]
+      },
+      "id": "node/6514991656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991657",
+        "addr:city": "Milano",
+        "addr:housenumber": "27",
+        "addr:street": "Via dei Transiti",
+        "name": "Peccati di gola",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2187148,
+          45.4909596
+        ]
+      },
+      "id": "node/6514991657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991658",
+        "addr:city": "Milano",
+        "addr:housenumber": "27",
+        "addr:street": "Via dei Transiti",
+        "male": "no",
+        "name": "Geminy",
+        "shop": "hairdresser",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2186471,
+          45.4909713
+        ]
+      },
+      "id": "node/6514991658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6514991660",
         "name": "Nebuloni Milano",
         "shop": "shoes"
@@ -7368,6 +8577,40 @@
         ]
       },
       "id": "node/6514991660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991661",
+        "amenity": "cafe",
+        "name": "Web Bar",
+        "shop": "bookmaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2186132,
+          45.4909772
+        ]
+      },
+      "id": "node/6514991661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6514991663",
+        "cuisine": "asian",
+        "name": "Food City",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2185479,
+          45.4909455
+        ]
+      },
+      "id": "node/6514991663"
     },
     {
       "type": "Feature",
@@ -7422,6 +8665,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/6637039494",
+        "name": "Arcaplanet",
+        "shop": "pet",
+        "website": "https://www.arcaplanet.it/negozi/portfolio_page/arcaplanet-milano-piazzale-nigra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.170767,
+          45.4961336
+        ]
+      },
+      "id": "node/6637039494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/6720411285",
         "addr:city": "Milano",
         "addr:country": "IT",
@@ -7458,6 +8718,45 @@
         ]
       },
       "id": "node/6790544185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6797341881",
+        "name": "Dpiù",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2064449,
+          45.5222624
+        ]
+      },
+      "id": "node/6797341881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6818430391",
+        "addr:city": "Milano",
+        "addr:housenumber": "216",
+        "addr:postcode": "20126",
+        "addr:street": "Viale Fulvio Testi",
+        "name": "Mission",
+        "phone": "+390236591569",
+        "shop": "sports",
+        "sport": "wakeboard;kitesurf;snowboard;sup;surf;skateboard",
+        "website": "https://www.sportmission.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.207633,
+          45.5179793
+        ]
+      },
+      "id": "node/6818430391"
     },
     {
       "type": "Feature",
@@ -7506,6 +8805,25 @@
         ]
       },
       "id": "node/6959937500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7047896118",
+        "email": "orastudio@fastwebnet.it",
+        "name": "Centro Copie Bicocca",
+        "phone": "+39 02 6610 2387",
+        "shop": "copyshop",
+        "website": "https://www.ccb-orastudio.net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2100089,
+          45.5175933
+        ]
+      },
+      "id": "node/7047896118"
     },
     {
       "type": "Feature",
@@ -7775,7 +9093,7 @@
       "properties": {
         "@id": "node/7176347078",
         "name": "servizi sartoriali Lucy",
-        "opening_hours": "Mo-Sa 09:00-13:30 16:00-19:00",
+        "opening_hours": "Mo-Sa 09:00-13:30,16:00-19:00",
         "shop": "tailor"
       },
       "geometry": {
@@ -8098,7 +9416,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7177698268",
-        "shop": "hardware"
+        "shop": "hardware",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
@@ -8504,6 +9823,81 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/7515326322",
+        "shop": "butcher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918477,
+          45.5182789
+        ]
+      },
+      "id": "node/7515326322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515326323",
+        "contact:phone": "+39 02 6435741",
+        "name": "Groppi",
+        "opening_hours": "24/7",
+        "shop": "funeral_directors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1920719,
+          45.5181943
+        ]
+      },
+      "id": "node/7515326323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515326326",
+        "addr:city": "Milano",
+        "addr:housenumber": "45",
+        "addr:postcode": "20162",
+        "addr:street": "Via Luigi Ornato",
+        "contact:mobile": "+39 335 6654517",
+        "contact:phone": "+39 02 6470611",
+        "delivery:covid19": "yes",
+        "description": "Ortofrutta",
+        "description:covid19": "ora di consegna da concordare",
+        "name": "Pier & Ile Frutta e Verdura",
+        "shop": "greengrocer",
+        "source": "ds959"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1918546,
+          45.5183579
+        ]
+      },
+      "id": "node/7515326326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7551632740",
+        "name": "Non solo fiori",
+        "shop": "florist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1706115,
+          45.5171456
+        ]
+      },
+      "id": "node/7551632740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/7796251679",
         "addr:housenumber": "65",
         "addr:street": "Via Arbe",
@@ -8522,6 +9916,23 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "node/8187937663",
+        "fixme": "Position estimated",
+        "name": "Il frutteto",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1701743,
+          45.5193716
+        ]
+      },
+      "id": "node/8187937663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "node/8302418266",
         "fixme": "Position estimated",
         "shop": "newsagent"
@@ -8534,6 +9945,22 @@
         ]
       },
       "id": "node/8302418266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8302418267",
+        "name": "Manganini",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1717943,
+          45.5168172
+        ]
+      },
+      "id": "node/8302418267"
     }
   ]
 }

@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-02-11T07:40:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253963523",
+        "addr:city": "Milano",
+        "addr:housenumber": "5",
+        "addr:postcode": "20162",
+        "addr:street": "Via Gian Battista Passerini",
+        "amenity": "library",
+        "contact:phone": "+39 02 88462542",
+        "contact:website": "http://www.comune.milano.it/biblioteche/",
+        "email": "C.BiblioNiguarda@comune.milano.it",
+        "fax": "+39 02 88462541",
+        "name": "biblioteca comunale rionale niguarda",
+        "ref:isil": "IT-MI0496",
+        "source": "www.comune.milano.it",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1930974,
+          45.5152399
+        ]
+      },
+      "id": "node/253963523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253971926",
+        "addr:city": "Milano",
+        "addr:housenumber": "100",
+        "addr:postcode": "20125",
+        "addr:street": "Viale Zara",
+        "amenity": "library",
+        "contact:phone": "+39 02 88462823",
+        "contact:website": "www.comune.milano.it/biblioteche",
+        "email": "C.BiblioZara@comune.milano.it",
+        "fax": "+39 02 88462822",
+        "name": "Biblioteca Zara",
+        "opening_hours": "Mo-Sa 09:00-15:00; Tu-Fr 13:00-19:00",
+        "ref:isil": "IT-MI1291",
+        "source": "www.comune.milano/biblioteche",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1960641,
+          45.4972154
+        ]
+      },
+      "id": "node/253971926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2747799946",
+        "amenity": "driving_school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1864088,
+          45.4983845
+        ]
+      },
+      "id": "node/2747799946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3213359363",
+        "amenity": "university",
+        "name": "U9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2112608,
+          45.5109533
+        ]
+      },
+      "id": "node/3213359363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3935587724",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "10",
+        "addr:postcode": "20125",
+        "addr:street": "Piazzale Istria",
+        "amenity": "driving_school",
+        "name": "Autoscuola Zara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1989913,
+          45.5017126
+        ]
+      },
+      "id": "node/3935587724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4277859748",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "22",
+        "addr:street": "Via Giovanni Cagliero",
+        "amenity": "kindergarten",
+        "name": "Scuola d'Infanzia Sant'Angela Merici"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2006165,
+          45.4968519
+        ]
+      },
+      "id": "node/4277859748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5074925142",
+        "amenity": "driving_school",
+        "name": "Autoscuola Oscar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1902137,
+          45.4926943
+        ]
+      },
+      "id": "node/5074925142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5694556918",
+        "addr:city": "Milano",
+        "addr:country": "IT",
+        "addr:housenumber": "23",
+        "addr:postcode": "20127",
+        "addr:street": "Via Luigi Varanini",
+        "amenity": "kindergarten",
+        "name": "Scuola d'Infanzia Presentazione"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2151743,
+          45.4930441
+        ]
+      },
+      "id": "node/5694556918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5712975091",
+        "amenity": "driving_school",
+        "name": "Europa Sprint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1981021,
+          45.5072774
+        ]
+      },
+      "id": "node/5712975091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6296170146",
+        "amenity": "library",
+        "name": "Biblioteca Dergano-Bovisa",
+        "opening_hours": "Mo,We,Fr 14:00-19:00; Tu,Th,Sa 09:00-14:00",
+        "phone": "+39 02 8846 5807",
+        "website": "https://biblioteche.comune.milano.it/library/dergano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1685324,
+          45.5037729
+        ]
+      },
+      "id": "node/6296170146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6459201049",
+        "addr:housenumber": "15",
+        "addr:street": "Via Elio Reguzzoni",
+        "amenity": "music_school",
+        "name": "CPM Music Institute",
+        "phone": "+39 02 641 1461",
+        "website": "www.cpm.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2033463,
+          45.507534
+        ]
+      },
+      "id": "node/6459201049"
+    }
+  ]
+}

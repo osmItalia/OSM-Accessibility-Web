@@ -25,6 +25,7 @@ import Controllers from './components/Controllers';
 import DirectionsLayer from './components/Directions/DirectionsLayer';
 import { useSelector } from 'react-redux';
 import { getIsSelectingFromMap } from './store/app/selectors';
+import { CENTER, LAYERS } from './constants';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -47,7 +48,7 @@ function App() {
       <Layout style={{ minHeight: '100vh', maxWidth: '100%' }}>
         <Layout.Content style={{ height: '100vh' }}>
           <MapContainer
-            center={[45.5074, 9.1924]}
+            center={CENTER}
             zoom={16}
             scrollWheelZoom
             zoomControl={false}
@@ -63,9 +64,9 @@ function App() {
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Layer name="shops" />
-            <Layer name="restaurants" />
-            <Layer name="bars" />
+            {LAYERS.map(l => (
+              <Layer name={l.name} key={l.name} />
+            ))}
             <LayerRender />
             <SearchLayer />
             <DirectionsLayer />

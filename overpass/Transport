@@ -1,0 +1,28 @@
+[out:json][timeout:25];
+(
+  node["amenity"="bicycle_parking"]({{bbox}});
+  node["amenity"="bicycle_repair_station"]({{bbox}});
+  node["amenity"="bicycle_rental"]({{bbox}});
+  node["amenity"="boat_rental"]({{bbox}});
+  node["amenity"="boat_sharing"]({{bbox}});
+  node["amenity"="bus_station"]({{bbox}});
+  node["amenity"="car_rental"]({{bbox}});
+  node["amenity"="car_sharing"]({{bbox}});
+  node["amenity"="car_wash"]({{bbox}});
+  node["amenity"="vehicle_inspection"]({{bbox}});
+  node["amenity"="charging_station"]({{bbox}});
+  node["amenity"="ferry_terminal"]({{bbox}});
+  node["amenity"="fuel"]({{bbox}});
+  node["amenity"="motorcycle_parking"]({{bbox}});
+  node["amenity"="parking"]({{bbox}});
+  node["amenity"="parking_entrance"]({{bbox}});
+  node["amenity"="parking_space"]({{bbox}});
+  node["amenity"="taxi"]({{bbox}});
+  node["public_transport"="platform"]({{bbox}});
+  node["public_transport"="station"]({{bbox}});
+  node["highway"="bus_stop"]({{bbox}});
+  node["railway"="platform"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
