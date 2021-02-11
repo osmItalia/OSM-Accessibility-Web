@@ -37,7 +37,8 @@ export const ACCESSIBILITY_CLASSNAME = {
   yes: 'accessibility_yes',
   no: 'accessibility_no',
   limited: 'accessibility_limited',
-  unknown: 'accessibility_unknown'
+  unknown: 'accessibility_unknown',
+  cluster: 'accessibility_cluster'
 };
 
 export const MODES = {

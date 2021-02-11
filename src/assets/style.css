@@ -1,17 +1,39 @@
 .layer-icon.accessibility_yes path {
     fill: #6ecc39 !important;
+    stroke: #276501 !important;
+}
+
+.layer-icon.cluster {
+    background: rgba(8, 45, 135, 0.9);
+    border-radius: 100%;
+    border: 1px solid rgb(3, 26, 87);
+    padding: .5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer-icon.cluster svg {
+    border-radius: 100%;
+}
+
+.layer-icon.cluster path {
+    fill: white !important;
 }
 
 .layer-icon.accessibility_no path {
     fill: #d9363e !important;
+    stroke: #b60009 !important;
 }
 
 .layer-icon.accessibility_limited path {
     fill: #ffc53d !important;
+    stroke: #d09000 !important;
 }
 
 .layer-icon.accessibility_unknown path {
     fill: #454545 !important;
+    stroke: #111 !important;
 }
 
 .ant-btn:hover .anticon path, .ant-btn:hover .anticon rect {

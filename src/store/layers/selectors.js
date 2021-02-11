@@ -57,3 +57,20 @@ export const getLayers = createSelector(
   getDomain,
   layers => layers.visibleLayers
 );
+
+export const getFeaturesGroupedByLayer = createSelector(
+  getFeaturesSelector,
+  getDomain,
+  ({ points }, { visibleLayers }) => {
+    const layers = visibleLayers.reduce((p, c) => ({ ...p, [c]: [] }), {});
+
+    points.forEach(point => {
+      const array = layers[point.layer];
+      if (array && Array.isArray(array)) {
+        layers[point.layer].push(point);
+      }
+    });
+
+    return layers;
+  }
+);

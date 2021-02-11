@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import 'react-leaflet-markercluster/dist/styles.min.css';
 import 'leaflet/dist/leaflet.css';
 import { Marker, Popup } from 'react-leaflet';
-import { getIconForFeature } from '../../assets/icons';
+import { getIconForFeature, ICONS_LAYERS_CLUSTER } from '../../assets/icons';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import { Button, Typography } from 'antd';
 import { useDispatch } from 'react-redux';
@@ -23,11 +23,15 @@ function getWCText(wh) {
   }
 }
 
-const MarkerCluster = ({ markers }) => {
+const MarkerCluster = ({ markers, layer: layerName }) => {
   const dispatch = useDispatch();
 
+  const iconCreateFn = useMemo(() => {
+    return () => ICONS_LAYERS_CLUSTER[layerName];
+  }, [layerName]);
+
   return (
-    <MarkerClusterGroup key={markers.length}>
+    <MarkerClusterGroup key={markers.length} iconCreateFunction={iconCreateFn}>
       {markers.map(({ position, text, layer, wheelchair, id, properties }) => (
         <Marker
           key={id}
