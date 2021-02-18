@@ -1,6 +1,5 @@
 .layer-icon.accessibility_yes path {
-    fill: #6ecc39 !important;
-    stroke: #276501 !important;
+    fill: #6ecc39;
 }
 
 .layer-icon.cluster {
@@ -21,19 +20,21 @@
     fill: white !important;
 }
 
-.layer-icon.accessibility_no path {
+.layer-icon.accessibility_no path, .layer-icon.accessibility_no g path {
     fill: #d9363e !important;
-    stroke: #b60009 !important;
 }
 
 .layer-icon.accessibility_limited path {
     fill: #ffc53d !important;
-    stroke: #d09000 !important;
 }
 
-.layer-icon.accessibility_unknown path {
-    fill: #454545 !important;
-    stroke: #111 !important;
+.layer-icon.accessibility_unknown path, .layer-icon.accessibility_unknown g path {
+    fill: #454545;
+}
+
+.layer-icon svg {
+    width: 100%;
+    height: 100%;
 }
 
 .ant-btn:hover .anticon path, .ant-btn:hover .anticon rect {
