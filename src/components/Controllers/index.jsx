@@ -32,7 +32,7 @@ export default function Controllers() {
         }}
       >
         {LAYERS.map(l => (
-          <Tooltip title={l.text} placement="left">
+          <Tooltip title={l.text} placement="left" key={l.name}>
             <Button
               size="large"
               type={getType(layers, l.name)}
