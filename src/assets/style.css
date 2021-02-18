@@ -47,5 +47,6 @@
     fill: #fff !important;
 }
 
-
-
+.ant-drawer {
+    z-index: 1020;
+}

@@ -49,7 +49,7 @@ export default function Controllers() {
           title="Rimani aggiornato"
           visible={showNewsletter}
           placement="left"
-          width={350}
+          width={375}
           bodyStyle={{ padding: 0, paddingTop: '1rem' }}
           onClose={() => setShowNewsletter(false)}
         >
