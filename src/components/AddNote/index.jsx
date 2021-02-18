@@ -22,6 +22,11 @@ export default function AddNote() {
         footer={false}
         destroyOnClose
       >
+        <p>
+          La tua nota sarà pubblica e potrà essere usata per aggiorare la mappa,
+          perciò non fornire dati personali nè informazioni derivanti da mappe o
+          database protetti da copyright.
+        </p>
         <Form
           layout="vertical"
           onFinish={data => dispatch(noteActions.sendNote(data))}
@@ -34,7 +39,10 @@ export default function AddNote() {
           </Button>
         </Form>
       </Modal>
-      <Tooltip title="Aggiungi nota OSM" placement="left">
+      <Tooltip
+        title="Hai scoperto un errore o una mancanza nella mappa? Apri una segnalazione in modo che altri mappatori possano correggere l'errore."
+        placement="right"
+      >
         <Button
           size="large"
           icon={<PushpinOutlined />}
@@ -42,13 +50,16 @@ export default function AddNote() {
             e.stopPropagation();
             if (!state.selectFromMap) {
               notification.info({
-                message: 'Premi sulla mappa per selezionare il punto'
+                message:
+                  "Premi per posizionare il marker sulla posizione esatta dell'errore o della mancanza"
               });
             }
             dispatch(noteActions.toggleSelectFromMap());
           }}
           style={BUTTON_STYLE}
-        />
+        >
+          Aggiungi Nota OSM
+        </Button>
       </Tooltip>
     </>
   );
