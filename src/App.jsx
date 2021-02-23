@@ -47,6 +47,7 @@ function App() {
     <Layout>
       <AppDrawer />
       <DebugMarker visible={false} />
+      <Controllers />
       <Layout style={{ minHeight: '100vh', maxWidth: '100%' }}>
         <Layout.Content style={{ height: '100vh' }}>
           <MapContainer
@@ -73,7 +74,6 @@ function App() {
             <SearchLayer />
             <DirectionsLayer />
             <MapEvents />
-            <Controllers />
           </MapContainer>
         </Layout.Content>
       </Layout>

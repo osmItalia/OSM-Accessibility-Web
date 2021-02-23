@@ -38,6 +38,12 @@ export default function Controllers() {
               type={getType(layers, l.name)}
               icon={<Icon component={l.icon} />}
               onClick={e => {
+                e.preventDefault();
+                e.stopPropagation();
+                dispatch(layersActions.toggleLayer(l.name));
+              }}
+              onDoubleClick={e => {
+                e.preventDefault();
                 e.stopPropagation();
                 dispatch(layersActions.toggleLayer(l.name));
               }}
