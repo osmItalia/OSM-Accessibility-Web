@@ -94,6 +94,7 @@ export default function Directions() {
                 icon={
                   state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
                 }
+                disabled={state.selectFromMapDestination}
                 onClick={() => {
                   if (!state.selectFromMap) {
                     notification.info({
@@ -107,19 +108,49 @@ export default function Directions() {
           </Col>
         </Row>
       </Input.Group>
-      <Input.Search
-        name="end"
-        placeholder="Arrivo"
-        addonAfter={null}
-        enterButton={false}
-        className="hide-search"
-        allowClear
-        loading={state.loadingEnd}
-        value={state.endInput}
-        onChange={e => dispatch(directionsActions.setEndInput(e.target.value))}
-        onSearch={() => dispatch(directionsActions.onSearchEnd())}
-        onBlur={() => dispatch(directionsActions.onSearchEnd())}
-      />
+      <Input.Group>
+        <Row gutter={8}>
+          <Col span={21}>
+            <Input.Search
+              name="end"
+              placeholder="Arrivo"
+              addonAfter={null}
+              enterButton={false}
+              className="hide-search"
+              allowClear
+              loading={state.loadingEnd}
+              value={state.endInput}
+              onChange={e =>
+                dispatch(directionsActions.setEndInput(e.target.value))
+              }
+              onSearch={() => dispatch(directionsActions.onSearchEnd())}
+              onBlur={() => dispatch(directionsActions.onSearchEnd())}
+            />
+          </Col>
+          <Col span={2}>
+            <Tooltip title="Seleziona dalla mappa">
+              <Button
+                icon={
+                  state.selectFromMapDestination ? (
+                    <CloseOutlined />
+                  ) : (
+                    <SelectOutlined />
+                  )
+                }
+                disabled={state.selectFromMap}
+                onClick={() => {
+                  if (!state.selectFromMapDestination) {
+                    notification.info({
+                      message: 'Premi sulla mappa per selezionare il punto'
+                    });
+                  }
+                  dispatch(directionsActions.toggleSelectFromMapDestination());
+                }}
+              />
+            </Tooltip>
+          </Col>
+        </Row>
+      </Input.Group>
       <div
         style={{
           display: 'flex',

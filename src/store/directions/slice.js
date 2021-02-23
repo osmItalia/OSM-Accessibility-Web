@@ -12,7 +12,8 @@ const initialState = {
   navigationKey: 1,
   navigationLoading: false,
   travelMean: TRAVEL_MEAN.CAR,
-  selectFromMap: false
+  selectFromMap: false,
+  selectFromMapDestination: false
 };
 
 const directionsSlice = createSlice({
@@ -65,7 +66,13 @@ const directionsSlice = createSlice({
     toggleSelectFromMap(state) {
       state.selectFromMap = !state.selectFromMap;
     },
+    toggleSelectFromMapDestination(state) {
+      state.selectFromMapDestination = !state.selectFromMapDestination;
+    },
     selectPoint(_state, _action) {
+      // this action will be intercepted by saga
+    },
+    selectDestinationPoint(_state, _action) {
       // this action will be intercepted by saga
     }
   }

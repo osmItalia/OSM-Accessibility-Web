@@ -105,6 +105,19 @@ function* handleMapClick(action) {
         )}`
       })
     );
+  } else if (state.selectFromMapDestination) {
+    yield put(directionsActions.toggleSelectFromMapDestination());
+    yield put(
+      directionsActions.setEnd([action.payload.lat, action.payload.lng])
+    );
+    yield put(
+      directionsActions.set({
+        key: 'endInput',
+        value: `${action.payload.lat.toFixed(4)},${action.payload.lng.toFixed(
+          4
+        )}`
+      })
+    );
   }
 }
 
