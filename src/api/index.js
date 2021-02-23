@@ -13,8 +13,9 @@ export async function fetchLayer(layerName) {
 }
 
 export async function fetchNominatim(query) {
-  const url = new URL(`https://nominatim.openstreetmap.org/search/${query}`);
+  const url = new URL(`https://nominatim.openstreetmap.org/search/`);
   const params = {
+    q: query,
     format: 'geojson',
     addressdetails: 1,
     extratags: 1,

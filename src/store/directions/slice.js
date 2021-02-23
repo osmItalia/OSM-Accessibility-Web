@@ -3,11 +3,11 @@ import { TRAVEL_MEAN } from '../../constants';
 
 const initialState = {
   start: null,
-  startInput: '',
-  loadingStart: false,
+  startInput: null,
   end: null,
-  endInput: '',
-  loadingEnd: false,
+  endInput: null,
+  endOptions: [],
+  startOptions: [],
   navigation: [],
   navigationKey: 1,
   navigationLoading: false,
@@ -24,25 +24,61 @@ const directionsSlice = createSlice({
       state[action.payload.key] = action.payload.value;
     },
     setStartInput(state, action) {
-      state.startInput = action.payload;
+      if (action.payload) {
+        state.startInput = action.payload;
+        state.start = action.payload.split(',');
+      } else {
+        state.startInput = null;
+        state.start = null;
+      }
     },
     setEndInput(state, action) {
-      state.endInput = action.payload;
+      if (action.payload) {
+        state.endInput = action.payload;
+        state.end = action.payload.split(',');
+      } else {
+        state.endInput = null;
+        state.end = null;
+      }
+    },
+    setEndOptions(state, action) {
+      state.endOptions = action.payload;
+    },
+    setStartOptions(state, action) {
+      state.startOptions = action.payload;
     },
     setStart(state, action) {
       state.start = action.payload;
-      state.loadingStart = false;
+      const stringified = action.payload.join(',');
+
+      state.startOptions = [
+        {
+          key: stringified,
+          label: `${action.payload[0].toFixed(4)},${action.payload[1].toFixed(
+            4
+          )}`,
+          point: action.payload
+        }
+      ];
+      state.startInput = stringified;
     },
     setEnd(state, action) {
       state.end = action.payload;
-      state.loadingEnd = false;
+      const stringified = action.payload.join(',');
+
+      state.endOptions = [
+        {
+          key: stringified,
+          label: `${action.payload[0].toFixed(4)},${action.payload[1].toFixed(
+            4
+          )}`,
+          point: action.payload
+        }
+      ];
+      state.endInput = stringified;
     },
-    onSearchStart(state, _action) {
-      state.loadingStart = true;
-    },
-    onSearchEnd(state, _action) {
-      state.loadingEnd = true;
-    },
+    onSearchStart(_state, _action) {},
+    onSearchEnd(_state, _action) {},
     navigate(state) {
       state.navigationLoading = true;
     },
@@ -54,11 +90,20 @@ const directionsSlice = createSlice({
       state.navigationKey += 1;
     },
     invert(state) {
-      const { start, end, endInput, startInput } = state;
+      const {
+        start,
+        end,
+        endInput,
+        startInput,
+        startOptions,
+        endOptions
+      } = state;
       state.start = [end[0], end[1]];
       state.startInput = endInput;
+      state.startOptions = [...endOptions];
       state.end = [start[0], start[1]];
       state.endInput = startInput;
+      state.endOptions = [...startOptions];
     },
     setTravelMean(state, action) {
       state.travelMean = action.payload;

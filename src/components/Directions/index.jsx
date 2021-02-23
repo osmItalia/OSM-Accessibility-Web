@@ -1,4 +1,4 @@
-import { Button, Col, Input, notification, Row, Tooltip } from 'antd';
+import { Button, Col, Input, notification, Row, Select, Tooltip } from 'antd';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { appActions } from '../../store/app/slice';
@@ -67,26 +67,31 @@ export default function Directions() {
         </Tooltip>
       </div>
       <Input.Group>
-        <Row gutter={8}>
+        <Row
+          gutter={8}
+          style={{
+            marginBottom: '.5rem'
+          }}
+        >
           <Col span={21}>
-            <Input.Search
+            <Select
               name="start"
               placeholder="Partenza"
               allowClear
-              addonAfter={null}
-              enterButton={false}
-              className="hide-search"
-              style={{
-                marginBottom: '.5rem'
-              }}
+              showSearch
+              showArrow={false}
+              filterOption={false}
               value={state.startInput}
-              onChange={e =>
-                dispatch(directionsActions.setStartInput(e.target.value))
-              }
-              loading={state.loadingStart}
-              onSearch={() => dispatch(directionsActions.onSearchStart())}
-              onBlur={() => dispatch(directionsActions.onSearchStart())}
-            />
+              onChange={val => dispatch(directionsActions.setStartInput(val))}
+              onSearch={val => dispatch(directionsActions.onSearchStart(val))}
+              style={{ width: '262px' }}
+            >
+              {state.startOptions.map(opt => (
+                <Select.Option key={opt.key} value={opt.key}>
+                  {opt.label}
+                </Select.Option>
+              ))}
+            </Select>
           </Col>
           <Col span={2}>
             <Tooltip title="Seleziona dalla mappa">
@@ -111,21 +116,24 @@ export default function Directions() {
       <Input.Group>
         <Row gutter={8}>
           <Col span={21}>
-            <Input.Search
+            <Select
               name="end"
               placeholder="Arrivo"
-              addonAfter={null}
-              enterButton={false}
-              className="hide-search"
               allowClear
-              loading={state.loadingEnd}
+              showSearch
+              showArrow={false}
+              filterOption={false}
               value={state.endInput}
-              onChange={e =>
-                dispatch(directionsActions.setEndInput(e.target.value))
-              }
-              onSearch={() => dispatch(directionsActions.onSearchEnd())}
-              onBlur={() => dispatch(directionsActions.onSearchEnd())}
-            />
+              onChange={val => dispatch(directionsActions.setEndInput(val))}
+              onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
+              style={{ width: '262px' }}
+            >
+              {state.endOptions.map(opt => (
+                <Select.Option key={opt.key} value={opt.key}>
+                  {opt.label}
+                </Select.Option>
+              ))}
+            </Select>
           </Col>
           <Col span={2}>
             <Tooltip title="Seleziona dalla mappa">
