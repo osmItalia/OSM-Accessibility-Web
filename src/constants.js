@@ -59,7 +59,7 @@ export const NEWSLETTER_IFRAME_SRC =
   'https://www.webarea.services/form_give/index.php?pagina=form&action=viewForm&idform=474&idEnass=c8ffe9a587b126f152ed3d89a146b445';
 
 export const PAYPAL_DONATION_URL =
-  'https://www.paypal.com/donate/?business=ECAW27MH2UEPU&item_name=test&currency_code=EUR';
+  'https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=VPKZF6J5EQJL6';
 
 export const OSM_NOTE_API =
   'https://master.apis.dev.openstreetmap.org/api/0.6/notes';

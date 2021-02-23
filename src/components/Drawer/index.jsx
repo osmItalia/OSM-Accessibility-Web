@@ -1,5 +1,5 @@
 import { Button, Card, Drawer, notification, Tooltip } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import MapSearch from '../Search';
 import { useSelector } from 'react-redux';
 import { getAppState } from '../../store/app/selectors';
@@ -19,40 +19,47 @@ const BUTTON_STYLE = {
   marginBottom: '.3rem'
 };
 
-function openNotification() {
-  notification.info({
-    placement: 'bottomRight',
-    message: 'Supporta Wikimedia Italia',
-    icon: false,
-    duration: null,
-    style: {
-      width: '350px'
-    },
-    description: (
-      <>
-        <p style={{ marginBottom: 0 }}>{DONATION_TEXT}</p>
-        <Button
-          href={PAYPAL_DONATION_URL}
-          target="_blank"
-          style={{ marginTop: '1rem' }}
-          type="primary"
-          icon={
-            <FontAwesomeIcon icon={faPaypal} style={{ marginRight: '.5rem' }} />
-          }
-        >
-          Fai una donazione
-        </Button>
-      </>
-    )
-  });
-}
-
 export default function AppDrawer() {
   const app = useSelector(getAppState);
 
   const [showNewsletter, setShowNewsletter] = useState(false);
+  const [hasNotification, setHasNotification] = useState(false);
 
-  useEffect(openNotification, []);
+  const openNotification = useCallback(() => {
+    if (hasNotification) {
+      return;
+    }
+    notification.info({
+      placement: 'bottomRight',
+      message: 'Supporta Wikimedia Italia',
+      icon: false,
+      duration: null,
+      onClose: () => setHasNotification(false),
+      style: {
+        width: '350px'
+      },
+      description: (
+        <>
+          <p style={{ marginBottom: 0 }}>{DONATION_TEXT}</p>
+          <Button
+            href={PAYPAL_DONATION_URL}
+            target="_blank"
+            style={{ marginTop: '1rem' }}
+            type="primary"
+            icon={
+              <FontAwesomeIcon
+                icon={faPaypal}
+                style={{ marginRight: '.5rem' }}
+              />
+            }
+          >
+            Fai una donazione
+          </Button>
+        </>
+      )
+    });
+    setHasNotification(true);
+  }, [hasNotification]);
 
   return (
     <>
