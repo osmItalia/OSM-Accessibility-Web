@@ -82,6 +82,8 @@ export function* directionsSaga() {
   yield debounce(700, directionsActions.onSearchEnd.type, handleSearchChange);
   yield takeLatest(directionsActions.navigate.type, fetchDirections);
   yield takeLatest(directionsActions.invert.type, fetchDirections);
+  yield takeLatest(directionsActions.setStart.type, handleChangeMean);
+  yield takeLatest(directionsActions.setEnd.type, handleChangeMean);
   yield takeLatest(directionsActions.setTravelMean.type, handleChangeMean);
   yield takeLatest(mapActions.click.type, handleMapClick);
 }
