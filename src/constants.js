@@ -21,6 +21,9 @@ import { ReactComponent as HealthMarker } from './assets/health.svg';
 import { ReactComponent as LeisureMarker } from './assets/leisure.svg';
 import { ReactComponent as ToiletsMarker } from './assets/toilets.svg';
 import { ReactComponent as TransportMarker } from './assets/transport.svg';
+import { ReactComponent as SportMarker } from './assets/sport.svg';
+import { ReactComponent as TourismMarker } from './assets/tourism.svg';
+import { ReactComponent as ReligionMarker } from './assets/religion.svg';
 
 export const CENTER = [45.5074, 9.1924];
 
@@ -106,17 +109,17 @@ export const LAYERS = [
     text: 'Finanza',
     marker: FinanceMarker
   },
-  { name: 'sport', icon: SportIcon, text: 'Sport', marker: FinanceMarker },
+  { name: 'sport', icon: SportIcon, text: 'Sport', marker: SportMarker },
   {
     name: 'tourism',
     icon: TourismIcon,
     text: 'Turismo',
-    marker: FinanceMarker
+    marker: TourismMarker
   },
   {
     name: 'religion',
     icon: ReligionIcon,
     text: 'Religione',
-    marker: FinanceMarker
+    marker: ReligionMarker
   }
 ];

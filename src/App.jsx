@@ -26,6 +26,7 @@ import DirectionsLayer from './components/Directions/DirectionsLayer';
 import { useSelector } from 'react-redux';
 import { getIsSelectingFromMap } from './store/app/selectors';
 import { CENTER, LAYERS } from './constants';
+import DebugMarker from './components/DebugMarkers';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -45,6 +46,7 @@ function App() {
   return (
     <Layout>
       <AppDrawer />
+      <DebugMarker visible={false} />
       <Layout style={{ minHeight: '100vh', maxWidth: '100%' }}>
         <Layout.Content style={{ height: '100vh' }}>
           <MapContainer

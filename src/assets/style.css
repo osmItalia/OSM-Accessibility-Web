@@ -13,7 +13,6 @@
 }
 
 .layer-icon.cluster svg {
-    border-radius: 100%;
 }
 
 .layer-icon.cluster path {
@@ -21,11 +20,11 @@
 }
 
 .layer-icon.accessibility_no path, .layer-icon.accessibility_no g path {
-    fill: #d9363e !important;
+    fill: #d9363e;
 }
 
 .layer-icon.accessibility_limited path {
-    fill: #ffc53d !important;
+    fill: #ffc53d;
 }
 
 .layer-icon.accessibility_unknown path, .layer-icon.accessibility_unknown g path {
