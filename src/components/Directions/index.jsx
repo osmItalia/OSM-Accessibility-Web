@@ -25,7 +25,7 @@ export default function Directions() {
           marginBottom: '1rem'
         }}
       >
-        <Tooltip title="Auto">
+        <Tooltip title="In auto">
           <Button
             type={state.travelMean === TRAVEL_MEAN.CAR ? 'primary' : 'default'}
             icon={<FontAwesomeIcon icon={faCar} />}
@@ -49,7 +49,7 @@ export default function Directions() {
             }
           />
         </Tooltip>
-        <Tooltip title="Sedia a rotelle">
+        <Tooltip title="In sedia a rotelle">
           <Button
             type={
               state.travelMean === TRAVEL_MEAN.WHEELCHAIR
