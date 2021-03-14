@@ -12,6 +12,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TRAVEL_MEAN } from '../../constants';
 import { CloseOutlined, SelectOutlined } from '@ant-design/icons';
+import { greenMarkerUrl, redMarkerUrl } from '../../assets/icons';
 
 export default function Directions() {
   const dispatch = useDispatch();
@@ -70,10 +71,19 @@ export default function Directions() {
         <Row
           gutter={8}
           style={{
-            marginBottom: '.5rem'
+            marginBottom: '.5rem',
+            alignItems: 'center'
           }}
         >
-          <Col span={21}>
+          <Col
+            span={21}
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}
+          >
+            <img src={greenMarkerUrl.replace('2x-', '')} alt="Icona partenza" />
             <Select
               name="start"
               placeholder="Partenza"
@@ -84,7 +94,7 @@ export default function Directions() {
               value={state.startInput}
               onChange={val => dispatch(directionsActions.setStartInput(val))}
               onSearch={val => dispatch(directionsActions.onSearchStart(val))}
-              style={{ width: '262px' }}
+              style={{ width: '230px' }}
             >
               {state.startOptions.map(opt => (
                 <Select.Option key={opt.key} value={opt.key}>
@@ -114,8 +124,22 @@ export default function Directions() {
         </Row>
       </Input.Group>
       <Input.Group>
-        <Row gutter={8}>
-          <Col span={21}>
+        <Row
+          gutter={8}
+          style={{
+            marginBottom: '.5rem',
+            alignItems: 'center'
+          }}
+        >
+          <Col
+            span={21}
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}
+          >
+            <img src={redMarkerUrl.replace('2x-', '')} alt="Icona arrivo" />
             <Select
               name="end"
               placeholder="Arrivo"
@@ -126,7 +150,7 @@ export default function Directions() {
               value={state.endInput}
               onChange={val => dispatch(directionsActions.setEndInput(val))}
               onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
-              style={{ width: '262px' }}
+              style={{ width: '230px' }}
             >
               {state.endOptions.map(opt => (
                 <Select.Option key={opt.key} value={opt.key}>

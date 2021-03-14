@@ -35,3 +35,27 @@ console.log(ICONS_LAYERS_CLUSTER);
 export function getIconForFeature(layer, wheelchair = 'unknown') {
   return ICON_LAYERS_WITH_CLASSNAMES[layer][wheelchair];
 }
+export const greenMarkerUrl =
+  'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png';
+export const redMarkerUrl =
+  'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png';
+export const shadowUrl =
+  'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png';
+
+export const greenMarker = new L.Icon({
+  iconUrl: greenMarkerUrl,
+  shadowUrl,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+export const redMarker = new L.Icon({
+  iconUrl: redMarkerUrl,
+  shadowUrl,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
