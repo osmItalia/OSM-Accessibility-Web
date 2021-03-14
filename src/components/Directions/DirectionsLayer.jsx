@@ -7,8 +7,6 @@ import { greenMarker, redMarker } from '../../assets/icons';
 export default function DirectionsLayer() {
   const directionsState = useSelector(selectDirectionsState);
 
-  console.log(directionsState);
-
   return (
     <>
       {directionsState.start && (

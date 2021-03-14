@@ -47,6 +47,9 @@ function setBoundingBox(bbox) {
 
 export function* fetchDirections() {
   const state = yield select(selectDirectionsState);
+  if (!state.start || !state.end) {
+    return;
+  }
   try {
     const result = yield call(fetchOpenRouteService, state);
     yield put(directionsActions.endNavigation(result));

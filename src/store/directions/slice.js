@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { TRAVEL_MEAN } from '../../constants';
+import { cloneDeep } from 'lodash';
 
 const initialState = {
   start: null,
@@ -98,12 +99,21 @@ const directionsSlice = createSlice({
         startOptions,
         endOptions
       } = state;
-      state.start = [end[0], end[1]];
-      state.startInput = endInput;
-      state.startOptions = [...endOptions];
-      state.end = [start[0], start[1]];
-      state.endInput = startInput;
-      state.endOptions = [...startOptions];
+      const oldStart = cloneDeep(start);
+      const oldStartOptions = cloneDeep(startOptions);
+      const oldStartInput = cloneDeep(startInput);
+
+      const oldEnd = cloneDeep(end);
+      const oldEndOptions = cloneDeep(endOptions);
+      const oldEndInput = cloneDeep(endInput);
+
+      state.start = oldEnd;
+      state.startInput = oldEndInput;
+      state.startOptions = oldEndOptions;
+
+      state.end = oldStart;
+      state.endInput = oldStartInput;
+      state.endOptions = oldStartOptions;
     },
     setTravelMean(state, action) {
       state.travelMean = action.payload;
