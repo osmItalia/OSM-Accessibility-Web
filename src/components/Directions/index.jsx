@@ -13,8 +13,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TRAVEL_MEAN } from '../../constants';
 import { CloseOutlined, SelectOutlined } from '@ant-design/icons';
 import { greenMarkerUrl, redMarkerUrl } from '../../assets/icons';
+import { withBreakpoints } from 'react-breakpoints';
 
-export default function Directions() {
+function Directions({ breakpoints, currentBreakpoint }) {
   const dispatch = useDispatch();
   const state = useSelector(selectDirectionsState);
 
@@ -94,7 +95,12 @@ export default function Directions() {
               value={state.startInput}
               onChange={val => dispatch(directionsActions.setStartInput(val))}
               onSearch={val => dispatch(directionsActions.onSearchStart(val))}
-              style={{ width: '230px' }}
+              style={{
+                width:
+                  breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
+                    ? '180px'
+                    : '230px'
+              }}
             >
               {state.startOptions.map(opt => (
                 <Select.Option key={opt.key} value={opt.key}>
@@ -150,7 +156,12 @@ export default function Directions() {
               value={state.endInput}
               onChange={val => dispatch(directionsActions.setEndInput(val))}
               onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
-              style={{ width: '230px' }}
+              style={{
+                width:
+                  breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
+                    ? '180px'
+                    : '230px'
+              }}
             >
               {state.endOptions.map(opt => (
                 <Select.Option key={opt.key} value={opt.key}>
@@ -216,3 +227,5 @@ export default function Directions() {
     </>
   );
 }
+
+export default withBreakpoints(Directions);

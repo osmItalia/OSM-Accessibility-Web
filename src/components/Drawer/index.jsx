@@ -66,7 +66,7 @@ export default function AppDrawer() {
     <>
       <Card
         style={{
-          width: '350px',
+          maxWidth: '350px',
           position: 'fixed',
           top: '.5rem',
           left: '.5rem',
@@ -108,7 +108,7 @@ export default function AppDrawer() {
                 title="Rimani aggiornato"
                 visible={showNewsletter}
                 placement="left"
-                width={375}
+                width={320}
                 bodyStyle={{ padding: 0, paddingTop: '1rem' }}
                 onClose={() => setShowNewsletter(false)}
               >
@@ -116,7 +116,7 @@ export default function AppDrawer() {
                   src={NEWSLETTER_IFRAME_SRC}
                   title="Newsletter subscription"
                   frameBorder={0}
-                  style={{ width: '100%', height: '60vh' }}
+                  style={{ width: '100%', height: '90vh' }}
                 />
               </Drawer>
               <AddNote
