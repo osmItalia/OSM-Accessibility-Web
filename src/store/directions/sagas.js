@@ -55,9 +55,13 @@ export function* fetchDirections() {
   } catch (e) {
     console.log(e);
     if (e instanceof APIError) {
-      notification.error({ message: e.payload.error.message });
+      console.error(e.payload.error.message);
+      notification.error({ message: 'Spiacenti, percorso non trovato!' });
     } else {
-      notification.error({ message: 'Errore' });
+      notification.error({
+        message:
+          'Non è stato possibile ottenere le indicazioni per via di un errore, controlla la tua connessione e riprova'
+      });
     }
   }
 }
