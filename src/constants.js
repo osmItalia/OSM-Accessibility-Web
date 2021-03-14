@@ -125,3 +125,13 @@ export const LAYERS = [
     marker: ReligionMarker
   }
 ];
+
+export const BREAKPOINTS = {
+  mobile: 320,
+  mobileLandscape: 480,
+  tablet: 768,
+  tabletLandscape: 1024,
+  desktop: 1200,
+  desktopLarge: 1500,
+  desktopWide: 1920
+};

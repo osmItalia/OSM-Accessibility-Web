@@ -25,6 +25,7 @@
     "react": "^17.0.1",
     "react-app-rewired": "^2.1.5",
     "react-async": "^10.0.1",
+    "react-breakpoints": "^3.0.3",
     "react-dom": "^17.0.1",
     "react-leaflet": "^3.0.2",
     "react-leaflet-markercluster": "^3.0.0-rc1",

@@ -7,6 +7,8 @@ import './index.css';
 import App from './App';
 import configureAppStore from './store';
 import { Provider } from 'react-redux';
+import ReactBreakpoints from 'react-breakpoints';
+import { BREAKPOINTS } from './constants';
 // import reportWebVitals from './reportWebVitals';
 
 const store = configureAppStore();
@@ -14,7 +16,9 @@ const store = configureAppStore();
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ReactBreakpoints breakpoints={BREAKPOINTS}>
+        <App />
+      </ReactBreakpoints>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

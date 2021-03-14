@@ -9,7 +9,7 @@ const BUTTON_STYLE = {
   marginBottom: '.3rem'
 };
 
-export default function AddNote() {
+export default function AddNote({ showText }) {
   const dispatch = useDispatch();
   const state = useSelector(selectNoteState);
 
@@ -63,7 +63,7 @@ export default function AddNote() {
           }}
           style={BUTTON_STYLE}
         >
-          Aggiungi Nota OSM
+          {showText && 'Aggiungi Nota OSM'}
         </Button>
       </Tooltip>
     </>

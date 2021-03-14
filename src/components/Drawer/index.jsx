@@ -2,6 +2,7 @@ import { Button, Card, Drawer, notification, Tooltip } from 'antd';
 import React, { useState, useCallback } from 'react';
 import MapSearch from '../Search';
 import { useSelector } from 'react-redux';
+import { Media } from 'react-breakpoints';
 import { getAppState } from '../../store/app/selectors';
 import {
   DONATION_TEXT,
@@ -86,50 +87,68 @@ export default function AppDrawer() {
           alignItems: 'start'
         }}
       >
-        <Tooltip title="Ricevi aggiornamenti" placement="right">
-          <Button
-            size="large"
-            icon={<MailOutlined />}
-            onClick={e => {
-              e.stopPropagation();
-              setShowNewsletter(true);
-            }}
-            style={BUTTON_STYLE}
-          >
-            Ricevi Aggiornamenti
-          </Button>
-        </Tooltip>
-        <Drawer
-          title="Rimani aggiornato"
-          visible={showNewsletter}
-          placement="left"
-          width={375}
-          bodyStyle={{ padding: 0, paddingTop: '1rem' }}
-          onClose={() => setShowNewsletter(false)}
-        >
-          <iframe
-            src={NEWSLETTER_IFRAME_SRC}
-            title="Newsletter subscription"
-            frameBorder={0}
-            style={{ width: '100%', height: '60vh' }}
-          />
-        </Drawer>
-        <AddNote />
-        <Tooltip title="Fai una donazione a Wikimedia Italia" placement="right">
-          <Button
-            size="large"
-            icon={
-              <FontAwesomeIcon
-                icon={faPaypal}
-                style={{ marginRight: '.5rem' }}
+        <Media>
+          {({ breakpoints, currentBreakpoint }) => (
+            <>
+              <Tooltip title="Ricevi aggiornamenti" placement="right">
+                <Button
+                  size="large"
+                  icon={<MailOutlined />}
+                  onClick={e => {
+                    e.stopPropagation();
+                    setShowNewsletter(true);
+                  }}
+                  style={BUTTON_STYLE}
+                >
+                  {breakpoints[currentBreakpoint] > breakpoints.tablet &&
+                    'Ricevi Aggiornamenti'}
+                </Button>
+              </Tooltip>
+              <Drawer
+                title="Rimani aggiornato"
+                visible={showNewsletter}
+                placement="left"
+                width={375}
+                bodyStyle={{ padding: 0, paddingTop: '1rem' }}
+                onClose={() => setShowNewsletter(false)}
+              >
+                <iframe
+                  src={NEWSLETTER_IFRAME_SRC}
+                  title="Newsletter subscription"
+                  frameBorder={0}
+                  style={{ width: '100%', height: '60vh' }}
+                />
+              </Drawer>
+              <AddNote
+                showText={breakpoints[currentBreakpoint] > breakpoints.tablet}
               />
-            }
-            onClick={openNotification}
-            style={BUTTON_STYLE}
-          >
-            Supportaci
-          </Button>
-        </Tooltip>
+              <Tooltip
+                title="Fai una donazione a Wikimedia Italia"
+                placement="right"
+              >
+                <Button
+                  size="large"
+                  icon={
+                    <FontAwesomeIcon
+                      icon={faPaypal}
+                      style={{
+                        marginRight:
+                          breakpoints[currentBreakpoint] > breakpoints.tablet
+                            ? '.5rem'
+                            : '0'
+                      }}
+                    />
+                  }
+                  onClick={openNotification}
+                  style={BUTTON_STYLE}
+                >
+                  {breakpoints[currentBreakpoint] > breakpoints.tablet &&
+                    'Supportaci'}
+                </Button>
+              </Tooltip>
+            </>
+          )}
+        </Media>
       </div>
     </>
   );
