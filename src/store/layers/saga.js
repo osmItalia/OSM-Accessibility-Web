@@ -44,4 +44,5 @@ export function* watchLayers() {
   yield takeEvery(layersActions.fetch.type, fetch);
   yield takeLatest(mapActions.setBounds.type, filterFeatures);
   yield takeLatest(layersActions.toggleLayer.type, filterFeatures);
+  yield takeLatest(layersActions.setShowAll.type, filterFeatures);
 }

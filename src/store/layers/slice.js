@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import pick from 'lodash/pick';
 import pull from 'lodash/pull';
+import { LAYERS } from '../../constants';
 
 const layersSlice = createSlice({
   name: 'layers',
@@ -8,11 +9,20 @@ const layersSlice = createSlice({
     featuresById: {},
     loading: false,
     visibleLayers: [],
-    visibleFeatures: []
+    visibleFeatures: [],
+    showAll: true
   },
   reducers: {
     fetch(state) {
       state.loading = true;
+    },
+    setShowAll(state) {
+      if (state.showAll) {
+        state.visibleLayers = LAYERS.map(l => l.name);
+      } else {
+        state.visibleLayers = [];
+      }
+      state.showAll = !state.showAll;
     },
     setVisibleFeatures(state, action) {
       state.visibleFeatures = action.payload;

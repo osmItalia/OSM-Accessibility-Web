@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
-import Icon, { ToolOutlined } from '@ant-design/icons';
+import Icon from '@ant-design/icons';
 import { Button, Col, Drawer, Row, Switch, Tooltip } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { getLayers } from '../../store/layers/selectors';
+import { getLayers, getShowAll } from '../../store/layers/selectors';
 import { layersActions } from '../../store/layers/slice';
 import { LAYERS } from '../../constants';
 import { Media } from 'react-breakpoints';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faEye,
+  faEyeSlash,
+  faLayerGroup
+} from '@fortawesome/free-solid-svg-icons';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -19,6 +25,7 @@ function getType(layers, layer) {
 function DesktopControllers() {
   const dispatch = useDispatch();
   const layers = useSelector(getLayers);
+  const showAll = useSelector(getShowAll);
 
   return (
     <>
@@ -32,6 +39,17 @@ function DesktopControllers() {
           flexDirection: 'column'
         }}
       >
+        <Tooltip
+          placement="left"
+          title={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
+        >
+          <Button
+            size="large"
+            icon={<FontAwesomeIcon icon={showAll ? faEye : faEyeSlash} />}
+            style={BUTTON_STYLE}
+            onClick={() => dispatch(layersActions.setShowAll())}
+          />
+        </Tooltip>
         {LAYERS.map(l => (
           <Tooltip title={l.text} placement="left" key={l.name}>
             <Button
@@ -60,8 +78,7 @@ function DesktopControllers() {
 function MobileControllers() {
   const layers = useSelector(getLayers);
   const dispatch = useDispatch();
-
-  console.log(layers);
+  const showAll = useSelector(getShowAll);
 
   const [drawer, setDrawer] = useState(false);
   return (
@@ -75,7 +92,7 @@ function MobileControllers() {
         }}
       >
         <Button
-          icon={<ToolOutlined />}
+          icon={<FontAwesomeIcon icon={faLayerGroup} />}
           onClick={() => setDrawer(true)}
           size="large"
         />
@@ -101,6 +118,19 @@ function MobileControllers() {
             </Col>
           </Row>
         ))}
+        <Button
+          size="large"
+          icon={
+            <FontAwesomeIcon
+              icon={showAll ? faEye : faEyeSlash}
+              style={{ marginRight: '.5rem' }}
+            />
+          }
+          style={{ margin: '1.5rem auto', display: 'block' }}
+          onClick={() => dispatch(layersActions.setShowAll())}
+        >
+          {showAll ? 'Mostra tutti' : 'Nascondi tutti'}
+        </Button>
       </Drawer>
     </>
   );

@@ -74,3 +74,5 @@ export const getFeaturesGroupedByLayer = createSelector(
     return layers;
   }
 );
+
+export const getShowAll = createSelector(getDomain, layers => layers.showAll);
