@@ -61,12 +61,15 @@ export async function saveNote(lat, lon, text) {
     lon,
     text
   };
+  const headers = new Headers();
+  headers.append('Accept', 'application/json');
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
-  const response = await fetch(url, { method: 'POST' });
+  const response = await fetch(url, { method: 'POST', headers });
   const body = await response.text();
   if (response.status >= 400) {
     throw new APIError(body);
   }
-  console.log(body);
-  return body;
+  const xmlResponse = new window.DOMParser().parseFromString(body, 'text/xml');
+  console.log(xmlResponse);
+  return xmlResponse;
 }

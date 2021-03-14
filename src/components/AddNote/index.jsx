@@ -23,9 +23,14 @@ export default function AddNote() {
         destroyOnClose
       >
         <p>
-          La tua nota sarà pubblica e potrà essere usata per aggiorare la mappa,
-          perciò non fornire dati personali nè informazioni derivanti da mappe o
-          database protetti da copyright.
+          Usate questa funzione per segnalare errori o fornire maggiori dettagli
+          su un elemento, per esempio il nome di una strada o un indirizzo.
+          Quando sarà possibile, un utente OSM sistemerà il problema segnalato.
+        </p>
+        <p>
+          La tua nota sarà pubblica e potrà essere usata per aggiornare la
+          mappa, perciò non fornire dati personali né informazioni derivanti da
+          mappe o database protetti da copyright.
         </p>
         <Form
           layout="vertical"

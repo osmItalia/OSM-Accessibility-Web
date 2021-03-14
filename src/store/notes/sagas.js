@@ -2,8 +2,10 @@ import { takeLatest, put, select, call } from 'redux-saga/effects';
 import { noteActions } from './slice';
 import { selectNoteState } from './selectors';
 import { mapActions } from '../map/slice';
-import { notification } from 'antd';
+import { Button, notification } from 'antd';
 import { saveNote } from '../../api';
+import React from 'react';
+import { OSM_URL } from '../../constants';
 
 function* handleMapClick(action) {
   const state = yield select(selectNoteState);
@@ -23,7 +25,17 @@ function* handleSendNote(action) {
       state.position[1],
       action.payload.text
     );
-    notification.success({ message: 'Nota salvata con successo' });
+    notification.success({
+      message: 'Nota salvata con successo',
+      description: (
+        <Button
+          href={`${OSM_URL}#map=18/${state.position[0]}/${state.position[1]}`}
+          target="_blank"
+        >
+          Visualizza su OpenstreetMap
+        </Button>
+      )
+    });
     yield put(noteActions.close());
   } catch (e) {
     notification.error({ message: "C'è stato un'errore" });
