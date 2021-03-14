@@ -66,6 +66,7 @@ function App() {
             <TileLayer
               attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              maxZoom={19}
             />
             {LAYERS.map(l => (
               <Layer name={l.name} key={l.name} />
