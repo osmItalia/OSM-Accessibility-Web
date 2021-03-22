@@ -64,7 +64,7 @@ export const PAYPAL_DONATION_URL =
 export const OSM_NOTE_API =
   'https://master.apis.dev.openstreetmap.org/api/0.6/notes';
 
-export const OSM_URL = 'https://www.openstreetmap.org/';
+export const OSM_URL = 'https://master.apis.dev.openstreetmap.org/';
 
 export const LAYERS = [
   {

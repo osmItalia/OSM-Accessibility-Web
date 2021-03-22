@@ -19,19 +19,17 @@ function* handleMapClick(action) {
 function* handleSendNote(action) {
   const state = yield select(selectNoteState);
   try {
-    yield call(
+    const data = yield call(
       saveNote,
       state.position[0],
       state.position[1],
       action.payload.text
     );
+    const idNode = data.querySelector('id');
     notification.success({
       message: 'Nota salvata con successo',
       description: (
-        <Button
-          href={`${OSM_URL}#map=18/${state.position[0]}/${state.position[1]}`}
-          target="_blank"
-        >
+        <Button href={`${OSM_URL}note/${idNode.textContent}`} target="_blank">
           Visualizza su OpenstreetMap
         </Button>
       )
