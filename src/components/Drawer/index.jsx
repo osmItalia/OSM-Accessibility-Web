@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 import { MailOutlined } from '@ant-design/icons';
 import AddNote from '../AddNote';
+import { selectIsAddingNote } from '../../store/notes/selectors';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -25,6 +26,8 @@ export default function AppDrawer() {
 
   const [showNewsletter, setShowNewsletter] = useState(false);
   const [hasNotification, setHasNotification] = useState(false);
+
+  const isAddingNote = useSelector(selectIsAddingNote);
 
   const openNotification = useCallback(() => {
     if (hasNotification) {
@@ -64,18 +67,20 @@ export default function AppDrawer() {
 
   return (
     <>
-      <Card
-        style={{
-          maxWidth: '350px',
-          position: 'fixed',
-          top: '.5rem',
-          left: '.5rem',
-          zIndex: 999
-        }}
-      >
-        {app.mode === MODES.SEARCH && <MapSearch />}
-        {app.mode === MODES.DIRECTIONS && <Directions />}
-      </Card>
+      {!isAddingNote && (
+        <Card
+          style={{
+            maxWidth: '350px',
+            position: 'fixed',
+            top: '.5rem',
+            left: '.5rem',
+            zIndex: 999
+          }}
+        >
+          {app.mode === MODES.SEARCH && <MapSearch />}
+          {app.mode === MODES.DIRECTIONS && <Directions />}
+        </Card>
+      )}
       <div
         style={{
           position: 'fixed',
