@@ -186,7 +186,7 @@ export default function AppDrawer() {
                 <Button
                   size="large"
                   icon={
-                    breakpoints[currentBreakpoint] < breakpoints.tablet && (
+                    breakpoints[currentBreakpoint] <= breakpoints.tablet && (
                       <FontAwesomeIcon
                         icon={faDonate}
                         style={{

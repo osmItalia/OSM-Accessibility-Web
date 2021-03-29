@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Layout } from 'antd';
 
 import {
@@ -41,15 +41,29 @@ function App() {
     window.LEAFLET_MAP = map;
   }, []);
 
+  const [height, setHeight] = useState();
+
+  useEffect(() => {
+    function handleResize() {
+      setHeight(window.innerHeight);
+    }
+    window.addEventListener('resize', handleResize);
+    handleResize();
+  }, []);
+
   const isSelectingPoint = useSelector(getIsSelectingFromMap);
 
   return (
-    <Layout>
+    <Layout
+      style={{
+        height: `${height}px`
+      }}
+    >
       <AppDrawer />
       <DebugMarker visible={false} />
       <Controllers />
-      <Layout style={{ minHeight: '100vh', maxWidth: '100%' }}>
-        <Layout.Content style={{ height: '100vh' }}>
+      <Layout style={{ maxWidth: '100%', height: '100%' }}>
+        <Layout.Content style={{ height: '100%' }}>
           <MapContainer
             center={CENTER}
             zoom={16}
@@ -57,8 +71,8 @@ function App() {
             zoomControl={false}
             whenCreated={setupMapReference}
             style={{
-              height: '100vh',
               maxWidth: '100%',
+              height: '100%',
               cursor: isSelectingPoint ? 'crosshair' : 'auto'
             }}
           >
