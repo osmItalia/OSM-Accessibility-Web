@@ -86,8 +86,8 @@ function MobileControllers() {
       <div
         style={{
           position: 'fixed',
-          left: '9px',
-          bottom: '145px',
+          right: '9px',
+          bottom: '100px',
           zIndex: 1000
         }}
       >

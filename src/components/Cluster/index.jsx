@@ -13,13 +13,13 @@ import { appActions } from '../../store/app/slice';
 function getWCText(wh) {
   switch (wh) {
     case 'yes':
-      return 'Si';
+      return 'Accessibile';
     case 'no':
-      return 'No';
+      return 'Non accessibile';
     case 'limited':
-      return 'Limitata';
+      return 'Accessibile con limitazioni';
     default:
-      return 'Sconosciuto';
+      return "Nessuna informazione sull'accessibilità";
   }
 }
 
@@ -41,7 +41,7 @@ const MarkerCluster = ({ markers, layer: layerName }) => {
           <Popup>
             <Typography.Title level={5}>{text}</Typography.Title>
             <Typography.Text>
-              Accessibile: {getWCText(properties.wheelchair)}
+              {getWCText(properties.wheelchair)}
             </Typography.Text>
             <div
               style={{

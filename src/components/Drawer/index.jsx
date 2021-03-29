@@ -1,4 +1,4 @@
-import { Button, Card, Drawer, notification, Tooltip } from 'antd';
+import { Button, Card, Drawer, Modal, notification, Tooltip } from 'antd';
 import React, { useState, useCallback } from 'react';
 import MapSearch from '../Search';
 import { useSelector } from 'react-redux';
@@ -12,19 +12,69 @@ import {
 } from '../../constants';
 import Directions from '../Directions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 import { MailOutlined } from '@ant-design/icons';
 import AddNote from '../AddNote';
 import { selectIsAddingNote } from '../../store/notes/selectors';
+import {
+  faDonate,
+  faInfo,
+  faQuestion
+} from '@fortawesome/free-solid-svg-icons';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
 };
 
+const INFO_MODAL_CONTENT = (
+  <>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec purus eget
+      purus posuere scelerisque. Etiam ac ipsum at dolor interdum vehicula vitae
+      ut sem. Vestibulum eget velit sed tellus euismod sodales sed ac metus.
+      Vivamus blandit gravida mauris, a porttitor eros viverra non. Phasellus
+      dui libero, rhoncus vel risus ac, bibendum venenatis velit. Aliquam a
+      tristique tellus. Cras elementum feugiat orci. Fusce pellentesque erat vel
+      leo fringilla, ut aliquet dolor pretium. Aenean nec accumsan lacus, congue
+      efficitur mauris.{' '}
+    </p>
+    <p>
+      Nulla auctor massa massa, sed bibendum justo luctus sed. Cras ligula nibh,
+      ornare feugiat elementum vel, tristique eget eros. In hac habitasse platea
+      dictumst. In vitae libero tincidunt mi lobortis sagittis. Maecenas
+      imperdiet eu velit quis sodales. Pellentesque pellentesque urna ut urna
+      porta ornare. In lorem dui, ultrices eget fermentum quis, dapibus a erat.
+      Sed fringilla arcu at dolor laoreet, porttitor lobortis justo feugiat.
+      Cras varius auctor lectus ut laoreet. Praesent tristique ante sit amet dui
+      blandit, at dignissim quam auctor. Etiam non pharetra est, in sollicitudin
+      purus. Fusce id erat odio. Duis sit amet fermentum eros, sed bibendum
+      nulla. Vivamus rhoncus laoreet risus, non accumsan sapien ullamcorper vel.
+      Mauris nec neque sit amet nunc fermentum fermentum at vitae lacus. Mauris
+      sodales diam nec erat iaculis, non placerat eros faucibus. Vivamus libero
+      neque, varius ac enim et, congue consectetur eros. Morbi fringilla, lorem
+      ac pulvinar venenatis, massa nibh facilisis leo, et lobortis eros enim at
+      nunc. Duis sagittis ornare sapien vitae pellentesque. Nam ultricies
+      vehicula augue, sed rhoncus felis varius ut.
+    </p>
+    <p>
+      Ut at sem quis urna laoreet varius. Nullam placerat tortor eros, a rutrum
+      quam convallis a. Vestibulum quis sagittis velit, mollis vestibulum ante.
+      Curabitur vitae gravida magna, eu consequat massa. Nulla at mi ex.
+      Pellentesque interdum magna eget iaculis rhoncus. Aenean iaculis, velit
+      non venenatis luctus, nisi dolor eleifend odio, id sodales nibh velit ac
+      sem. Curabitur id dui aliquam, vestibulum diam non, ultricies turpis.
+      Mauris vel bibendum felis, eu tempor augue. Vestibulum quis sem hendrerit,
+      consectetur libero molestie, molestie erat. Quisque quis odio id arcu
+      pulvinar pharetra. In eu dapibus neque, sit amet dapibus urna. Aliquam
+      malesuada dictum elementum. Aenean eu malesuada felis.
+    </p>
+  </>
+);
+
 export default function AppDrawer() {
   const app = useSelector(getAppState);
 
   const [showNewsletter, setShowNewsletter] = useState(false);
+  const [showInfo, setShowInfo] = useState(false);
   const [hasNotification, setHasNotification] = useState(false);
 
   const isAddingNote = useSelector(selectIsAddingNote);
@@ -35,7 +85,7 @@ export default function AppDrawer() {
     }
     notification.info({
       placement: 'bottomRight',
-      message: 'Supporta Wikimedia Italia',
+      message: 'Sostieni Wikimedia Italia',
       icon: false,
       duration: null,
       onClose: () => setHasNotification(false),
@@ -50,12 +100,6 @@ export default function AppDrawer() {
             target="_blank"
             style={{ marginTop: '1rem' }}
             type="primary"
-            icon={
-              <FontAwesomeIcon
-                icon={faPaypal}
-                style={{ marginRight: '.5rem' }}
-              />
-            }
           >
             Fai una donazione
           </Button>
@@ -67,6 +111,14 @@ export default function AppDrawer() {
 
   return (
     <>
+      <Modal
+        visible={showInfo}
+        title="Informazioni sul progetto"
+        onCancel={() => setShowInfo(false)}
+        footer={false}
+      >
+        {INFO_MODAL_CONTENT}
+      </Modal>
       {!isAddingNote && (
         <Card
           style={{
@@ -95,7 +147,7 @@ export default function AppDrawer() {
         <Media>
           {({ breakpoints, currentBreakpoint }) => (
             <>
-              <Tooltip title="Ricevi aggiornamenti" placement="right">
+              <Tooltip title="Rimani aggiornato" placement="right">
                 <Button
                   size="large"
                   icon={<MailOutlined />}
@@ -106,7 +158,7 @@ export default function AppDrawer() {
                   style={BUTTON_STYLE}
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
-                    'Ricevi Aggiornamenti'}
+                    'Rimani aggiornato'}
                 </Button>
               </Tooltip>
               <Drawer
@@ -134,8 +186,34 @@ export default function AppDrawer() {
                 <Button
                   size="large"
                   icon={
+                    breakpoints[currentBreakpoint] < breakpoints.tablet && (
+                      <FontAwesomeIcon
+                        icon={faDonate}
+                        style={{
+                          marginRight:
+                            breakpoints[currentBreakpoint] > breakpoints.tablet
+                              ? '.5rem'
+                              : '0'
+                        }}
+                      />
+                    )
+                  }
+                  onClick={openNotification}
+                  style={BUTTON_STYLE}
+                >
+                  {breakpoints[currentBreakpoint] > breakpoints.tablet &&
+                    'Sostieni Wikimedia'}
+                </Button>
+              </Tooltip>
+              <Tooltip
+                title="Guida all'utilizzo dell'applicazione"
+                placement="right"
+              >
+                <Button
+                  size="large"
+                  icon={
                     <FontAwesomeIcon
-                      icon={faPaypal}
+                      icon={faQuestion}
                       style={{
                         marginRight:
                           breakpoints[currentBreakpoint] > breakpoints.tablet
@@ -144,11 +222,34 @@ export default function AppDrawer() {
                       }}
                     />
                   }
-                  onClick={openNotification}
                   style={BUTTON_STYLE}
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
-                    'Supportaci'}
+                    'Guida'}
+                </Button>
+              </Tooltip>
+              <Tooltip
+                title="Informazioni sul progetto Wikimedia OSM Disability"
+                placement="right"
+              >
+                <Button
+                  size="large"
+                  icon={
+                    <FontAwesomeIcon
+                      icon={faInfo}
+                      style={{
+                        marginRight:
+                          breakpoints[currentBreakpoint] > breakpoints.tablet
+                            ? '.5rem'
+                            : '0'
+                      }}
+                    />
+                  }
+                  onClick={() => setShowInfo(true)}
+                  style={BUTTON_STYLE}
+                >
+                  {breakpoints[currentBreakpoint] > breakpoints.tablet &&
+                    'Info'}
                 </Button>
               </Tooltip>
             </>
