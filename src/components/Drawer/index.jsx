@@ -186,17 +186,15 @@ export default function AppDrawer() {
                 <Button
                   size="large"
                   icon={
-                    breakpoints[currentBreakpoint] <= breakpoints.tablet && (
-                      <FontAwesomeIcon
-                        icon={faDonate}
-                        style={{
-                          marginRight:
-                            breakpoints[currentBreakpoint] > breakpoints.tablet
-                              ? '.5rem'
-                              : '0'
-                        }}
-                      />
-                    )
+                    <FontAwesomeIcon
+                      icon={faDonate}
+                      style={{
+                        marginRight:
+                          breakpoints[currentBreakpoint] > breakpoints.tablet
+                            ? '.5rem'
+                            : '0'
+                      }}
+                    />
                   }
                   onClick={openNotification}
                   style={BUTTON_STYLE}
