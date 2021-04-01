@@ -10,7 +10,7 @@ const layersSlice = createSlice({
     loading: false,
     visibleLayers: [],
     visibleFeatures: [],
-    showAll: true
+    showAll: false
   },
   reducers: {
     fetch(state) {
