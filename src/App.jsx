@@ -27,6 +27,7 @@ import { useSelector } from 'react-redux';
 import { getIsSelectingFromMap } from './store/app/selectors';
 import { CENTER, LAYERS } from './constants';
 import DebugMarker from './components/DebugMarkers';
+import UserPositionLayer from './components/UserPosition';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -89,6 +90,7 @@ function App() {
             <SearchLayer />
             <DirectionsLayer />
             <MapEvents />
+            <UserPositionLayer />
           </MapContainer>
         </Layout.Content>
       </Layout>

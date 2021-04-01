@@ -59,3 +59,11 @@ export const redMarker = new L.Icon({
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
 });
+
+export const currentLocationMarker = new L.DivIcon({
+  html: '<div></div>',
+  className: `current-position`,
+  iconSize: [20, 20],
+  iconAnchor: [0, 0],
+  popupAnchor: [0, 0]
+});

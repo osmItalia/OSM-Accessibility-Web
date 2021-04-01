@@ -20,6 +20,7 @@ import {
   faInfo,
   faQuestion
 } from '@fortawesome/free-solid-svg-icons';
+import PositionToggler from './PositionToggler';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -147,6 +148,7 @@ export default function AppDrawer() {
         <Media>
           {({ breakpoints, currentBreakpoint }) => (
             <>
+              <PositionToggler />
               <Tooltip title="Rimani aggiornato" placement="right">
                 <Button
                   size="large"

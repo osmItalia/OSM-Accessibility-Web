@@ -6,6 +6,7 @@ import map from './map/slice';
 import app from './app/slice';
 import directions from './directions/slice';
 import note from './notes/slice';
+import userPosition from './userPosition/slice';
 
 export default combineReducers({
   search,
@@ -13,5 +14,6 @@ export default combineReducers({
   map,
   app,
   directions,
-  note
+  note,
+  userPosition
 });
