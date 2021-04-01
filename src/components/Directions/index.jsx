@@ -4,11 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { appActions } from '../../store/app/slice';
 import { directionsActions } from '../../store/directions/slice';
 import { selectDirectionsState } from '../../store/directions/selectors';
-import {
-  faCar,
-  faWalking,
-  faWheelchair
-} from '@fortawesome/free-solid-svg-icons';
+import { faCar, faWalking } from '@fortawesome/free-solid-svg-icons';
+import { faAccessibleIcon } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { TRAVEL_MEAN } from '../../constants';
 import { CloseOutlined, SelectOutlined } from '@ant-design/icons';
@@ -58,7 +55,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
                 ? 'primary'
                 : 'default'
             }
-            icon={<FontAwesomeIcon icon={faWheelchair} />}
+            icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             size="large"
             shape="circle"
             style={{ marginRight: '.5rem' }}
