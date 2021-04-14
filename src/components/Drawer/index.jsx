@@ -29,44 +29,32 @@ const BUTTON_STYLE = {
 const INFO_MODAL_CONTENT = (
   <>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec purus eget
-      purus posuere scelerisque. Etiam ac ipsum at dolor interdum vehicula vitae
-      ut sem. Vestibulum eget velit sed tellus euismod sodales sed ac metus.
-      Vivamus blandit gravida mauris, a porttitor eros viverra non. Phasellus
-      dui libero, rhoncus vel risus ac, bibendum venenatis velit. Aliquam a
-      tristique tellus. Cras elementum feugiat orci. Fusce pellentesque erat vel
-      leo fringilla, ut aliquet dolor pretium. Aenean nec accumsan lacus, congue
-      efficitur mauris.{' '}
+      Wikimedia Italia nell’ambito delle progettualità legate all’accessibilità
+      e alla condivisione delle informazioni ha realizzato il progetto Percorsi
+      Agili, una Web App che permette alle persone con disabilità di muoversi
+      sul territorio usando OpenStreetMap - OSM un progetto di mappatura libera
+      e collaborativa, conosciuta anche come “la Wikipedia delle mappe”.
     </p>
     <p>
-      Nulla auctor massa massa, sed bibendum justo luctus sed. Cras ligula nibh,
-      ornare feugiat elementum vel, tristique eget eros. In hac habitasse platea
-      dictumst. In vitae libero tincidunt mi lobortis sagittis. Maecenas
-      imperdiet eu velit quis sodales. Pellentesque pellentesque urna ut urna
-      porta ornare. In lorem dui, ultrices eget fermentum quis, dapibus a erat.
-      Sed fringilla arcu at dolor laoreet, porttitor lobortis justo feugiat.
-      Cras varius auctor lectus ut laoreet. Praesent tristique ante sit amet dui
-      blandit, at dignissim quam auctor. Etiam non pharetra est, in sollicitudin
-      purus. Fusce id erat odio. Duis sit amet fermentum eros, sed bibendum
-      nulla. Vivamus rhoncus laoreet risus, non accumsan sapien ullamcorper vel.
-      Mauris nec neque sit amet nunc fermentum fermentum at vitae lacus. Mauris
-      sodales diam nec erat iaculis, non placerat eros faucibus. Vivamus libero
-      neque, varius ac enim et, congue consectetur eros. Morbi fringilla, lorem
-      ac pulvinar venenatis, massa nibh facilisis leo, et lobortis eros enim at
-      nunc. Duis sagittis ornare sapien vitae pellentesque. Nam ultricies
-      vehicula augue, sed rhoncus felis varius ut.
+      Le persone con disabilità motoria incontrano quotidianamente difficoltà
+      nell’organizzare i propri spostamenti a causa delle barriere
+      architettoniche, del difficile accesso ai mezzi pubblici e delle scarse
+      informazioni per raggiungere sentieri e percorsi di montagna adatti alle
+      loro necessità.
     </p>
     <p>
-      Ut at sem quis urna laoreet varius. Nullam placerat tortor eros, a rutrum
-      quam convallis a. Vestibulum quis sagittis velit, mollis vestibulum ante.
-      Curabitur vitae gravida magna, eu consequat massa. Nulla at mi ex.
-      Pellentesque interdum magna eget iaculis rhoncus. Aenean iaculis, velit
-      non venenatis luctus, nisi dolor eleifend odio, id sodales nibh velit ac
-      sem. Curabitur id dui aliquam, vestibulum diam non, ultricies turpis.
-      Mauris vel bibendum felis, eu tempor augue. Vestibulum quis sem hendrerit,
-      consectetur libero molestie, molestie erat. Quisque quis odio id arcu
-      pulvinar pharetra. In eu dapibus neque, sit amet dapibus urna. Aliquam
-      malesuada dictum elementum. Aenean eu malesuada felis.
+      L’obiettivo del progetto è permettere alle persone con disabilità motoria
+      di vivere la città (strade, nei negozi bar e ristoranti e sui mezzi di
+      trasporto) senza barriere architettoniche. E’ importante valorizzare anche
+      il tempo libero agevolando la conoscenza di itinerari e sentieri
+      percorribili con carrozzine, bastoni o deambulatori.
+    </p>
+    <p>
+      La Web App permetterà alle persone con disabilità motoria di organizzare i
+      propri spostamenti in città usando le mappe di Open Street Map, dove sono
+      visibili le strutture ricettive (negozi, bar e ristoranti) prive di
+      barriere architettoniche, le fermate degli autobus con rampe di accesso e
+      le stazioni ferroviarie con ascensori e scivoli per raggiungere i binari.
     </p>
   </>
 );
