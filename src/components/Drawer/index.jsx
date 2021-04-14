@@ -202,7 +202,7 @@ export default function AppDrawer() {
                   style={BUTTON_STYLE}
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
-                    'Sostieni Wikimedia'}
+                    'Sostieni Wikimedia Italia'}
                 </Button>
               </Tooltip>
               <Tooltip
