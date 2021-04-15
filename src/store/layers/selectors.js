@@ -33,6 +33,7 @@ const getOnlyVisibleFeatures = layersState => {
   );
   return features.map(f => ({
     geometry: window.featureGeometries[f.id],
+    tags: Object.keys(f.properties).map(k => `${k}=${f.properties[k]}`),
     ...f
   }));
 };

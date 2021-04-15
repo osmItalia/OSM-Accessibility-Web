@@ -21,7 +21,8 @@ export default function LayerRender() {
             position: point.geometry.coordinates,
             layer: point.layer,
             wheelchair: point.properties.wheelchair,
-            text: point.properties.name ? point.properties.name : point.id,
+            text: point.properties.name,
+            tags: point.tags,
             properties: point.properties
           }))}
         />
