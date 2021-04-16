@@ -29,11 +29,11 @@ const BUTTON_STYLE = {
 const INFO_MODAL_CONTENT = (
   <>
     <p>
-      Wikimedia Italia nell’ambito delle progettualità legate all’accessibilità
-      e alla condivisione delle informazioni ha realizzato il progetto Percorsi
+      Wikimedia Italia, nell’ambito delle progettualità legate all’accessibilità
+      e alla condivisione delle informazioni, ha realizzato il progetto Percorsi
       Agili, una Web App che permette alle persone con disabilità di muoversi
-      sul territorio usando OpenStreetMap - OSM un progetto di mappatura libera
-      e collaborativa, conosciuta anche come “la Wikipedia delle mappe”.
+      sul territorio usando OpenStreetMap, un progetto di mappatura libera
+      e collaborativa, conosciuto anche come “la Wikipedia delle mappe”.
     </p>
     <p>
       Le persone con disabilità motoria incontrano quotidianamente difficoltà
@@ -45,16 +45,16 @@ const INFO_MODAL_CONTENT = (
     <p>
       L’obiettivo del progetto è permettere alle persone con disabilità motoria
       di vivere la città (strade, nei negozi bar e ristoranti e sui mezzi di
-      trasporto) senza barriere architettoniche. E’ importante valorizzare anche
-      il tempo libero agevolando la conoscenza di itinerari e sentieri
+      trasporto) senza barriere architettoniche. È importante valorizzare anche
+      il tempo libero, agevolando la conoscenza di itinerari e sentieri
       percorribili con carrozzine, bastoni o deambulatori.
     </p>
     <p>
       La Web App permetterà alle persone con disabilità motoria di organizzare i
-      propri spostamenti in città usando le mappe di Open Street Map, dove sono
-      visibili le strutture ricettive (negozi, bar e ristoranti) prive di
-      barriere architettoniche, le fermate degli autobus con rampe di accesso e
-      le stazioni ferroviarie con ascensori e scivoli per raggiungere i binari.
+      propri spostamenti in città usando le mappe di OpenStreetMap, evidenziando
+      informazioni relative ad esempio all'accessibilità di strutture ricettive
+      (negozi, bar e ristoranti), delle fermate degli autobus con presenza di
+      rampe di accesso o delle stazioni ferroviarie.
     </p>
   </>
 );
