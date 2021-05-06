@@ -1,9 +1,11 @@
 [out:json][timeout:25];
 (
   node["leisure"="*"]({{bbox}});
+  nw["leisure"="*"]({{bbox}});
   node["amenity"="arts_centre"]({{bbox}});
   node["amenity"="casino"]({{bbox}});
   node["amenity"="cinema"]({{bbox}});
+  nw["amenity"="cinema"]({{bbox}});
   node["amenity"="community_centre"]({{bbox}});
   node["amenity"="gambling"]({{bbox}});
   node["amenity"="love_hotel"]({{bbox}});
@@ -15,6 +17,4 @@
   node["amenity"="studio"]({{bbox}});
   node["amenity"="theatre"]({{bbox}});
 );
-out body;
->;
-out skel qt;
+out center;

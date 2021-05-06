@@ -1,7 +1,6 @@
 [out:json][timeout:25];
 (
   node["office"="*"]({{bbox}});
+  nw["office"="*"]({{bbox}});
 );
-out body;
->;
-out skel qt;
+out center;

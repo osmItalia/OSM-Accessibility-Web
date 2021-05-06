@@ -9,7 +9,6 @@
   node["amenity"="ice_cream"]({{bbox}});
   node["amenity"="pub"]({{bbox}});
   node["amenity"="restaurant"]({{bbox}});
+  nw["amenity"="restaurant"]({{bbox}});
 );
-out body;
->;
-out skel qt;
+out center;

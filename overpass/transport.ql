@@ -15,14 +15,14 @@
   node["amenity"="fuel"]({{bbox}});
   node["amenity"="motorcycle_parking"]({{bbox}});
   node["amenity"="parking"]({{bbox}});
+  nw["amenity"="parking"]({{bbox}});
   node["amenity"="parking_entrance"]({{bbox}});
   node["amenity"="parking_space"]({{bbox}});
+  nw["amenity"="parking_space"]({{bbox}});
   node["amenity"="taxi"]({{bbox}});
   node["public_transport"="platform"]({{bbox}});
   node["public_transport"="station"]({{bbox}});
   node["highway"="bus_stop"]({{bbox}});
   node["railway"="platform"]({{bbox}});
 );
-out body;
->;
-out skel qt;
+out center;
