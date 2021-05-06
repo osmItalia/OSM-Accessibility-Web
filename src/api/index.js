@@ -1,5 +1,5 @@
 import request from '../utils/request';
-import { OSM_NOTE_API } from '../constants';
+import { NOTE_TAG, OSM_NOTE_API } from '../constants';
 
 export class APIError extends Error {
   constructor(payload) {
@@ -59,7 +59,7 @@ export async function saveNote(lat, lon, text) {
   const params = {
     lat,
     lon,
-    text
+    text: `${NOTE_TAG} ${text}`
   };
   const headers = new Headers();
   headers.append('Accept', 'application/json');

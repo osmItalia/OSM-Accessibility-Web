@@ -222,3 +222,5 @@ export const TAGS_GENERIC = {
   shop: 'Negozio',
   tourism: 'Turismo'
 };
+
+export const NOTE_TAG = '#OSM-Accessibility-WebApp\nSegnalazione:';
