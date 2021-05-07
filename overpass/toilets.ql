@@ -1,7 +1,5 @@
 [out:json][timeout:25];
 (
-  node["amenity"="toilets"]({{bbox}});
+  nw["amenity"="toilets"]({{bbox}});
 );
-out body;
->;
-out skel qt;
+out center;
