@@ -137,7 +137,7 @@ export default function AppDrawer() {
           {({ breakpoints, currentBreakpoint }) => (
             <>
               <PositionToggler />
-              <Tooltip title="Rimani aggiornato" placement="right">
+              <Tooltip title="Rimani in contatto" placement="right">
                 <Button
                   size="large"
                   icon={<MailOutlined />}
@@ -148,11 +148,11 @@ export default function AppDrawer() {
                   style={BUTTON_STYLE}
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
-                    'Rimani aggiornato'}
+                    'Rimani in contatto'}
                 </Button>
               </Tooltip>
               <Drawer
-                title="Rimani aggiornato"
+                title="Rimani in contatto"
                 visible={showNewsletter}
                 placement="left"
                 width={320}
