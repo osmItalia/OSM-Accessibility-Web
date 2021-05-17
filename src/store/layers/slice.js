@@ -10,11 +10,22 @@ const layersSlice = createSlice({
     loading: false,
     visibleLayers: [],
     visibleFeatures: [],
-    showAll: false
+    showAll: false,
+    accessibilityLevel: {
+      yes: true,
+      limited: true,
+      no: true,
+      unknown: true
+    }
   },
   reducers: {
     fetch(state) {
       state.loading = true;
+    },
+    toggleFilter(state, action) {
+      state.accessibilityLevel[action.payload] = !state.accessibilityLevel[
+        action.payload
+      ];
     },
     setShowAll(state) {
       if (state.showAll) {

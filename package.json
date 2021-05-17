@@ -57,7 +57,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "npm run pull-data && react-app-rewired build",
+    "build": "react-app-rewired build",
     "pull-data": "node scripts/fetch-overpass.js",
     "postinstall": "npm run pull-data"
   },

@@ -13,6 +13,9 @@ import {
   faEyeSlash,
   faLayerGroup
 } from '@fortawesome/free-solid-svg-icons';
+import { faAccessibleIcon } from '@fortawesome/free-brands-svg-icons';
+
+import AccessibilityLevel from '../AccessibilityLevel';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -39,6 +42,13 @@ function DesktopControllers() {
           flexDirection: 'column'
         }}
       >
+        <AccessibilityLevel>
+          <Button
+            size="large"
+            icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
+            style={BUTTON_STYLE}
+          />
+        </AccessibilityLevel>
         <Tooltip
           placement="left"
           title={showAll ? 'Mostra tutti' : 'Nascondi tutti'}

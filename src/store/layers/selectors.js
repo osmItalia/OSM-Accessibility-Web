@@ -77,3 +77,7 @@ export const getFeaturesGroupedByLayer = createSelector(
 );
 
 export const getShowAll = createSelector(getDomain, layers => layers.showAll);
+export const getA11yFilter = createSelector(
+  getDomain,
+  layers => layers.accessibilityLevel
+);
