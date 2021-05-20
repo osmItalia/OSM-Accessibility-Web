@@ -28,7 +28,6 @@ import { getIsSelectingFromMap } from './store/app/selectors';
 import { CENTER, LAYERS } from './constants';
 import DebugMarker from './components/DebugMarkers';
 import UserPositionLayer from './components/UserPosition';
-import Tour from './components/Tour';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -61,7 +60,6 @@ function App() {
         height: `${height}px`
       }}
     >
-      <Tour />
       <AppDrawer />
       <DebugMarker visible={false} />
       <Controllers />

@@ -15,12 +15,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MailOutlined } from '@ant-design/icons';
 import AddNote from '../AddNote';
 import { selectIsAddingNote } from '../../store/notes/selectors';
-import {
-  faDonate,
-  faInfo,
-  faQuestion
-} from '@fortawesome/free-solid-svg-icons';
+import { faDonate, faInfo } from '@fortawesome/free-solid-svg-icons';
 import PositionToggler from './PositionToggler';
+import Tour from '../Tour';
 
 const BUTTON_STYLE = {
   marginBottom: '.3rem'
@@ -196,29 +193,11 @@ export default function AppDrawer() {
                     'Sostieni Wikimedia Italia'}
                 </Button>
               </Tooltip>
-              <Tooltip
-                title="Guida all'utilizzo dell'applicazione"
-                placement="right"
-              >
-                <Button
-                  size="large"
-                  icon={
-                    <FontAwesomeIcon
-                      icon={faQuestion}
-                      style={{
-                        marginRight:
-                          breakpoints[currentBreakpoint] > breakpoints.tablet
-                            ? '.5rem'
-                            : '0'
-                      }}
-                    />
-                  }
-                  style={BUTTON_STYLE}
-                >
-                  {breakpoints[currentBreakpoint] > breakpoints.tablet &&
-                    'Guida'}
-                </Button>
-              </Tooltip>
+              <Tour
+                breakpoints={breakpoints}
+                currentBreakpoint={currentBreakpoint}
+                style={BUTTON_STYLE}
+              />
               <Tooltip
                 title="Informazioni sul progetto Wikimedia OSM Disability"
                 placement="right"
