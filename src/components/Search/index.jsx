@@ -19,6 +19,7 @@ export default function MapSearch() {
         }}
       >
         <Input.Search
+          id="search"
           name="destination"
           placeholder="Dove vuoi andare?"
           allowClear

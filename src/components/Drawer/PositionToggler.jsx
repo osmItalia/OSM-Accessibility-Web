@@ -30,6 +30,7 @@ export default function PositionToggler() {
       placement="right"
     >
       <Button
+        id="position"
         type={state.enabled ? 'primary' : 'default'}
         size="large"
         icon={<FontAwesomeIcon icon={faLocationArrow} />}

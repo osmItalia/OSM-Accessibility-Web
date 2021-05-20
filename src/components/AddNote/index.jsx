@@ -49,6 +49,7 @@ export default function AddNote({ showText }) {
         placement="right"
       >
         <Button
+          id="osm-note"
           size="large"
           icon={<PushpinOutlined />}
           onClick={e => {

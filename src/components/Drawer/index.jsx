@@ -89,6 +89,7 @@ export default function AppDrawer() {
             target="_blank"
             style={{ marginTop: '1rem' }}
             type="primary"
+            id="donate"
           >
             Fai una donazione
           </Button>
@@ -139,6 +140,7 @@ export default function AppDrawer() {
               <PositionToggler />
               <Tooltip title="Rimani in contatto" placement="right">
                 <Button
+                  id="newsletter"
                   size="large"
                   icon={<MailOutlined />}
                   onClick={e => {
@@ -174,6 +176,7 @@ export default function AppDrawer() {
                 placement="right"
               >
                 <Button
+                  id="donate"
                   size="large"
                   icon={
                     <FontAwesomeIcon

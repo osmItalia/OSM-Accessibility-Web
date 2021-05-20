@@ -54,6 +54,7 @@ function DesktopControllers() {
           title={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         >
           <Button
+            id="poi-toggle"
             size="large"
             icon={<FontAwesomeIcon icon={showAll ? faEye : faEyeSlash} />}
             style={BUTTON_STYLE}

@@ -19,6 +19,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
   return (
     <>
       <div
+        id="transport-mean"
         style={{
           display: 'flex',
           marginBottom: '1rem'
@@ -65,132 +66,140 @@ function Directions({ breakpoints, currentBreakpoint }) {
           />
         </Tooltip>
       </div>
-      <Input.Group>
-        <Row
-          gutter={8}
-          style={{
-            marginBottom: '.5rem',
-            alignItems: 'center'
-          }}
-        >
-          <Col
-            span={21}
+      <div id="directions-group">
+        <Input.Group>
+          <Row
+            gutter={8}
             style={{
-              display: 'flex',
-              justifyContent: 'space-between',
+              marginBottom: '.5rem',
               alignItems: 'center'
             }}
           >
-            <img src={greenMarkerUrl.replace('2x-', '')} alt="Icona partenza" />
-            <Select
-              name="start"
-              placeholder="Partenza"
-              allowClear
-              showSearch
-              showArrow={false}
-              filterOption={false}
-              value={state.startInput}
-              onChange={val => dispatch(directionsActions.setStartInput(val))}
-              onSearch={val => dispatch(directionsActions.onSearchStart(val))}
+            <Col
+              span={21}
               style={{
-                width:
-                  breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
-                    ? '180px'
-                    : '230px'
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
               }}
             >
-              {state.startOptions.map(opt => (
-                <Select.Option key={opt.key} value={opt.key}>
-                  {opt.label}
-                </Select.Option>
-              ))}
-            </Select>
-          </Col>
-          <Col span={2}>
-            <Tooltip title="Seleziona dalla mappa">
-              <Button
-                icon={
-                  state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
-                }
-                disabled={state.selectFromMapDestination}
-                onClick={() => {
-                  if (!state.selectFromMap) {
-                    notification.info({
-                      message: 'Premi sulla mappa per selezionare il punto'
-                    });
-                  }
-                  dispatch(directionsActions.toggleSelectFromMap());
-                }}
+              <img
+                src={greenMarkerUrl.replace('2x-', '')}
+                alt="Icona partenza"
               />
-            </Tooltip>
-          </Col>
-        </Row>
-      </Input.Group>
-      <Input.Group>
-        <Row
-          gutter={8}
-          style={{
-            marginBottom: '.5rem',
-            alignItems: 'center'
-          }}
-        >
-          <Col
-            span={21}
+              <Select
+                name="start"
+                placeholder="Partenza"
+                allowClear
+                showSearch
+                showArrow={false}
+                filterOption={false}
+                value={state.startInput}
+                onChange={val => dispatch(directionsActions.setStartInput(val))}
+                onSearch={val => dispatch(directionsActions.onSearchStart(val))}
+                style={{
+                  width:
+                    breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
+                      ? '180px'
+                      : '230px'
+                }}
+              >
+                {state.startOptions.map(opt => (
+                  <Select.Option key={opt.key} value={opt.key}>
+                    {opt.label}
+                  </Select.Option>
+                ))}
+              </Select>
+            </Col>
+            <Col span={2}>
+              <Tooltip title="Seleziona dalla mappa">
+                <Button
+                  id="select-from-map-start"
+                  icon={
+                    state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
+                  }
+                  disabled={state.selectFromMapDestination}
+                  onClick={() => {
+                    if (!state.selectFromMap) {
+                      notification.info({
+                        message: 'Premi sulla mappa per selezionare il punto'
+                      });
+                    }
+                    dispatch(directionsActions.toggleSelectFromMap());
+                  }}
+                />
+              </Tooltip>
+            </Col>
+          </Row>
+        </Input.Group>
+        <Input.Group>
+          <Row
+            gutter={8}
             style={{
-              display: 'flex',
-              justifyContent: 'space-between',
+              marginBottom: '.5rem',
               alignItems: 'center'
             }}
           >
-            <img src={redMarkerUrl.replace('2x-', '')} alt="Icona arrivo" />
-            <Select
-              name="end"
-              placeholder="Arrivo"
-              allowClear
-              showSearch
-              showArrow={false}
-              filterOption={false}
-              value={state.endInput}
-              onChange={val => dispatch(directionsActions.setEndInput(val))}
-              onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
+            <Col
+              span={21}
               style={{
-                width:
-                  breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
-                    ? '180px'
-                    : '230px'
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center'
               }}
             >
-              {state.endOptions.map(opt => (
-                <Select.Option key={opt.key} value={opt.key}>
-                  {opt.label}
-                </Select.Option>
-              ))}
-            </Select>
-          </Col>
-          <Col span={2}>
-            <Tooltip title="Seleziona dalla mappa">
-              <Button
-                icon={
-                  state.selectFromMapDestination ? (
-                    <CloseOutlined />
-                  ) : (
-                    <SelectOutlined />
-                  )
-                }
-                disabled={state.selectFromMap}
-                onClick={() => {
-                  if (!state.selectFromMapDestination) {
-                    notification.info({
-                      message: 'Premi sulla mappa per selezionare il punto'
-                    });
-                  }
-                  dispatch(directionsActions.toggleSelectFromMapDestination());
+              <img src={redMarkerUrl.replace('2x-', '')} alt="Icona arrivo" />
+              <Select
+                name="end"
+                placeholder="Arrivo"
+                allowClear
+                showSearch
+                showArrow={false}
+                filterOption={false}
+                value={state.endInput}
+                onChange={val => dispatch(directionsActions.setEndInput(val))}
+                onSearch={val => dispatch(directionsActions.onSearchEnd(val))}
+                style={{
+                  width:
+                    breakpoints[currentBreakpoint] < breakpoints.mobileLandscape
+                      ? '180px'
+                      : '230px'
                 }}
-              />
-            </Tooltip>
-          </Col>
-        </Row>
-      </Input.Group>
+              >
+                {state.endOptions.map(opt => (
+                  <Select.Option key={opt.key} value={opt.key}>
+                    {opt.label}
+                  </Select.Option>
+                ))}
+              </Select>
+            </Col>
+            <Col span={2}>
+              <Tooltip title="Seleziona dalla mappa">
+                <Button
+                  icon={
+                    state.selectFromMapDestination ? (
+                      <CloseOutlined />
+                    ) : (
+                      <SelectOutlined />
+                    )
+                  }
+                  disabled={state.selectFromMap}
+                  onClick={() => {
+                    if (!state.selectFromMapDestination) {
+                      notification.info({
+                        message: 'Premi sulla mappa per selezionare il punto'
+                      });
+                    }
+                    dispatch(
+                      directionsActions.toggleSelectFromMapDestination()
+                    );
+                  }}
+                />
+              </Tooltip>
+            </Col>
+          </Row>
+        </Input.Group>
+      </div>
       <div
         style={{
           display: 'flex',
@@ -210,6 +219,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
           Annulla
         </Button>
         <Button
+          id="start-navigation"
           type="primary"
           onClick={() => dispatch(directionsActions.navigate())}
           style={{ marginLeft: '.5rem' }}
