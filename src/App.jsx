@@ -66,6 +66,7 @@ function App() {
       <Layout style={{ maxWidth: '100%', height: '100%' }}>
         <Layout.Content style={{ height: '100%' }}>
           <MapContainer
+            tap={false}
             center={CENTER}
             zoom={16}
             scrollWheelZoom
