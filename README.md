@@ -34,11 +34,11 @@ inside `build/static/config.js` when you run build.
 Contains the configuration for layers, and configurations that are built inside the bundle. When you change those, you'll
 have to run again build.
 
-### public/static/constants.js
+### public/static/config.js
 This file allows to inject configurations without rebuilding the whole app. This file should be considered a blueprint
 and should provide a common environment for development.
 
-### build/static/constats.js
+### build/static/config.js
 This file should be actually modified depending on the environment, for example in a production environment this file should
 point API endpoints to actual production endpoints.
 
