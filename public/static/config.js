@@ -241,3 +241,35 @@ window.TOUR_CONFIG = {
   steps: window.STEPS,
   locale: window.LOCALE,
 };
+
+
+window.INFO_MODAL = `
+  <p>
+    Wikimedia Italia, nell’ambito delle progettualità legate all’accessibilità
+    e alla condivisione delle informazioni, ha realizzato il progetto Percorsi
+    Agili, una Web App che permette alle persone con disabilità di muoversi
+    sul territorio usando OpenStreetMap, un progetto di mappatura libera e
+    collaborativa, conosciuto anche come “la Wikipedia delle mappe”.
+  </p>
+  <p>
+    Le persone con disabilità motoria incontrano quotidianamente difficoltà
+    nell’organizzare i propri spostamenti a causa delle barriere
+    architettoniche, del difficile accesso ai mezzi pubblici e delle scarse
+    informazioni per raggiungere sentieri e percorsi di montagna adatti alle
+    loro necessità.
+  </p>
+  <p>
+    L’obiettivo del progetto è permettere alle persone con disabilità motoria
+    di vivere la città (strade, nei negozi bar e ristoranti e sui mezzi di
+    trasporto) senza barriere architettoniche. È importante valorizzare anche
+    il tempo libero, agevolando la conoscenza di itinerari e sentieri
+    percorribili con carrozzine, bastoni o deambulatori.
+  </p>
+  <p>
+    La Web App permetterà alle persone con disabilità motoria di organizzare i
+    propri spostamenti in città usando le mappe di OpenStreetMap, evidenziando
+    informazioni relative ad esempio all&apos;accessibilità di strutture
+    ricettive (negozi, bar e ristoranti), delle fermate degli autobus con
+    presenza di rampe di accesso o delle stazioni ferroviarie.
+  </p>
+`
