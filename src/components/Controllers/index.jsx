@@ -99,9 +99,18 @@ function MobileControllers() {
           position: 'fixed',
           right: '9px',
           bottom: '100px',
-          zIndex: 1000
+          zIndex: 1000,
+          display: 'flex',
+          flexDirection: 'column'
         }}
       >
+        <AccessibilityLevel>
+          <Button
+            size="large"
+            icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
+            style={BUTTON_STYLE}
+          />
+        </AccessibilityLevel>
         <Button
           icon={<FontAwesomeIcon icon={faLayerGroup} />}
           onClick={() => setDrawer(true)}
