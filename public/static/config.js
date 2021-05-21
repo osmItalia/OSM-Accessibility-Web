@@ -1,10 +1,22 @@
 
+window.QUERY_BOUNDS = [
+  [45.50384271949985, 9.177188873291016],
+  [45.525025470637665, 9.215812683105469]
+]
+
 /*
 *  MAP config
 * */
 
 window.CENTER = [45.5074, 9.1924];
 window.ZOOM = 16;
+
+
+/*
+* control the margin of the bound relative to the query_bounds
+* */
+window.XMARGIN = 0.01;
+window.YMARGIN = 0.008;
 
 /*
 * pass additional configuration for the map container
@@ -15,6 +27,10 @@ window.MAP_CONFIG = {
   scrollWheelZoom: true,
   tap: false,
   zoomControl: false,
+  maxBounds: [
+    [window.QUERY_BOUNDS[0][0] - window.YMARGIN, window.QUERY_BOUNDS[0][1] - window.XMARGIN],
+    [window.QUERY_BOUNDS[1][0] + window.YMARGIN, window.QUERY_BOUNDS[1][1] + window.XMARGIN],
+  ],
 };
 
 window.TILELAYER_CONFIG = {
