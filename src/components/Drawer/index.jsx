@@ -4,12 +4,7 @@ import MapSearch from '../Search';
 import { useSelector } from 'react-redux';
 import { Media } from 'react-breakpoints';
 import { getAppState } from '../../store/app/selectors';
-import {
-  DONATION_TEXT,
-  MODES,
-  NEWSLETTER_IFRAME_SRC,
-  PAYPAL_DONATION_URL
-} from '../../constants';
+import { MODES } from '../../constants';
 import Directions from '../Directions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MailOutlined } from '@ant-design/icons';
@@ -80,9 +75,9 @@ export default function AppDrawer() {
       },
       description: (
         <>
-          <p style={{ marginBottom: 0 }}>{DONATION_TEXT}</p>
+          <p style={{ marginBottom: 0 }}>{window.DONATION_TEXT}</p>
           <Button
-            href={PAYPAL_DONATION_URL}
+            href={window.PAYPAL_DONATION_URL}
             target="_blank"
             style={{ marginTop: '1rem' }}
             type="primary"
@@ -159,7 +154,7 @@ export default function AppDrawer() {
                 onClose={() => setShowNewsletter(false)}
               >
                 <iframe
-                  src={NEWSLETTER_IFRAME_SRC}
+                  src={window.NEWSLETTER_IFRAME_SRC}
                   title="Newsletter subscription"
                   frameBorder={0}
                   style={{ width: '100%', height: '90vh' }}

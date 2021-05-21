@@ -5,7 +5,6 @@ import { mapActions } from '../map/slice';
 import { Button, notification } from 'antd';
 import { saveNote } from '../../api';
 import React from 'react';
-import { OSM_URL } from '../../constants';
 
 function* handleMapClick(action) {
   const state = yield select(selectNoteState);
@@ -29,7 +28,10 @@ function* handleSendNote(action) {
     notification.success({
       message: 'Nota salvata con successo',
       description: (
-        <Button href={`${OSM_URL}note/${idNode.textContent}`} target="_blank">
+        <Button
+          href={`${window.OSM_URL}note/${idNode.textContent}`}
+          target="_blank"
+        >
           Visualizza su OpenstreetMap
         </Button>
       )

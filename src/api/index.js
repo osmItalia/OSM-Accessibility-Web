@@ -1,5 +1,4 @@
 import request from '../utils/request';
-import { NOTE_TAG, OSM_NOTE_API } from '../constants';
 
 export class APIError extends Error {
   constructor(payload) {
@@ -9,19 +8,14 @@ export class APIError extends Error {
 }
 
 export async function fetchLayer(layerName) {
-  return request(`/static/data/${layerName}.geojson`);
+  return request(`${window.LAYER_SOURCE}${layerName}.geojson`);
 }
 
 export async function fetchNominatim(query) {
-  const url = new URL(`https://nominatim.openstreetmap.org/search/`);
+  const url = new URL(window.NOMINATIM_URL);
   const params = {
     q: query,
-    format: 'geojson',
-    addressdetails: 1,
-    extratags: 1,
-    countrycodes: 'it',
-    viewbox: '9.06481,45.382812,9.302908,45.5425',
-    bounded: 1
+    ...window.NOMINATIM_CONFIG
   };
   Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
   const response = await fetch(url);
@@ -32,11 +26,9 @@ export async function fetchNominatim(query) {
 
 export async function fetchOpenRouteService(directionsState) {
   const { start, end, travelMean } = directionsState;
-  const url = new URL(
-    `https://api.openrouteservice.org/v2/directions/${travelMean}`
-  );
+  const url = new URL(`${window.OPENROUTE_URL}${travelMean}`);
   const params = {
-    api_key: '5b3ce3597851110001cf62482fd4e95de6c24215b315c05de4c2bc2e',
+    api_key: window.OPENROUTE_KEY,
     start: `${start[1]},${start[0]}`,
     end: `${end[1]},${end[0]}`
   };
@@ -55,11 +47,11 @@ export async function fetchOpenRouteService(directionsState) {
 }
 
 export async function saveNote(lat, lon, text) {
-  const url = new URL(OSM_NOTE_API);
+  const url = new URL(window.OSM_NOTE_API);
   const params = {
     lat,
     lon,
-    text: `${NOTE_TAG} ${text}`
+    text: `${window.NOTE_TAG} ${text}`
   };
   const headers = new Headers();
   headers.append('Accept', 'application/json');

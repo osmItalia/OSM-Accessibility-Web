@@ -6,62 +6,6 @@ import { Button, Tooltip } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
-const LOCALE = {
-  back: 'Indietro',
-  close: 'Chiudi',
-  last: 'Ultimo',
-  next: 'Successivo',
-  skip: 'Salta'
-};
-
-const STEPS = [
-  {
-    content:
-      'Consenti a Percorsi agili di accedere alla tua posizione per accompagnarti nel tuo percorso.',
-    target: '#position'
-  },
-  {
-    content: 'Inserisci la tua destinazione',
-    target: '#search'
-  },
-  {
-    content: 'Scegli come muoverti',
-    target: '#transport-mean'
-  },
-  {
-    content: 'Inserisci il punto di partenza e di arrivo',
-    target: '#directions-group'
-  },
-  {
-    content: 'Oppure seleziona i luoghi dalla mappa',
-    target: '#select-from-map-start'
-  },
-  {
-    content: 'Fatti guidare da noi',
-    target: '#start-navigation'
-  },
-  {
-    content:
-      "Mostra i punti d'interesse (Ad esempio trasporti, ristoranti, etc.)",
-    target: '#poi-toggle'
-  },
-  {
-    content:
-      'Aggiungi una segnalazione se trovi un errore o una mancanza sulla mappa. I volontari di OpenStreetMap provvederanno a controllare il prima possibile',
-    target: '#osm-note'
-  },
-  {
-    content:
-      'Vuoi ricevere notizie sulle nostre attività? Iscriviti alla newsletter di Wikimedia Italia',
-    target: '#newsletter'
-  },
-  {
-    content:
-      'Vuoi contribuire allo sviluppo di altri progetti come questo? Fai una donazione a Wikimedia Italia',
-    target: '#donate'
-  }
-];
-
 export default function Tour({ breakpoints, currentBreakpoint, style }) {
   const dispatch = useDispatch();
   const [state, setState] = useState({
@@ -80,12 +24,20 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
     data => {
       const { action, index, status, type, lifecycle } = data;
 
-      if (index === 1 && action === 'next' && lifecycle === 'complete') {
-        dispatch(appActions.openDirections());
+      if (
+        window.STEPS[index].onNext &&
+        action === 'next' &&
+        lifecycle === 'complete'
+      ) {
+        dispatch(appActions[window.STEPS[index].onNext]());
       }
 
-      if (index === 2 && action === 'prev' && lifecycle === 'complete') {
-        dispatch(appActions.openSearch());
+      if (
+        window.STEPS[index].onPrev &&
+        action === 'prev' &&
+        lifecycle === 'complete'
+      ) {
+        dispatch(appActions[window.STEPS[index].onPrev]());
       }
 
       if ([EVENTS.STEP_AFTER, EVENTS.TARGET_NOT_FOUND].includes(type)) {
@@ -121,13 +73,9 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
         </Button>
       </Tooltip>
       <Joyride
+        {...window.TOUR_CONFIG}
         stepIndex={state.stepIndex}
-        steps={STEPS}
         callback={callback}
-        continuous
-        locale={LOCALE}
-        showProgress
-        showSkipButton
         run={state.run}
         styles={{
           options: {

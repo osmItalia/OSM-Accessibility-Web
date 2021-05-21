@@ -9,7 +9,6 @@ import { useDispatch } from 'react-redux';
 import { directionsActions } from '../../store/directions/slice';
 import { searchActions } from '../../store/search/reducer';
 import { appActions } from '../../store/app/slice';
-import { TAGS, TAGS_GENERIC } from '../../constants';
 
 function getWCText(wh) {
   switch (wh) {
@@ -47,8 +46,8 @@ function getTag(tags) {
   let tag = null;
   try {
     tags.forEach(t => {
-      if (TAGS[t]) {
-        tag = TAGS[t];
+      if (window.TAGS[t]) {
+        tag = window.TAGS[t];
         throw Error('Simulate a short circuit and break the loop');
       }
     });
@@ -59,8 +58,8 @@ function getTag(tags) {
     try {
       tags.forEach(t => {
         const generic = t.split('=')[0];
-        if (TAGS_GENERIC[generic]) {
-          tag = TAGS_GENERIC[generic];
+        if (window.TAGS_GENERIC[generic]) {
+          tag = window.TAGS_GENERIC[generic];
           throw Error('Simulate a short circuit and break the loop');
         }
       });

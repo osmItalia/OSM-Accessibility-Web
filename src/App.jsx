@@ -25,7 +25,7 @@ import Controllers from './components/Controllers';
 import DirectionsLayer from './components/Directions/DirectionsLayer';
 import { useSelector } from 'react-redux';
 import { getIsSelectingFromMap } from './store/app/selectors';
-import { CENTER, LAYERS } from './constants';
+import { LAYERS } from './constants';
 import DebugMarker from './components/DebugMarkers';
 import UserPositionLayer from './components/UserPosition';
 
@@ -66,11 +66,7 @@ function App() {
       <Layout style={{ maxWidth: '100%', height: '100%' }}>
         <Layout.Content style={{ height: '100%' }}>
           <MapContainer
-            tap={false}
-            center={CENTER}
-            zoom={16}
-            scrollWheelZoom
-            zoomControl={false}
+            {...window.MAP_CONFIG}
             whenCreated={setupMapReference}
             style={{
               maxWidth: '100%',
@@ -79,11 +75,7 @@ function App() {
             }}
           >
             <ZoomControl position="bottomright" />
-            <TileLayer
-              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              maxZoom={19}
-            />
+            <TileLayer {...window.TILELAYER_CONFIG} />
             {LAYERS.map(l => (
               <Layer name={l.name} key={l.name} />
             ))}

@@ -25,10 +25,6 @@ import { ReactComponent as SportMarker } from './assets/sport.svg';
 import { ReactComponent as TourismMarker } from './assets/tourism.svg';
 import { ReactComponent as ReligionMarker } from './assets/religion.svg';
 
-export const CENTER = [45.5074, 9.1924];
-
-export const DONATION_TEXT = 'Supporta le nostre attività';
-
 export const customMarker = new L.Icon({
   iconUrl: 'https://unpkg.com/leaflet@1.5.1/dist/images/marker-icon.png',
   iconSize: [25, 41],
@@ -54,16 +50,6 @@ export const TRAVEL_MEAN = {
   FOOT: 'foot-walking',
   WHEELCHAIR: 'wheelchair'
 };
-
-export const NEWSLETTER_IFRAME_SRC =
-  'https://www.webarea.services/form_give/index.php?pagina=form&action=viewForm&idform=474&idEnass=c8ffe9a587b126f152ed3d89a146b445';
-
-export const PAYPAL_DONATION_URL = 'https://sostieni.wikimedia.it/';
-
-export const OSM_NOTE_API =
-  'https://master.apis.dev.openstreetmap.org/api/0.6/notes';
-
-export const OSM_URL = 'https://master.apis.dev.openstreetmap.org/';
 
 export const LAYERS = [
   {
@@ -134,93 +120,3 @@ export const BREAKPOINTS = {
   desktopLarge: 1500,
   desktopWide: 1920
 };
-
-export const TAGS = {
-  'amenity=marketplace': 'Mercato',
-  'amenity=bar': 'Bar',
-  'amenity=bbq': 'BBQ',
-  'amenity=biergarten': "Birreria all'aperto",
-  'amenity=cafe': 'Café',
-  'amenity=drinking_water': 'Fontanella',
-  'amenity=fast_food': 'Fast Food',
-  'amenity=ice_cream': 'Gelateria',
-  'amenity=pub': 'Pub',
-  'amenity=restaurant': 'Ristorante',
-  'amenity=bicycle_parking': 'Posteggio Biciclette',
-  'amenity=bicycle_repair_station': 'Punto di riparazione biciclette',
-  'amenity=bicycle_rental': 'Noleggio biciclette',
-  'amenity=boat_rental': 'Noleggio barche',
-  'amenity=boat_sharing': 'Boat Sharing',
-  'amenity=bus_station': 'Stazione autobus',
-  'amenity=car_rental': 'Noleggio Auto',
-  'amenity=car_sharing': 'Car Sharing',
-  'amenity=car_wash': 'Autolavaggio',
-  'amenity=vehicle_inspection': '',
-  'amenity=charging_station': 'Punto di ricarica auto',
-  'amenity=ferry_terminal': 'Terminal Traghetto',
-  'amenity=fuel': 'Benzinaio',
-  'amenity=motorcycle_parking': 'Parcheggio Motoveicoli',
-  'amenity=parking': 'Parcheggio',
-  'amenity=parking_entrance': 'Ingresso Parcheggio',
-  'amenity=parking_space': 'Parcheggio',
-  'amenity=taxi': 'Taxi',
-  'public_transport=platform': 'Banchina',
-  'public_transport=station': 'Stazione',
-  'highway=bus_stop': 'Fermata Autobus',
-  'railway=platform': 'Banchina ferroviaria',
-  'amenity=arts_centre': "Galleria d'arte",
-  'amenity=casino': 'Casinò',
-  'amenity=cinema': 'Cinema',
-  'amenity=community_centre': 'Centro di aggregazione',
-  'amenity=gambling': "Gioco d'azzardo",
-  'amenity=love_hotel': 'Motel',
-  'amenity=nightclub': 'Nightclub',
-  'amenity=planetarium': 'Planetario',
-  'amenity=public_bookcase': 'Biblioteca',
-  'amenity=social_centre': 'Centro di aggregazione',
-  'amenity=stripclub': 'Strip Club',
-  'amenity=studio': 'Studio di registrazione',
-  'amenity=theatre': 'Teatro',
-  'amenity=college': 'Scuola superiore',
-  'amenity=driving_school': 'Scuola Guida',
-  'amenity=kindergarten': 'Asilo',
-  'amenity=language_school': 'Scuola di lingua',
-  'amenity=library': 'Libreria',
-  'amenity=toy_library': '',
-  'amenity=music_school': 'Scuola di musica',
-  'amenity=university': 'UNniversità',
-  'amenity=clinic': 'Clinica',
-  'amenity=dentist': 'Dentista',
-  'amenity=doctors': 'Dottori',
-  'amenity=hospital': 'Ospedale',
-  'amenity=nursing_home': 'RSA',
-  'amenity=pharmacy': 'Farmacia',
-  'amenity=social_facility': 'Servizi sociali',
-  'amenity=veterinary': 'Veterinario',
-  'amenity=funeral_hall': 'Camera mortuaria',
-  'amenity=atm': 'Sportello bancomat',
-  'amenity=bank': 'Banca',
-  'amenity=bureau_de_change': 'Cambio Valute',
-  'amenity=post_office': 'Poste',
-  'amenity=toilets': 'Bagni pubblici',
-  'office=government': 'Edificio amministrativo',
-  'amenity=police': 'Polizia',
-  'amenity=embassy': 'Ambasciata',
-  'office=diplomatic': 'Ambasciata',
-  'amenity=townhall': 'Municipio',
-  'amenity=place_of_worship': 'Luogo di preghiera'
-};
-
-/*
- * Describe Fallback generic tags like `sport=*`
- * */
-export const TAGS_GENERIC = {
-  office: 'Uffici',
-  sport: 'Sport',
-  healthcare: 'Sanità',
-  leisure: 'Svago',
-  shop: 'Negozio',
-  tourism: 'Turismo'
-};
-
-export const NOTE_TAG = '#OSM-Accessibility-WebApp\nSegnalazione:';
