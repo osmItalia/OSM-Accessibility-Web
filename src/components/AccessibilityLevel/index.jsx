@@ -31,7 +31,7 @@ export default function AccessibilityLevel({ children }) {
 
   return (
     <Tooltip placement="left" title="Filtra per Accessibilità">
-      <Dropdown overlay={menu} trigger={['click']}>
+      <Dropdown overlay={menu} trigger={['click']} id="accessibility-filter">
         {children}
       </Dropdown>
     </Tooltip>

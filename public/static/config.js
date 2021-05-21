@@ -225,8 +225,12 @@ window.STEPS = [
     target: '#start-navigation'
   },
   {
+    content: 'Filtra i punti di interesse in base alla loro accessibilità',
+    target: '#accessibility-level'
+  },
+  {
     content:
-      "Mostra i punti d'interesse (Ad esempio trasporti, ristoranti, etc.)",
+      "Mostra o nascondi tutti i punti d'interesse (Ad esempio trasporti, ristoranti, etc.)",
     target: '#poi-toggle'
   },
   {
