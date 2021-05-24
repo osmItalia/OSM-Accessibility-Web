@@ -44,6 +44,7 @@ function DesktopControllers() {
       >
         <AccessibilityLevel>
           <Button
+            id="accessibility-filter"
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
@@ -106,6 +107,7 @@ function MobileControllers() {
       >
         <AccessibilityLevel>
           <Button
+            id="accessibility-filter"
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
