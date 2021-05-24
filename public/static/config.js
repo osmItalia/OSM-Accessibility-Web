@@ -226,7 +226,7 @@ window.STEPS = [
   },
   {
     content: 'Filtra i punti di interesse in base alla loro accessibilità',
-    target: '#accessibility-level'
+    target: '#accessibility-filter'
   },
   {
     content:
