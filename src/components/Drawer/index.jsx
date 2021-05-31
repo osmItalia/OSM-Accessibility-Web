@@ -111,6 +111,7 @@ export default function AppDrawer() {
                     setShowNewsletter(true);
                   }}
                   style={BUTTON_STYLE}
+                  aria-label="Rimani in contatto"
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
                     'Rimani in contatto'}
@@ -155,6 +156,7 @@ export default function AppDrawer() {
                   }
                   onClick={openNotification}
                   style={BUTTON_STYLE}
+                  aria-label="Fai una donazione a Wikimedia Italia"
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
                     'Sostieni Wikimedia Italia'}
@@ -185,6 +187,7 @@ export default function AppDrawer() {
                   }
                   onClick={() => setShowInfo(true)}
                   style={BUTTON_STYLE}
+                  aria-label="Informazioni sul progetto Wikimedia OSM Disability"
                 >
                   {breakpoints[currentBreakpoint] > breakpoints.tablet &&
                     'Info'}

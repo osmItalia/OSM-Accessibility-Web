@@ -30,7 +30,7 @@ export default function MapSearch() {
           <Button
             icon={<CompassOutlined />}
             onClick={() => dispatch(appActions.openDirections())}
-            ariaLabel="Ottieni indicazioni"
+            aria-label="Ottieni indicazioni"
           />
         </Tooltip>
       </div>

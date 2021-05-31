@@ -52,7 +52,7 @@ function DesktopControllers() {
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
-            ariaLabel="Apri filtro accessibilità"
+            aria-label="Apri filtro accessibilità"
           />
         </AccessibilityLevel>
         <Tooltip
@@ -66,7 +66,7 @@ function DesktopControllers() {
             icon={<FontAwesomeIcon icon={showAll ? faEye : faEyeSlash} />}
             style={BUTTON_STYLE}
             onClick={() => dispatch(layersActions.setShowAll())}
-            ariaLabel={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
+            aria-label={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
           />
         </Tooltip>
         {LAYERS.map(l => (
@@ -80,7 +80,7 @@ function DesktopControllers() {
               size="large"
               type={getType(layers, l.name)}
               icon={<Icon component={l.icon} />}
-              ariaLabel={`${getAction(layers, l.name)} ${l.text}`}
+              aria-label={`${getAction(layers, l.name)} ${l.text}`}
               onClick={e => {
                 e.preventDefault();
                 e.stopPropagation();
@@ -124,14 +124,14 @@ function MobileControllers() {
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
-            ariaLabel="Apri filtro accessibilità"
+            aria-label="Apri filtro accessibilità"
           />
         </AccessibilityLevel>
         <Button
           icon={<FontAwesomeIcon icon={faLayerGroup} />}
           onClick={() => setDrawer(true)}
           size="large"
-          ariaLabel="Apri gestione livelli"
+          aria-label="Apri gestione livelli"
         />
       </div>
       <Drawer
@@ -165,7 +165,7 @@ function MobileControllers() {
           }
           style={{ margin: '1.5rem auto', display: 'block' }}
           onClick={() => dispatch(layersActions.setShowAll())}
-          ariaLabel={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
+          aria-label={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         >
           {showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         </Button>

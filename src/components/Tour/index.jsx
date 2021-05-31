@@ -59,6 +59,7 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
       >
         <Button
           size="large"
+          aria-label="Guida all'utilizzo dell'applicazione"
           onClick={() => setState({ run: true, stepIndex: 0 })}
           icon={
             <FontAwesomeIcon

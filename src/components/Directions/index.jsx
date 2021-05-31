@@ -35,7 +35,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.CAR))
             }
-            ariaLabel="In auto"
+            aria-label="In auto"
           />
         </Tooltip>
         <Tooltip title="A piedi" trigger={['hover', 'focus']}>
@@ -48,7 +48,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.FOOT))
             }
-            ariaLabel="A auto"
+            aria-label="A auto"
           />
         </Tooltip>
         <Tooltip title="In sedia a rotelle" trigger={['hover', 'focus']}>
@@ -65,7 +65,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.WHEELCHAIR))
             }
-            ariaLabel="In sedia a rotelle"
+            aria-label="In sedia a rotelle"
           />
         </Tooltip>
       </div>
@@ -122,7 +122,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
               >
                 <Button
                   id="select-from-map-start"
-                  ariaLabel="Seleziona dalla mappa il punto di partenza"
+                  aria-label="Seleziona dalla mappa il punto di partenza"
                   icon={
                     state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
                   }
@@ -200,7 +200,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
                     )
                   }
                   disabled={state.selectFromMap}
-                  ariaLabel="Seleziona dalla mappa il punto di arrivo"
+                  aria-label="Seleziona dalla mappa il punto di arrivo"
                   onClick={() => {
                     if (!state.selectFromMapDestination) {
                       notification.info({

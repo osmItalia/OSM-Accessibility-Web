@@ -39,6 +39,7 @@ export default function PositionToggler() {
           e.stopPropagation();
           toggle();
         }}
+        aria-label={state.enabled ? 'Disattiva Posizione' : `Attiva Posizione`}
         style={BUTTON_STYLE}
       />
     </Tooltip>
