@@ -28,6 +28,7 @@ export default function PositionToggler() {
     <Tooltip
       title={state.enabled ? 'Disattiva Posizione' : `Attiva Posizione`}
       placement="right"
+      trigger={['hover', 'focus']}
     >
       <Button
         id="position"

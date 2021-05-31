@@ -47,6 +47,7 @@ export default function AddNote({ showText }) {
       <Tooltip
         title="Hai scoperto un errore o una mancanza nella mappa? Apri una segnalazione in modo che altri mappatori possano correggere l'errore."
         placement="right"
+        trigger={['hover', 'focus']}
       >
         <Button
           id="osm-note"

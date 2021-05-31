@@ -97,7 +97,11 @@ export default function AppDrawer() {
           {({ breakpoints, currentBreakpoint }) => (
             <>
               <PositionToggler />
-              <Tooltip title="Rimani in contatto" placement="right">
+              <Tooltip
+                title="Rimani in contatto"
+                placement="right"
+                trigger={['hover', 'focus']}
+              >
                 <Button
                   id="newsletter"
                   size="large"
@@ -133,6 +137,7 @@ export default function AppDrawer() {
               <Tooltip
                 title="Fai una donazione a Wikimedia Italia"
                 placement="right"
+                trigger={['hover', 'focus']}
               >
                 <Button
                   id="donate"
@@ -163,6 +168,7 @@ export default function AppDrawer() {
               <Tooltip
                 title="Informazioni sul progetto Wikimedia OSM Disability"
                 placement="right"
+                trigger={['hover', 'focus']}
               >
                 <Button
                   size="large"

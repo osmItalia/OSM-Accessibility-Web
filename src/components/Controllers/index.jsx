@@ -25,6 +25,10 @@ function getType(layers, layer) {
   return layers.includes(layer) ? 'primary' : 'default';
 }
 
+function getAction(layers, layer) {
+  return layers.includes(layer) ? 'Nascondi' : 'Mostra';
+}
+
 function DesktopControllers() {
   const dispatch = useDispatch();
   const layers = useSelector(getLayers);
@@ -48,9 +52,11 @@ function DesktopControllers() {
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
+            ariaLabel="Apri filtro accessibilità"
           />
         </AccessibilityLevel>
         <Tooltip
+          trigger={['hover', 'focus']}
           placement="left"
           title={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         >
@@ -60,14 +66,21 @@ function DesktopControllers() {
             icon={<FontAwesomeIcon icon={showAll ? faEye : faEyeSlash} />}
             style={BUTTON_STYLE}
             onClick={() => dispatch(layersActions.setShowAll())}
+            ariaLabel={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
           />
         </Tooltip>
         {LAYERS.map(l => (
-          <Tooltip title={l.text} placement="left" key={l.name}>
+          <Tooltip
+            title={`${getAction(layers, l.name)} ${l.text}`}
+            placement="left"
+            key={l.name}
+            trigger={['hover', 'focus']}
+          >
             <Button
               size="large"
               type={getType(layers, l.name)}
               icon={<Icon component={l.icon} />}
+              ariaLabel={`${getAction(layers, l.name)} ${l.text}`}
               onClick={e => {
                 e.preventDefault();
                 e.stopPropagation();
@@ -111,12 +124,14 @@ function MobileControllers() {
             size="large"
             icon={<FontAwesomeIcon icon={faAccessibleIcon} />}
             style={BUTTON_STYLE}
+            ariaLabel="Apri filtro accessibilità"
           />
         </AccessibilityLevel>
         <Button
           icon={<FontAwesomeIcon icon={faLayerGroup} />}
           onClick={() => setDrawer(true)}
           size="large"
+          ariaLabel="Apri gestione livelli"
         />
       </div>
       <Drawer
@@ -150,6 +165,7 @@ function MobileControllers() {
           }
           style={{ margin: '1.5rem auto', display: 'block' }}
           onClick={() => dispatch(layersActions.setShowAll())}
+          ariaLabel={showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         >
           {showAll ? 'Mostra tutti' : 'Nascondi tutti'}
         </Button>

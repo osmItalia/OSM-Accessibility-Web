@@ -25,7 +25,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
           marginBottom: '1rem'
         }}
       >
-        <Tooltip title="In auto">
+        <Tooltip title="In auto" trigger={['hover', 'focus']}>
           <Button
             type={state.travelMean === TRAVEL_MEAN.CAR ? 'primary' : 'default'}
             icon={<FontAwesomeIcon icon={faCar} />}
@@ -35,9 +35,10 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.CAR))
             }
+            ariaLabel="In auto"
           />
         </Tooltip>
-        <Tooltip title="A piedi">
+        <Tooltip title="A piedi" trigger={['hover', 'focus']}>
           <Button
             type={state.travelMean === TRAVEL_MEAN.FOOT ? 'primary' : 'default'}
             icon={<FontAwesomeIcon icon={faWalking} />}
@@ -47,9 +48,10 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.FOOT))
             }
+            ariaLabel="A auto"
           />
         </Tooltip>
-        <Tooltip title="In sedia a rotelle">
+        <Tooltip title="In sedia a rotelle" trigger={['hover', 'focus']}>
           <Button
             type={
               state.travelMean === TRAVEL_MEAN.WHEELCHAIR
@@ -63,6 +65,7 @@ function Directions({ breakpoints, currentBreakpoint }) {
             onClick={() =>
               dispatch(directionsActions.setTravelMean(TRAVEL_MEAN.WHEELCHAIR))
             }
+            ariaLabel="In sedia a rotelle"
           />
         </Tooltip>
       </div>
@@ -85,7 +88,8 @@ function Directions({ breakpoints, currentBreakpoint }) {
             >
               <img
                 src={greenMarkerUrl.replace('2x-', '')}
-                alt="Icona partenza"
+                alt=""
+                role="presentation"
               />
               <Select
                 name="start"
@@ -112,9 +116,13 @@ function Directions({ breakpoints, currentBreakpoint }) {
               </Select>
             </Col>
             <Col span={2}>
-              <Tooltip title="Seleziona dalla mappa">
+              <Tooltip
+                title="Seleziona dalla mappa il punto di partenza"
+                trigger={['hover', 'focus']}
+              >
                 <Button
                   id="select-from-map-start"
+                  ariaLabel="Seleziona dalla mappa il punto di partenza"
                   icon={
                     state.selectFromMap ? <CloseOutlined /> : <SelectOutlined />
                   }
@@ -122,7 +130,8 @@ function Directions({ breakpoints, currentBreakpoint }) {
                   onClick={() => {
                     if (!state.selectFromMap) {
                       notification.info({
-                        message: 'Premi sulla mappa per selezionare il punto'
+                        message:
+                          'Premi sulla mappa per selezionare il punto di partenza'
                       });
                     }
                     dispatch(directionsActions.toggleSelectFromMap());
@@ -148,7 +157,11 @@ function Directions({ breakpoints, currentBreakpoint }) {
                 alignItems: 'center'
               }}
             >
-              <img src={redMarkerUrl.replace('2x-', '')} alt="Icona arrivo" />
+              <img
+                src={redMarkerUrl.replace('2x-', '')}
+                alt=""
+                role="presentation"
+              />
               <Select
                 name="end"
                 placeholder="Arrivo"
@@ -174,7 +187,10 @@ function Directions({ breakpoints, currentBreakpoint }) {
               </Select>
             </Col>
             <Col span={2}>
-              <Tooltip title="Seleziona dalla mappa">
+              <Tooltip
+                title="Seleziona dalla mappa il punto di arrivo"
+                trigger={['hover', 'focus']}
+              >
                 <Button
                   icon={
                     state.selectFromMapDestination ? (
@@ -184,10 +200,12 @@ function Directions({ breakpoints, currentBreakpoint }) {
                     )
                   }
                   disabled={state.selectFromMap}
+                  ariaLabel="Seleziona dalla mappa il punto di arrivo"
                   onClick={() => {
                     if (!state.selectFromMapDestination) {
                       notification.info({
-                        message: 'Premi sulla mappa per selezionare il punto'
+                        message:
+                          'Premi sulla mappa per selezionare il punto di arrivo'
                       });
                     }
                     dispatch(

@@ -52,7 +52,11 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
 
   return (
     <>
-      <Tooltip title="Guida all'utilizzo dell'applicazione" placement="right">
+      <Tooltip
+        title="Guida all'utilizzo dell'applicazione"
+        placement="right"
+        trigger={['hover', 'focus']}
+      >
         <Button
           size="large"
           onClick={() => setState({ run: true, stepIndex: 0 })}

@@ -26,10 +26,11 @@ export default function MapSearch() {
           loading={state.loading}
           onSearch={val => dispatch(searchActions.changeInput(val))}
         />
-        <Tooltip title="Ottieni indicazioni">
+        <Tooltip title="Ottieni indicazioni" trigger={['hover', 'focus']}>
           <Button
             icon={<CompassOutlined />}
             onClick={() => dispatch(appActions.openDirections())}
+            ariaLabel="Ottieni indicazioni"
           />
         </Tooltip>
       </div>
