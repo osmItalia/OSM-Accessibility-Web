@@ -1,3 +1,4 @@
+#!/usr/bin/node
 /*
  * Script to pull data from OSM via Overpass Turbo
  *
@@ -99,6 +100,8 @@ async function initOne(fname) {
   });
   await queueManager.drain();
 }
+
+console.log('fetching data from overpass');
 
 if (argv.name) {
   initOne(argv.name);

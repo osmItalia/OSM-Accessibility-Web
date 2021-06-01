@@ -59,7 +59,7 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "pull-data": "node scripts/fetch-overpass.js",
-    "postinstall": ""
+    "postinstall": "bash scripts/pull_on_confirm.sh"
   },
   "browserslist": [
     ">0.2%",
