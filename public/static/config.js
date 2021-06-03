@@ -276,6 +276,6 @@ window.INFO_MODAL = `
   </p>
   <p>La Web App permetterà di organizzare i propri spostamenti evidenziando informazioni relative all'accessibilità di strutture ricettive (negozi, bar e ristoranti), delle fermate degli autobus con presenza di rampe di accesso o delle stazioni ferroviarie.</p>
   <p>
-    La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del comune 9 di Milano.
+    La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del Municipio 9 del Comune di Milano.
   </p>
 `
