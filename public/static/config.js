@@ -202,7 +202,7 @@ window.LOCALE = {
 window.STEPS = [
   {
     content:
-      'Consenti a Percorsi agili di accedere alla tua posizione per accompagnarti nel tuo percorso',
+      'Consenti a Percorsi Agili di accedere alla tua posizione per accompagnarti nel tuo percorso',
     target: '#position'
   },
   {
