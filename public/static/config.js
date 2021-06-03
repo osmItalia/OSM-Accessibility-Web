@@ -1,14 +1,17 @@
 
 window.QUERY_BOUNDS = [
-  [45.50384271949985, 9.177188873291016],
-  [45.525025470637665, 9.215812683105469]
+  [45.4881, 9.1811],
+  [45.4953, 9.1935]
 ]
 
 /*
 *  MAP config
 * */
 
-window.CENTER = [45.5074, 9.1924];
+window.CENTER = [
+  (((window.QUERY_BOUNDS[1][0] - window.QUERY_BOUNDS[0][0]) / 2) + window.QUERY_BOUNDS[0][0]).toFixed(4),
+  (((window.QUERY_BOUNDS[1][1] - window.QUERY_BOUNDS[0][1]) / 2) + window.QUERY_BOUNDS[0][1]).toFixed(4),
+];
 window.ZOOM = 16;
 
 

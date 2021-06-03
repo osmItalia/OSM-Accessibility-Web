@@ -26,9 +26,7 @@ const { hideBin } = require('yargs/helpers');
 const { argv } = yargs(hideBin(process.argv));
 const fsPromise = fs.promises;
 
-const BBOX =
-  argv.bbox ||
-  '45.50384271949985,9.177188873291016,45.525025470637665,9.215812683105469';
+const BBOX = argv.bbox || '45.4881,9.1811,45.4953,9.1935';
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
