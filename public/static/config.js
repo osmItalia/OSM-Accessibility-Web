@@ -266,31 +266,16 @@ window.TOUR_CONFIG = {
 
 window.INFO_MODAL = `
   <p>
-    Wikimedia Italia, nell’ambito delle progettualità legate all’accessibilità
-    e alla condivisione delle informazioni, ha realizzato il progetto Percorsi
-    Agili, una Web App che permette alle persone con disabilità di muoversi
-    sul territorio usando OpenStreetMap, un progetto di mappatura libera e
-    collaborativa, conosciuto anche come “la Wikipedia delle mappe”.
+    Percorsi Agili è una Web App che permette alle persone con disabilità motoria di muoversi sul territorio usando <b><a href="https://www.openstreetmap.org/" target="_blank" rel="noreferrer noopener">OpenStreetMap</a></b>, un progetto di mappatura libera e collaborativa.
   </p>
   <p>
-    Le persone con disabilità motoria incontrano quotidianamente difficoltà
-    nell’organizzare i propri spostamenti a causa delle barriere
-    architettoniche, del difficile accesso ai mezzi pubblici e delle scarse
-    informazioni per raggiungere sentieri e percorsi di montagna adatti alle
-    loro necessità.
+    L'app è stata sviluppata da <b><a href="https://www.wikimedia.it/" target="_blank" rel="noreferrer noopener">Wikimedia Italia</a></b>, nell’ambito dei progetti legati all’accessibilità, con lo scopo di aiutare ad affrontare le difficoltà nell’organizzare i propri spostamenti, a causa di barriere architettoniche, del difficile accesso ai mezzi pubblici e delle scarse informazioni relative alla mobilità per le persone con disabilità motoria.
   </p>
   <p>
-    L’obiettivo del progetto è permettere alle persone con disabilità motoria
-    di vivere la città (strade, nei negozi bar e ristoranti e sui mezzi di
-    trasporto) senza barriere architettoniche. È importante valorizzare anche
-    il tempo libero, agevolando la conoscenza di itinerari e sentieri
-    percorribili con carrozzine, bastoni o deambulatori.
+    L’obiettivo del progetto è permettere di vivere il proprio territorio con un'attenzione non solo alle necessità, ma anche alla valorizzazione del tempo libero, agevolando la conoscenza di itinerari percorribili con carrozzine, bastoni o deambulatori.
   </p>
+  <p>La Web App permetterà di organizzare i propri spostamenti evidenziando informazioni relative all'accessibilità di strutture ricettive (negozi, bar e ristoranti), delle fermate degli autobus con presenza di rampe di accesso o delle stazioni ferroviarie.</p>
   <p>
-    La Web App permetterà alle persone con disabilità motoria di organizzare i
-    propri spostamenti in città usando le mappe di OpenStreetMap, evidenziando
-    informazioni relative ad esempio all&apos;accessibilità di strutture
-    ricettive (negozi, bar e ristoranti), delle fermate degli autobus con
-    presenza di rampe di accesso o delle stazioni ferroviarie.
+    La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del comune 9 di Milano.
   </p>
 `
