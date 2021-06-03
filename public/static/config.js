@@ -278,4 +278,5 @@ window.INFO_MODAL = `
   <p>
     La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del Municipio 9 del Comune di Milano.
   </p>
+  <p>I dati OpenStreetMap vengono aggiornati con frequenza settimanale</p>
 `
