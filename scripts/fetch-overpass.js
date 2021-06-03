@@ -74,7 +74,7 @@ const queueManager = queue(async function(task) {
     );
   }
   // Prevent hitting the rate limit
-  await sleep(2000);
+  await sleep(10000);
   console.log('Done', task);
 }, 1);
 
