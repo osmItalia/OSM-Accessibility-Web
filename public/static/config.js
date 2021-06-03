@@ -191,7 +191,7 @@ window.TAGS_GENERIC = {
 window.LOCALE = {
   back: 'Indietro',
   close: 'Chiudi',
-  last: 'Ultimo',
+  last: 'Fine',
   next: 'Successivo',
   skip: 'Salta'
 };
@@ -202,7 +202,7 @@ window.LOCALE = {
 window.STEPS = [
   {
     content:
-      'Consenti a Percorsi agili di accedere alla tua posizione per accompagnarti nel tuo percorso.',
+      'Consenti a Percorsi agili di accedere alla tua posizione per accompagnarti nel tuo percorso',
     target: '#position'
   },
   {
@@ -233,7 +233,7 @@ window.STEPS = [
   },
   {
     content:
-      "Mostra o nascondi tutti i punti d'interesse (Ad esempio trasporti, ristoranti, etc.)",
+      "Mostra o nascondi tutti i punti d'interesse (ad esempio: trasporti, ristoranti, etc.)",
     target: '#poi-toggle'
   },
   {
@@ -281,5 +281,5 @@ window.INFO_MODAL = `
   <p>
     La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del Municipio 9 del Comune di Milano.
   </p>
-  <p>I dati OpenStreetMap vengono aggiornati con frequenza settimanale</p>
+  <p>I dati OpenStreetMap vengono aggiornati con frequenza settimanale.</p>
 `
