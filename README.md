@@ -50,3 +50,15 @@ The app can be accessed at the following url [https://wikimedia-osm-disability.w
 # Data
 Data is automatically fetched via Overpass Turbo on install and build, queries that generate layers are `.ql` files inside the `overpass` directory.
 The resulting data is a GeoJSON file that is placed inside `public/static/data/` directory.
+
+# Updating data (without rebuilding)
+Updating data can be done in two steps:
+1. run `yarn pull-data` to actually get the updates
+2. run `yarn update-data-config` to replace inside the build folder the layers and the configurations
+
+this could be easily automated using a cron expression like
+```
+0 0 * * 0 cd PROJECT-PATH/; yarn pull-data; yarn update-data-config;
+```
+
+**NOTES**: the example doesn't handle error reporting, yarn could be replaced by `npm run`.
