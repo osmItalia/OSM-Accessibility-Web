@@ -148,7 +148,7 @@ window.TAGS = {
   'amenity=library': 'Libreria',
   'amenity=toy_library': '',
   'amenity=music_school': 'Scuola di musica',
-  'amenity=university': 'UNniversità',
+  'amenity=university': 'Università',
   'amenity=clinic': 'Clinica',
   'amenity=dentist': 'Dentista',
   'amenity=doctors': 'Dottori',
@@ -160,7 +160,7 @@ window.TAGS = {
   'amenity=funeral_hall': 'Camera mortuaria',
   'amenity=atm': 'Sportello bancomat',
   'amenity=bank': 'Banca',
-  'amenity=bureau_de_change': 'Cambio Valute',
+  'amenity=bureau_de_change': 'Cambio valute',
   'amenity=post_office': 'Poste',
   'amenity=toilets': 'Bagni pubblici',
   'office=government': 'Edificio amministrativo',
@@ -191,7 +191,7 @@ window.TAGS_GENERIC = {
 window.LOCALE = {
   back: 'Indietro',
   close: 'Chiudi',
-  last: 'Ultimo',
+  last: 'Fine',
   next: 'Successivo',
   skip: 'Salta'
 };
@@ -202,7 +202,7 @@ window.LOCALE = {
 window.STEPS = [
   {
     content:
-      'Consenti a Percorsi agili di accedere alla tua posizione per accompagnarti nel tuo percorso.',
+      'Consenti a Percorsi Agili di accedere alla tua posizione per accompagnarti nel tuo percorso',
     target: '#position'
   },
   {
@@ -233,7 +233,7 @@ window.STEPS = [
   },
   {
     content:
-      "Mostra o nascondi tutti i punti d'interesse (Ad esempio trasporti, ristoranti, etc.)",
+      "Mostra o nascondi tutti i punti d'interesse (ad esempio: trasporti, ristoranti, etc.)",
     target: '#poi-toggle'
   },
   {
@@ -279,7 +279,7 @@ window.INFO_MODAL = `
   </p>
   <p>La Web App permetterà di organizzare i propri spostamenti evidenziando informazioni relative all'accessibilità di strutture ricettive (negozi, bar e ristoranti), delle fermate degli autobus con presenza di rampe di accesso o delle stazioni ferroviarie.</p>
   <p>
-    La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nella zona del Municipio 9 del Comune di Milano.
+    La Web App è un progetto pilota ed è attualmente possibile trovare le informazioni relative all'accessibilità solo nei pressi del quartiere Isola del Municipio 9 del Comune di Milano.
   </p>
-  <p>I dati OpenStreetMap vengono aggiornati con frequenza settimanale</p>
+  <p>I dati OpenStreetMap vengono aggiornati con frequenza settimanale.</p>
 `
