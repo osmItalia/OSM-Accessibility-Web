@@ -1,5 +1,5 @@
 import Joyride, { ACTIONS, EVENTS, STATUS } from 'react-joyride';
-import React, { useCallback, useState, useEffect } from 'react';
+import React, { useCallback, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { appActions } from '../../store/app/slice';
 import { Button, Tooltip } from 'antd';
@@ -12,13 +12,6 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
     run: false,
     stepIndex: 0
   });
-
-  useEffect(() => {
-    const runTour = localStorage.getItem('RUN_TOUR');
-    if (!runTour) {
-      setState({ run: true, stepIndex: 0 });
-    }
-  }, []);
 
   const callback = useCallback(
     data => {
@@ -43,8 +36,8 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
       if ([EVENTS.STEP_AFTER, EVENTS.TARGET_NOT_FOUND].includes(type)) {
         setState({ stepIndex: index + (action === ACTIONS.PREV ? -1 : 1) });
       } else if ([STATUS.FINISHED, STATUS.SKIPPED].includes(status)) {
-        localStorage.setItem('RUN_TOUR', 'done');
         setState({ run: false });
+        dispatch(appActions.openSearch());
       }
     },
     [state, setState]
@@ -60,7 +53,10 @@ export default function Tour({ breakpoints, currentBreakpoint, style }) {
         <Button
           size="large"
           aria-label="Guida all'utilizzo dell'applicazione"
-          onClick={() => setState({ run: true, stepIndex: 0 })}
+          onClick={() => {
+            setState({ run: true, stepIndex: 0 });
+            dispatch(appActions.openSearch());
+          }}
           icon={
             <FontAwesomeIcon
               icon={faQuestion}

@@ -203,53 +203,65 @@ window.STEPS = [
   {
     content:
       'Consenti a Percorsi Agili di accedere alla tua posizione per accompagnarti nel tuo percorso',
-    target: '#position'
+    target: '#position',
+    disableBeacon: true,
+    hideCloseButton: true,
   },
   {
     content: 'Inserisci la tua destinazione',
     target: '#search',
     onNext: 'openDirections', // don't modify, this triggers an action
+    hideCloseButton: true,
   },
   {
     content: 'Scegli come muoverti',
     target: '#transport-mean',
     onPrev: 'openSearch', // don't modify, this triggers an action
+    hideCloseButton: true,
   },
   {
     content: 'Inserisci il punto di partenza e di arrivo',
-    target: '#directions-group'
+    target: '#directions-group',
+    hideCloseButton: true,
   },
   {
     content: 'Oppure seleziona i luoghi dalla mappa',
-    target: '#select-from-map-start'
+    target: '#select-from-map-start',
+    hideCloseButton: true,
   },
   {
     content: 'Fatti guidare da noi',
-    target: '#start-navigation'
+    target: '#start-navigation',
+    hideCloseButton: true,
   },
   {
     content: 'Filtra i punti di interesse in base alla loro accessibilità',
-    target: '#accessibility-filter'
+    target: '#accessibility-filter',
+    hideCloseButton: true,
   },
   {
     content:
       "Mostra o nascondi tutti i punti d'interesse (ad esempio: trasporti, ristoranti, etc.)",
-    target: '#poi-toggle'
+    target: '#poi-toggle',
+    hideCloseButton: true,
   },
   {
     content:
       'Aggiungi una segnalazione se trovi un errore o una mancanza sulla mappa. I volontari di OpenStreetMap provvederanno a controllare il prima possibile',
-    target: '#osm-note'
+    target: '#osm-note',
+    hideCloseButton: true,
   },
   {
     content:
       'Vuoi ricevere notizie sulle nostre attività? Iscriviti alla newsletter di Wikimedia Italia',
-    target: '#newsletter'
+    target: '#newsletter',
+    hideCloseButton: true,
   },
   {
     content:
       'Vuoi contribuire allo sviluppo di altri progetti come questo? Fai una donazione a Wikimedia Italia',
-    target: '#donate'
+    target: '#donate',
+    hideCloseButton: true,
   }
 ];
 
@@ -262,6 +274,9 @@ window.TOUR_CONFIG = {
   continuous: true,
   showProgress: true,
   showSkipButton: true,
+  disableOverlayClose: true,
+  disableCloseOnEsc: true,
+  hideCloseButton: true,
   steps: window.STEPS,
   locale: window.LOCALE,
 };
